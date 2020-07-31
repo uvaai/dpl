@@ -13,8 +13,8 @@ If you are still unsure if you understand everything, [this is a very nice read-
 Before we get ourselves into implementing more complicated OOP principles, let's first familiarise ourselves with the simpler ones!
 
 1. If you haven't yet, create an account at [GitHub](https://github.com/join). For now, you'll only need it to access the Game of Cards exercises.
-2. Practice with [Queue](https://lab.cs50.io/minprog/programmeren-2/master/problems/queue/lab)
-3. Practice with [Game of Cards](https://lab.cs50.io/minprog/programmeren-2/master/problems/cards/lab)
+2. Practice with [Queue](https://lab.cs50.io/minprog/programmeren-2/2019/problems/queue/lab)
+3. Practice with [Game of Cards](https://lab.cs50.io/minprog/programmeren-2/2019/problems/cards/lab)
 4. Watch [this video on IDs](https://www.lynda.com/Python-tutorials/Naming-objects/418249/459118-4.html)
 
 ## Hangman

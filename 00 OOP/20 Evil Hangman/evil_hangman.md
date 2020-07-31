@@ -172,7 +172,7 @@ It's up to you to think about how you want to partition words into word families
 
 Of course, we expect you to apply the same assertions as in the `Hangman` class.
 
-### 4. Testing the `Hangman` game
+### 2. Testing the `Hangman` game
 
 Let's test our game logic. We should be able to start a new game, and repeatedly guess letters. This is a perfect opportunity to use the `__str__` method, which gives us basics stats about the game --- which we use to verify its state.
 
