@@ -107,113 +107,48 @@ This time, other than taking care that there are words of the requested length, 
 
 ### 0. Before you get started
 
-Create a new file that will contain your code for this exercise. We will not rewrite the lexicon class, so import it from the other file at the top of your code. Your user interface will function exactly the same as the normal Hangman user interface, so you can copy that entirely. TODO
+Create a new file that will contain your code for this exercise. We will not rewrite the lexicon class, so import it from the other file at the top of your code. Your user interface will function exactly the same as the normal Hangman user interface, so you can import the function you wrote it in as well. Finally, import your `Hangman` class, as we will be extending upon it.
 
-### 1. The `Lexicon` class
+Extention of your `Hangman` class will be done through inheritance. Inheritance is the process by which a so-called child-class derives the data and behaviour of its parent class. In our case, there is only a couple of changes we need to make, as the functionality in general of the game is not too different. In fact, the only changes we need to make are to the `__init__()`, and the `guess()` methods. Depending on how you have implemented `consistent_word()` in the previous part of the exercise, you might need to change its functionality as well. After importing, inheritance of **all** the properties of the `Hangman` class can be done by creating the `EvilHangman` class as follows:
 
-The first thing to implement is a class called `Lexicon`, which has the responsibility of managing the full word list and extracting words of a given length. It can be loaded once and asked for words whenever a new game is started.
+    class EvilHangman(Hangman):
+				# Continue your code here
 
-Download the lexicons via:
+If we do not change anything here, the `EvilHangman` class will function exactly the same as a normal `Hangman` class. However, by *overriding* specific functions, we can change how the class works without having to rewrite everything.
 
-	cd ~/module8
-	wget https://prog2.mprog.nl/course/problems/hangman-evil/dictionaries.zip
-	unzip dictionaries.zip
-    rm -f dictionaries.zip
+### 1. The `EvilHangman` class
 
-Create a file called `hangman.py` and add a `Lexicon` class. This class should have two methods: `__init__()` to initialize, and `get_words()` to extract a list of words with a  specific length to play Hangman:
+Your code should follow the following structure. It is up to you to fill in the methods. Remember that depending on the way you implement `consistent_word()`, you might or might not need to change it as well.
 
-    class Lexicon:
+    class EvilHangman(Hangman):
+				def __init__(self, lexicon, length=8, num_guesses=5):
+						"""
+						Initialize game by choosing a word and creating an empty pattern.
+						If no length or number of guesses are given, default to 8 and 5 respectively
+						"""
+						super().__init__(lexicon, length, num_guesses)
 
-        def __init__(self):
-            self.words = []
-            # Load the dictionary of words.
-            TODO
+						# TODO
 
-        def get_words(self, length):
-            # Return a list of all words from the dictionary of the given length.
-            TODO
+				def guess(self, letter):
+						""""
+						Update the game for a guess of letter. Return True if the letter
+						is added to the pattern, return False if it is not.
+						"""
+						# TODO
 
-In our code, we will use a **list** to store the master word list. That's why we have `self.words = []` at the top of the initializer method.
+				def __str__(self):
+						"""
+						Displays the letters that have been guessed, the number of words that
+						are remeaining, and the current state of the game
+						"""
+						# TODO
 
-Now, implement those two methods.
+`super()` here refers to the parent class, which in this case is `Hangman`. It uses the normal `Hangman` class initiator, and then runs the code below. This way, you do not have to repeat code that was already in the original class!
 
-> Note that the loading of words was demonstrated in last week's [Python lecture](/lectures/python)! It uses a **set** to store words, but you can modify it to use a list instead. Recall how to add items to a list?
+Purely for testing purposes, we would like to implement the `__str__` method, which allows us to call `print(game)` and look at a couple of stats. The resulting print could look something like the following:
 
-### 2. Testing the `Lexicon`
-
-Before we move on to the next step, we want to test if the class is working correctly. For example, try to get words of length 8 and see if the result seems reasonable. Start Python *interactively* using:
-
-	python -i hangman.py
-
-If you followed step 0 correctly, it should just load the Lexicon class and do nothing else. Then you could try some of the following.
-
-	lex = Lexicon()
-	words = lex.get_words(8)
-	print(len(words))
-	print(words.pop())
-	print(words.pop())
-	print(words.pop())
-
-Note that the `pop` method for a list removes the last element from the list and returns it. So `print(words.pop())` removes the last element from the list of length-8 words and prints it.
-
-Check if everything is in order. Is the number of words reasonable? It should be more than 10000 for length 8? Are each of the three random words actually 8 letters long? To add to this, in the description above, you can find some oddities that you might verify, too (e.g. how many words are there of length 26?).
-
-> You should not put testing code like the above in `hangman.py` as you might have done in earlier assignments. This is because `check50` should be able to load your program and perform its own tests. Your tests would interfere with the checks.
-
-You can now test using `check50` for the first time!
-
-### 3. The `Hangman` class
-
-So now we have a class to manage the master word list. We can also create a class that manages playing a game of Hangman. Let's think about what is needed to "play" a game.
-
-First of all, a game is played based on a particular word length. Also, we decide upfront how many guesses will be allowed. These two are the only pieces of information that a Hangman game object needs to get started. This means that we know how it may be eventually initialized:
-
-    game = Hangman(length=8, num_guesses=5)
-
-Your code should follow the following structure. It is up to you to fill in the methods.
-
-    class Hangman:
-        def __init__(self, length, num_guesses):
-            # Initialize the game.
-            pass
-
-        def guess(self, letter):
-            # Update the game for a guess of letter. Return True if the letter
-            # is added to the pattern, return False if it is not.
-            pass
-
-        def pattern(self):
-            # Return a string of the current game pattern. Use underscores in
-            # place of missing letters. Example: "_AN_MAN".
-            pass
-
-        def guessed_string(self):
-            # Produce a string of all letters guessed so far, in the order they
-            # were guessed.
-            pass
-
-        def consistent_word(self):
-            # Produce a word that is consistent with the current pattern.
-            pass
-
-        def finished(self):
-            # Return True if the game is finished, otherwise False.
-            pass
-
-        def won(self):
-            # Return True if the game is finished and the player has won,
-            # otherwise False.
-            pass
-
-        def lost(self):
-            # Return True if the game is finished and the player has lost,
-            # otherwise False.
-            pass
-
-        def __str__(self):
-            # Return a string representation of the game with some relevant
-            # statistics.
-            pass
+	letters guessed are "aemnid", 201 words remaining, game not won
 
 After instantiating a new game, the resulting object should be able to respond to the following actions:
 
@@ -228,18 +163,14 @@ After instantiating a new game, the resulting object should be able to respond t
 To fully implement the game, the object should at least take care of tracking:
 
 - Guessed letters up until now
-- The set of currently remaining words
 - The number of guesses remaining
-
-Note that you can track other things, like the total number of guesses, or the current pattern (even though this is implicit in the word list and the guessed letters).
-
-Purely for testing purposes, we would like to implement the `__str__` method, which allows us to call `print(game)` and look at a couple of stats. The resulting print could look something like the following:
-
-	letters guessed are "aemnid", 201 words remaining, game not won
+- The set of currently remaining words
 
 It's up to you to think about how you want to partition words into word families. Think about what data structures would be best for tracking word families and the master word list. Would an associative array work? How about a stack or queue? Thinking through the design before you start coding will save you a lot of time and headache.
 
-Don't explicitly enumerate all potential new patterns. If you are working with a word of length `n`, then there are `2**n` possible patterns, and thus word families, for each letter. However, most of these families don't actually appear in the English language. For example, no English words contain three consecutive U's, and no word matches the pattern `E-EE-EE--E`. Rather than explicitly generating every pattern whenever the user enters a guess, see if you can generate patterns only for words that actually appear in the word list. One way to do this would be to scan over the word list, storing each word in a table mapping patterns to words in the corresponding family.
+> Don't explicitly enumerate all potential new patterns. If you are working with a word of length `n`, then there are `2**n` possible patterns, and thus word families, for each letter. However, most of these families don't actually appear in the English language. For example, no English words contain three consecutive U's, and no word matches the pattern `E-EE-EE--E`. Rather than explicitly generating every pattern whenever the user enters a guess, see if you can generate patterns only for words that actually appear in the word list. One way to do this would be to scan over the word list, storing each word in a table mapping patterns to words in the corresponding family.
+
+Of course, we expect you to apply the same assertions as in the `Hangman` class.
 
 ### 4. Testing the `Hangman` game
 
@@ -247,83 +178,22 @@ Let's test our game logic. We should be able to start a new game, and repeatedly
 
 Again, test your game interactively by running `python` and then `from hangman import *`, and entering the following commands, or a variation thereof:
 
-	game = Hangman(8, 6)
+	lex = Lexicon('dictionary.txt')
+	game = Hangman(lex, 8, 6)
 	game.guess("e")
 	print(game)
-    game.guess("a")
+	game.guess("a")
 	print(game)
-    print(game.finished())
-    print(game.consistent_word())
-    print(game.pattern())
-    game.guess("o")
-    game.guess("i")
-    game.guess("u")
-    print(game.pattern())
-    print(game)
+	print(game.finished())
+	print(game.consistent_word())
+	print(game.pattern())
+	game.guess("o")
+	game.guess("i")
+	game.guess("u")
+	print(game.pattern())
+	print(game)
 
-### 5. Debugging with assertions
-
-What happens when you want to create a Hangman game that does not follow the specifications? For example, what should happen if someone uses your class like the following:
-
-	game = Hangman(-5, 6)
-
-Try it yourself! Most likely, your code will indeed try to create a hangman game with a word of length -5. But that is not going not work (ever!).
-
-Because the `Hangman` object does not interface directly with the user, it makes no sense for it to re-prompt the user for new input. However, it also makes no sense to just continue the program. It would only lead to errors further down the line. We can take this opportunity to proactively check for problems in our code. To do this, we use Python **assertions**. To create an assertion, we need to understand what would be *correct* input. We have two parameters that influence the inner workings of the Hangman object:
-
-- The parameter `length` is the length of a word to play Hangman with. Negative length is not going to work - and 0-length words will not lead to a working game either. Other options we have to think about a little bit harder: is a game for words of size 1 fun? Do 1-letter words even exist? You can check that yourself. The same goes for 2-letter words. And at the other end you could check that the `length` isn't much longer than say... 10?
-
-- For `num_guesses` you should also think about what realistic input would be. But don't take it too far. We're mostly looking to constrain the parameters to *sane* values - values that make sure the program/algorithm will not crash and will provide the "right answer".
-
-After having defined those constraints, you can formulate an assertion:
-
-    assert length > 0 and length < 10
-
-Putting this simple stament in your code will make sure that Python halts the program if at that point the assertion "fails". Of course, [MIN] and [MAX] should be replaced with the actual minimum and maximum values you want to enforce.
-
-    class Hangman:
-        def __init__(self, length, num_guesses):
-            assert length > 0 and length < 10
-            # ... and here follows other code.
-
-Now if for some reason you (or someone else) tries to create a program that creates a Hangman object using a `length` of -5, Python will halt it immediately. You can then immediately see why it halted: the assertion failed, which means the parameter had an "impossible" value. You can than trace back **why** that parameter was -5 in the first place. Probably a mistake!
-
-Note that `check50` for this problem expects that such assertions are present in your code. In particular, you should **also** handle invalid input for the `guess()` method, as specified by `check50`.
-
-**WATCH OUT**. Do not implement the next step before `check50` is completely satisfied with your assertions for the `guess()` method.
-
-### 6. Implementing user interaction
-
-While the `Hangman` class has all you need to play Hangman, someone who does not know your program won't understand that you have to write things like `game = Hangman(8, 6)` to start a game and `game.guess("e")` to guess a letter. So, let's make a **user interface**.
-
-Your user interface should at least:
-
-1. Prompt the user for how many letters the Hangman word should have. If the input is not a positive integer, or there is no word with that many letters, repeat the prompt until you get correct input.
-
-2. Prompt the user for how many guesses she should get until she loses. This should be a positive integer.
-
-3. Prompt the user for whether she wants to see detailed statistics of the game while playing (the statistics you put into the `__str__` method).
-
-4. Play the game: repeatedly do the following
-
-    1. Prompt the user for a guess. The guess should be a single letter that
-       has not yet been guessed.
-
-    2. Show an updated pattern, and the number of guesses remaining.
-
-    3. Show detailed game statistics, if she asked for those.
-
-    4. If the game has finished, either congratulate the player (on a win), or
-       tell the player the Hangman word (any word that is consistent with the
-       current pattern). Then ask the player if she wants to play again.
-
-Like in "Game of Cards", the game code should be added inside an `if __name__ == '__main__':` condition. This ensures that that code will not run when checking, but will run when you test the program yourself using `python hangman.py`.
-
-> Note that the program shown in the introduction at the top of the assignment is not a valid solution; it is just an illustration.
-
-## Testing
-
-	check50 minprog/cs50x/2019/hangman/evil --local
+Further test your code by using your previously made user interface. See if you can beat your own program!
 
 ## Extensions
 
@@ -339,7 +209,3 @@ After you implement this assignment, take some time to think over possible impro
 having the computer "look ahead" a step or two by considering what actions it might take in the future.
 
 If you implement something interesting, make sure to document your partition method well by describing your changes in detail!
-
-## Submitting
-
-To submit this assignment, you need to submit all of your source files. If you have created your own evil algorithm (see the section Extensions), then include a short description in a text file of what you've written.

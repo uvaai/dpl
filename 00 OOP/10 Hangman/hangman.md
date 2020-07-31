@@ -75,19 +75,11 @@ Note that because you are going to write classes, it is now possible (and very i
 
 The first thing to implement is a class called `Lexicon`, which has the responsibility of managing the full word list and extracting words of a given length. It can be loaded once and asked for words whenever a new game is started.
 
-Download the lexicons via:
-
-	cd ~/module8
-	wget https://prog2.mprog.nl/course/problems/hangman-classic/dictionary.zip
-	unzip dictionary.zip
-    rm -f dictionary.zip
-
 Create a file called `hangman.py` and add a `Lexicon` class. This class should have two methods: `__init__()` to initialize, `load_dictionary()` to extract the words from a file, `get_words()` to extract a list of words with a specific length, and `get_word()` which uses the `get_words()` function and picks a random word from the list:
 
     import random
 
     class Lexicon:
-
         def __init__(self, filepath):
             self.words = []
 
@@ -123,7 +115,7 @@ Before we move on to the next step, we want to test if the class is working corr
 
 If you followed step 0 correctly, it should just load the Lexicon class and do nothing else. Then you could try some of the following.
 
-	lex = Lexicon()
+	lex = Lexicon('dictionary.txt')
 	lex.get_word(8)
 	lex.get_word(8)
 	lex.get_word(8)
@@ -211,14 +203,15 @@ Let's test our game logic. We should be able to start a new game, and repeatedly
 
 and enter the following commands, or a variation thereof:
 
-	game = Hangman(8, 6)
+	lex = Lexicon('dictionary.txt')
+	game = Hangman(lex, 8, 6)
 	game.guess("e")
 	print(game.pattern())
-  game.guess("a")
+	game.guess("a")
 	print(game.pattern())
-  game.guess("o")
-  game.guess("i")
-  game.guess("u")
+	game.guess("o")
+	game.guess("i")
+	game.guess("u")
 	print(game.pattern())
 
 Does it all seem reasonable? Feel free to add a `print` somewhere to debug your code (for example, to show the chosen random word as the game starts). As long as you remove the prints before going to the next section!
@@ -226,7 +219,7 @@ Does it all seem reasonable? Feel free to add a `print` somewhere to debug your 
 
 ### 5. Winning
 
-For testing, we'd like to gain a more in-depth look into your algorithms. Add the following method, which should provide upon request the full list of previously guessed letters, in order:
+For testing, we'd like to gain a more in-depth look into your algorithms. Add the following methods, which should provide upon request the full list of previously guessed letters in order, and provide the word the user is currently guessing:
 
     def guessed_string(self):
         """
@@ -234,6 +227,13 @@ For testing, we'd like to gain a more in-depth look into your algorithms. Add th
         were guessed.
         """
         # TODO
+
+		def consistent_word(self):
+				"""
+        Produce a word that is consistent with the current pattern.
+				"""
+        # TODO
+
 
 A user should be able to win or lose the game, and our computer version should be able to check if a game has been won or lost. Let's add a few methods to the `Hangman` class:
 
@@ -268,17 +268,18 @@ Let's test our game logic. We should be able to start a new game, and repeatedly
 
 and enter the following commands, or a variation thereof:
 
-	game = Hangman(8, 6)
+	lex = Lexicon('dictionary.txt')
+	game = Hangman(lex, 8, 6)
 	game.guess("e")
-  game.guess("a")
+	game.guess("a")
 	print(game.guessed_string())
-  print(game.finished())
-  game.guess("o")
-  game.guess("i")
-  game.guess("u")
-  game.guess("b")
-  print(game.lost())
-  print(game.finished())
+	print(game.finished())
+	game.guess("o")
+	game.guess("i")
+	game.guess("u")
+	game.guess("b")
+	print(game.lost())
+	print(game.finished())
 
 
 ### 7. Debugging with assertions
@@ -328,7 +329,6 @@ Your user interface should at least:
     2. Show an updated pattern, and the number of guesses remaining.
 
     3. If the game has finished, either congratulate the player (on a win), or
-       tell the player the Hangman word (any word that is consistent with the
-       current pattern). Then ask the player if they want to play again.
+       tell the player the Hangman word using `consistent_word()`. Then ask the player if they want to play again.
 
-Like in "Game of Cards", the game code should be added inside an `if __name__ == '__main__':` condition. This ensures that that code will not run when checking, but will run when you test the program yourself using `python hangman.py`.
+Like in "Game of Cards", the game code should be activated inside an `if __name__ == '__main__':` condition. Create a function that holds all the code, and call it below the previously named condition. This ensures that that code will not run when checking, but will run when you test the program yourself using `python hangman.py`. Putting the code into a function is good practice, as we can re-use this function in other files!
