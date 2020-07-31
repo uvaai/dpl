@@ -21,6 +21,6 @@ Before we get ourselves into implementing more complicated OOP principles, let's
 
 Now that you are more familiar with
 
-1. Download the [dictionary](course/oop/dictionary.zip)
+1. Download the [dictionary](https://dpl20.mprog.nl/course/00 OOP/dictionary.zip)
 2. Implement [Hangman](/oop/hangman)
 3. Implement [Evil Hangman](/oop/evil-hangman)
