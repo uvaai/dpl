@@ -1,4 +1,4 @@
-# Object Oriented programming
+# Object Oriented Programming
 
 In this module, you'll implement several exercises with use of a programming paradigm called Object Oriented Programming (OOP). OOP is a method of structuring your code by bundling properties and behaviours into individual objects. It enables you to quickly write effective and abstract code that is easy to use, without having to remember every single detail of how it was implemented.
 
