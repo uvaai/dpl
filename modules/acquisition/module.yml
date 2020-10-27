@@ -1,0 +1,5 @@
+name: acquisition
+content:
+  Introduction: .
+  Learn how to scrape a web page: scraping
+  And how to retrieve lots of web data: crawling
