@@ -1,13 +1,16 @@
 Welcome:
   Read the syllabus to get started: /syllabus
+
 Module 1:
   ".":
     - hangman
   Submit your solutions: /submit/hangman
+
 Module 2:
   ".":
     - adventure
   Submit your solutions: /submit/adventure
+
 Module 3:
   ".":
     - acquisition
