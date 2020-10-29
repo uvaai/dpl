@@ -38,6 +38,7 @@ grades:
 calculation:
     final:
       assignments: 100
+      manualcheck: 0
 
 assignments:
     show_progress: true
