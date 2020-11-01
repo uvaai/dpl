@@ -1,13 +1,16 @@
 # Data Pipelines
 
+University of Amsterdam / Programming Lab / 5082DAPI6Y
+
 ## Syllabus<br><small>Fall 2020</small>
 
-Welcome to this programming course! A data pipeline is a sequence of steps that
-transform raw data into something more useable. In the weeks ahaid, you'll get
-to use the Python programming language to implement your own pipelines for
-retrieving, handling, and transforming data.
-
-<!-- TODO HIER MOET NOG IETS BIJ OVER OOP -->
+This course is the continuation of Python for Data Processing. A data pipeline
+is a sequence of steps that transforms raw data into something more useable.
+The course will taught in slightly modified form this semester, and we'll focus
+on two aspects in particular. For the first half we'll learn about classes and
+using them to represent data in your program. The second half of the course
+will be about other types of represenations of data and the transformations you
+can apply to them.
 
 ## Staff
 
@@ -22,6 +25,33 @@ Kiki van Rongen (TA)
 You can reach us at <minorai@mprog.nl> for any practical matters or other
 questions.
 
+## Module 1: Schedule & Werkcolleges
+
+| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
+| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
+| Monday          | Introduction,  Lecture & Assignment: Queue     | SOWISO: 7.a & 7.b |                             |
+| Tuesday         | Assignment: Game of Cards    | Watch: Theory videos & Notebook: t/m Cleaning Data | 11:00 [Q&A] Classes & Object Oriented |
+| Wednesday       | Hangman: Part 1, 2 & 3       | Notebook: t/m Cost Function         | 11:00 [Q&A] Logistic Regression |
+| Thursday        | Hangman: Part 3 &  4         | Logistic Deriv. & Notebook: Obtaining Gradient Terms  |           |
+| Friday          | Hangman: Part 4 & 5          | Notebook: t/m Predictions           | 11:00 [Optional] Cost function & MLE |
+|                 |                              |                                     |                             |
+| Monday          | Hangman: Finish 5            | Notebook: t/m Creating Hypotheses   |                             |
+| Tuesday         |                              | Writing Assignment                  |                             |
+
+<br />
+
+There are two types of werkcollege in this course. The *[Q&A]* sessions are
+intended for asking question and additional explanations about topics already
+covered in the reading or video material. The *[Optional]* session will be
+a technical lecture going beyond what is covered in the material. The
+material covered there will not be part of the exam material and attendance
+will not be recorded.
+
+* **[Q&A] Classes & Object Oriented Programming** on *Tuesday November 3rd at 11:00*: <https://uva-live.zoom.us/j/89113452090>
+
+* **[Q&A] Logistic Regression** on *Wednesday November 4th at 11:00*: <https://uva-live.zoom.us/j/83486211050>
+
+* **[Optional] Cost function & Maximum Likelihood Estimation** on *Friday November 6th at 11:00*: <https://uva-live.zoom.us/j/86416860823>
 ## Asking questions
 
 If you have any question about the material, there are several ways to get
@@ -40,20 +70,16 @@ a large portion of your solution, or you are unsure how exactly to phrase your
 question for Ed, you can request a videocall with the staff. You can do so on
 Discord, using the *QuestionQueue* bot.
 
-The question queue will be open **every weekday from 9:00 to 13:00**. If you
+The question queue will be open **every weekday from 9:30 to 13:30**. If you
 send the *QuestionQueue* bot a direction message starting with `!ask` and then
 followed by your question, you will be added to the queue. The staff will take
 videocalls from the queue in the order they are asked, and you will be notified
 by the *QuestionQueue* bot when it is your turn.
 
-### Werkcollege at Science Park
+### Email the staff
 
-Once a week there will also be a werkcollege at Science Park, which will
-replace the Discord video calls for that day. You can sit there, bring your
-laptop to work, meet your fellow students, and ask the staff questions. The
-schedule for the werkcolleges can be found on [Datanose](https://datanose.nl/#course[90802]).
-
-<!-- TODO REPLACE LINK -->
+If you have personal matters to discuss or other questions that do not fit any
+of the formats above, you can email the course staff at <minorai@mprog.nl> 
 
 ## Passing the course
 
@@ -95,23 +121,8 @@ be scheduled individually with the course staff and will also be *pass/fail*.
 Once you've passed the exam, your final grade will be computed as the average
 of all your grades for the modules.
 
-## Goals
 
-In this course you'll build your own toolkit of useful programs with which you can read, transform and analyse data that you might find in various scientific areas. After this course we envision that you:
-
-- you can read data into your programs from several structured standard formats
-- you can transform data into a form suitable for further analysis by combining basic operators
-- you can build meaningful visualisations of your data
-- you understand how to write programs that are easy to understand for yourself and other programmers
-- you are aware of the many tools that can help you with version management, correctness testing and performing code reviews
-
-<!-- TODO IK HEB DEZE VAN DE VORIGE VERSIE GEKOPIEERD, MAAR HEEFT WAARSCHIJNLIJK EEN UPDATE NODIG -->
-
-## Books
-
-No books are required for this course. Embedded in some of the modules are parts of the book *Think Python* by Allen Downey. If you'd like, you can read the remainder of the book on [its website](https://greenteapress.com/wp/think-python/).
-
-## Doing your own work {#academic_honesty}
+## Academic honesty
 
 This course's philosophy on academic honesty is best stated as "be reasonable." The course recognizes that interactions with classmates and others can facilitate mastery of the course's material. However, there remains a line between enlisting the help of another and submitting the work of another. This policy characterizes both sides of that line.
 
@@ -182,6 +193,3 @@ BSc programme. Find them here in [English] and [Dutch].
 [Dutch]: http://uva.nl/plagiaat
 [English]: https://student.uva.nl/en/content/az/plagiarism-and-fraud/plagiarism-and-fraud.html
 
-## Acknowledgements
-
-This course has been designed by Marleen Rijksen, Wouter Vrielink, Tim Doolan, Martijn Stegeman, and Simon Pauw.
