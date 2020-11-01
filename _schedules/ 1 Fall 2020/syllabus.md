@@ -52,6 +52,7 @@ will not be recorded.
 * **[Q&A] Logistic Regression** on *Wednesday November 4th at 11:00*: <https://uva-live.zoom.us/j/83486211050>
 
 * **[Optional] Cost function & Maximum Likelihood Estimation** on *Friday November 6th at 11:00*: <https://uva-live.zoom.us/j/86416860823>
+
 ## Asking questions
 
 If you have any question about the material, there are several ways to get
