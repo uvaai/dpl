@@ -27,6 +27,8 @@ questions.
 
 ## Module 1: Schedule & Werkcolleges
 
+The deadline for module 1 is **Tuesday November 10th at 17:59**.
+
 | Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
 | --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
 | Monday          | Introduction,  Lecture & Assignment: Queue     | SOWISO: 7.a & 7.b |                             |
