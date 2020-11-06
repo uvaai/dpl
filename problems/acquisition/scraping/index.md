@@ -57,7 +57,7 @@ First, implement the `extract_movies(dom)` function. It should extract a list of
   - Actors/actresses (comma separated if more than one)
   - Runtime (only a number!)
 
-You might need to filter out some characters from a string. One method to do this is through the use of [Regular Expressions]. After importing `re`, `re.findall` can be used to find all occurances in a string, while `re.search` can be used to find the first occurence. Keep in mind that the resulting type after these Regular Expressions is still a string!
+You might need to filter out some characters from a string. _Especially retrieving multiple actors will become very difficult with BeautifulSoup only._ One method to do this is through the use of [Regular Expressions]. After importing `re`, `re.findall` can be used to find all occurances in a string, while `re.search` can be used to find the first occurence. Keep in mind that the resulting type after these Regular Expressions is still a string!
 
     >>> import re
     >>> re.findall(r'\d+', '123 dogs jumped the fence and ate over 4400 sheep!')
@@ -113,6 +113,8 @@ This will open the browser's inspector functionality which shows you the source 
 
 Also have a look at the `find()` function in the documentation of BeautifulSoup4 and look for the CSS selectors, they will make this exercise much easier!
 
+> Keep in mind that the use of BeautifulSoup and RegEx will not necessarily result in beautiful code. In fact, data collection through scraping is known to be a very messy practice. You might need to heavily comment code to make sure that it is understandable. 
+
 ## Visualizing the data
 
 Now that we have the data in a `.csv`-format, it is time to try to get some insights into what we scraped. For this you will be using [visualizer.py].
@@ -136,9 +138,9 @@ Don't forget to keep an eye on code design. Use functions, choose useful names f
 
 ## Finished?
 
-If you have finished far before the deadline and are itching to gather more data, you can have a look at the [Pandas] library to see what kind of things you can do with the data gathered using the scraper, that are beyond the scope of this exercise.
-
 If you have finished the scraper and visualization, you can continue to the next exercise: [Crawler]
+
+If you have finished far before the deadline and are itching to gather more data, you can have a look at the [Pandas] library to see what kind of things you can do with the data gathered using the scraper, that are beyond the scope of this exercise.
 
 [Crawler]: /acquisition/crawling
 [Pandas]: https://pandas.pydata.org/
