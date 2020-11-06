@@ -2,9 +2,9 @@
 
 ## Web crawling & HTML scraping
 
-This exercise, we will practice scraping from multiple websites using web-crawling. You will learn how you can acquire data from multiple pages by following links. You’ll be scraping data from IMDB, the Internet Movie DataBase!
+This exercise, we will practice scraping from multiple websites using web-crawling. You will learn how you can acquire data from multiple pages by following links. You’ll be scraping data from IMDb, the Internet Movie DataBase!
 
-For this exercise, we have provided you with some code that makes HTML backups of a few selected webpages. You will write code that scrapes IMDB's top 250 movies index page and the individual movie pages yourself.
+For this exercise, we have provided you with some code that makes HTML backups of a few selected webpages. You will write code that scrapes IMDb's top 250 movies index page and the individual movie pages yourself.
 
 Download [here](imdb-crawler.py). You should submit your version of this script along with the output CSV file (`top250movies.csv`).
 
