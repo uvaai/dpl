@@ -68,7 +68,7 @@ Implement an object-oriented version of Crowther's Adventure game using the clas
 	$ rm adventure.zip
 	$ cd adventure
 	$ ls
-	adventure.py  data/  room.py
+	adventure.py  data/
 
 
 ## Understanding
@@ -117,7 +117,7 @@ Take a look at `adventure.py`. The file has three main components.
 
 	- Moving around in the game is handled by the `move` method, by setting the "current" room to a different one.
 
-	- The `get_description` method provides the description of the current room, the room the player is in.
+	- The `get_description` method retrieves the description of the current room, the room the player is in.
 
 3. The `if __name__ == "__main__"` part, which contains the main "game loop" of the program. After introducing the game, it repeatedly asks for a command from the user, and tries to perform that command.
 
