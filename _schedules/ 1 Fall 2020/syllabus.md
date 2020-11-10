@@ -25,6 +25,27 @@ Kiki van Rongen (TA)
 You can reach us at <minorai@mprog.nl> for any practical matters or other
 questions.
 
+## Module 2: Schedule & Werkcolleges
+
+The deadline for module 2 is **Thursday November 19th at 17:59**.
+
+| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
+| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
+| Wednesday       | Room class & Creating rooms  | Theory Videos                       |                             |
+| Thursday        | Making connections & Implement move | Assignment 1                 | 11:00 [Q&A] Neural Network Theory |
+| Friday          | Prompting, Descriptions & Additional commands | Assignment 2 and 3 |                             |
+|                 |                              |                                     |                             |
+| Monday          | Test your solution           | Assignment 4, 5, 6 and 7   		   | 11:00 [Q%A] Neural Network Implemenation |
+| Tuesday         | Forced movement & Synonyms   | Assignment 8 and 9                  |                             |
+| Wednesday       | Check your work & check50    | Assignment 10 and 11                | 							 |
+| Thursday        | Bug fixing & documentation   |                                     |                             |
+
+<br />
+
+* **[Q&A] Neural Network Theory** on *Thursday November 12th at 11:00*: <https://uva-live.zoom.us/j/84268335159>
+
+* **[Q&A] Neural Network Implementation** on *Monday November 16th at 11:00*: <https://uva-live.zoom.us/j/87814275140>
+
 ## Module 1: Schedule & Werkcolleges
 
 The deadline for module 1 is **Tuesday November 10th at 17:59**.
