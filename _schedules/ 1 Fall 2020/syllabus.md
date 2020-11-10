@@ -33,11 +33,11 @@ The deadline for module 2 is **Thursday November 19th at 17:59**.
 | --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
 | Wednesday       | Room class & Creating rooms  | Theory Videos                       |                             |
 | Thursday        | Making connections & Implement move | Assignment 1                 | 11:00 [Q&A] Neural Network Theory |
-| Friday          | Prompting, Descriptions & Additional commands | Assignment 2 and 3 |                             |
+| Friday          | Prompting, Descriptions & Additional commands | Assignment 2 & 3   |                             |
 |                 |                              |                                     |                             |
-| Monday          | Test your solution           | Assignment 4, 5, 6 and 7   		   | 11:00 [Q%A] Neural Network Implemenation |
-| Tuesday         | Forced movement & Synonyms   | Assignment 8 and 9                  |                             |
-| Wednesday       | Check your work & check50    | Assignment 10 and 11                | 							 |
+| Monday          | Test your solution           | Assignment 4, 5, 6 & 7              | 11:00 [Q&A] Neural Network Implemenation |
+| Tuesday         | Forced movement & Synonyms   | Assignment 8 & 9                    |                             |
+| Wednesday       | Check your work & check50    | Assignment 10 & 11                  | 							 |
 | Thursday        | Bug fixing & documentation   |                                     |                             |
 
 <br />
