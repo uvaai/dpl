@@ -347,3 +347,7 @@ look something like:
                                             'Grade': 1.0},
                                            ...]},
      ...}
+
+# Submitting
+
+After finishing this part, submit your current `transformation_YELP.ipynb` file below.

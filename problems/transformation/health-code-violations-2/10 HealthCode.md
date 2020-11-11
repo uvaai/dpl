@@ -1,6 +1,8 @@
 
 # Health code inspections
 
+The second part of this exercise continues upon the first part, and will be programmed in the same Python Notebook as the previous exercise: `transformation_YELP.ipynb`.
+
 ## Processing the combined data
 
 Now that we have all the data combined in a single structure, we can finally
