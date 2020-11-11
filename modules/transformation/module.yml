@@ -4,5 +4,5 @@ content:
   Transform and visualize climate data: /problems/transformation/climate-change
 
   Work with structured data in health:
-    Part one: /problems/transformation/health-code-violations-1
-    Part two: /problems/transformation/health-code-violations-2
+    "Part one: merging the data": /problems/transformation/health-code-violations-1
+    "Part two: processing the data": /problems/transformation/health-code-violations-2
