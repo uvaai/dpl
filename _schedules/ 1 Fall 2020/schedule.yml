@@ -13,5 +13,10 @@ Module 2:
 
 Module 3:
   ".":
+    - transformation
+  Submit your solutions: /submit/transformation
+
+Module 4:
+  ".":
     - acquisition
   Submit your solutions: /submit/acquisition
