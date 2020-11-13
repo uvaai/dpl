@@ -6,7 +6,7 @@ templates:
             points: integer
         automatic:
             correctness: (correctness_score * 100).floor
-        calculation: correctness==100 && (points + 6) || 0
+        calculation: (correctness/100).floor * (points + 6) 
         hide_calculated: true
     3: &manual
         type: float
