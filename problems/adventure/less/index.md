@@ -377,7 +377,7 @@ Have a good look at the constraints we **noted earlier**:
 
 ### `check50`
 
-	check50 minprog/adventure/main/less
+	check50 -l minprog/adventure/main/less
 
 
 ### `style50`
