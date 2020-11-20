@@ -44,7 +44,7 @@ The deadline for module 3 is **Tuesday December 1st at 17:59**.
 
 <br />
 
-* **[Q&A] Backpropagation** on *Monday November 23rd at 11:00*: <https://uva-live.zoom.us/j/84114910044>
+* **[Q&A] Backpropagation** on *Monday November 23rd at 11:00*: <https://uva-live.zoom.us/j/83173724554>
 
 * **[Q&A] Activation Functions** on *Friday November 27th at 11:00*: <https://uva-live.zoom.us/j/87256195962>
 
