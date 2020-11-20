@@ -25,6 +25,29 @@ Kiki van Rongen (TA)
 You can reach us at <minorai@mprog.nl> for any practical matters or other
 questions.
 
+## Module 3: Schedule & Werkcolleges
+
+The deadline for module 3 is **Tuesday December 1st at 17:59**.
+
+| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
+| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
+| Friday          | Start Climate Data			 | Watch Theory 1 & Backward: 1a       |                             |
+|                 |                              |                                     |                             |
+| Monday          | Finish Climate Data          | Backward: 1b, 1c & 2a               | 11:00 [Q&A] Backpropagation |
+| Tuesday         | Yelp: Reading the data       | Backward: 2b, 2c, 3 & 4             |                             |
+| Wednesday       | Yelp: Merging JSON reviews   | Backward: 5 & 6                     | 							 |
+| Thursday        | Yelp: Matching inspections with reviews | Watch Theory 2 & Start Activations |                   |
+| Friday          | Yelp: Matching inspection (cont.) | Finish Activations             | 11:00 [Q&A] Activation Functions |
+|                 |                              |                                     |                             |
+| Monday          | Yelp: Merging in the inspections | Watch Theory 3 & Start CIFAR10  |  		                     |
+| Tuesday         |                              | Finish CIFAR10                      |                             |
+
+<br />
+
+* **[Q&A] Backpropagation** on *Monday November 23rd at 11:00*: <https://uva-live.zoom.us/j/84114910044>
+
+* **[Q&A] Activation Functions** on *Friday November 27th at 11:00*: <https://uva-live.zoom.us/j/87256195962>
+
 ## Module 2: Schedule & Werkcolleges
 
 The deadline for module 2 is **Thursday November 19th at 17:59**.
