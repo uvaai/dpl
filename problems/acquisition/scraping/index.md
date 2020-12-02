@@ -44,6 +44,8 @@ This is the introductory exercise to BeautifulSoup. We will try to guide you alo
 
 ![embed](https://www.youtube.com/embed/GBKwdFEyJks)
 
+![embed](https://www.youtube.com/embed/ng2o98k983k)
+
 ### Building `moviescraper.py`
 
 To get you started we have provided you with a script ([moviescraper.py]) that loads the correct IMDb address, makes a local backup of it (`movies.html`) and outputs a CSV file (`movies.csv`) that will contain only a header until you complete the implementation of the functions `extract_movies(dom)` and `save_csv(outfile, movies)`. Note that if you want to check your `movies.csv` file in Excel on a Mac, add 'sep=,' as the first line of the file. This way the file is parsed correctly in columns.
@@ -113,7 +115,7 @@ This will open the browser's inspector functionality which shows you the source 
 
 Also have a look at the `find()` function in the documentation of BeautifulSoup4 and look for the CSS selectors, they will make this exercise much easier!
 
-> Keep in mind that the use of BeautifulSoup and RegEx will not necessarily result in beautiful code. In fact, data collection through scraping is known to be a very messy practice. You might need to heavily comment code to make sure that it is understandable. 
+> Keep in mind that the use of BeautifulSoup and RegEx will not necessarily result in _beautiful_ code. In fact, data collection through scraping is known to be a very messy practice. You might need to heavily comment code to make sure that it is understandable. **Especially** retrieving actors will be very messy.
 
 ## Visualizing the data
 
