@@ -17,5 +17,9 @@ Module 3:
 
 Module 4:
   ".":
+    - transformation2
+
+Module 5:
+  ".":
     - acquisition
   Submit your solutions: /submit/acquisition
