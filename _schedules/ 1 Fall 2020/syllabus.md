@@ -25,6 +25,25 @@ Kiki van Rongen (TA)
 You can reach us at <minorai@mprog.nl> for any practical matters or other
 questions.
 
+## Module 4: Schedule & Werkcolleges
+
+The deadline for module 4 is **Thursday December 10th at 17:59**.
+
+| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
+| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
+| Wednesday       | Processing violations and reviews | Watch Theory videos            | 							 |
+| Thursday        | Counting words and better metrics | Entropy and splitting data     |                             |
+| Friday          | Further tweaks and final improvements | Info Gain and best split   | 							 |
+|                 |                              |                                     |                             |
+| Monday          | Finish final improvements    | Finish ID3			  			   | 11:00 [Q&A] Decision Trees  |
+| Tuesday         | Start Yelp API               | Numerical Decision Trees            |                             |
+| Wednesday       | Cont. Yelp API               | Start Random Forests				   | 							 |
+| Thursday        | Finish Yelp API              | Finish Random Forests               |                             |
+
+<br />
+
+* **[Q&A] Decision Trees** on *Monday December 7th at 11:00*: <https://uva-live.zoom.us/j/89176742632>
+
 ## Module 3: Schedule & Werkcolleges
 
 The deadline for module 3 is **Tuesday December 1st at 17:59**.
