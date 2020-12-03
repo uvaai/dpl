@@ -1,4 +1,6 @@
-Introduction: .
-Learn about Bokeh for visualizations: bokeh
-Visualize developing countries: development
-Submit: submit
+name: visualization
+content:
+  Introduction: .
+  Learn about Bokeh for visualizations: /problems/visualization/bokeh
+  Visualize developing countries: /problems/visualization/development
+  Submit: submit
