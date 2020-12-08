@@ -203,6 +203,16 @@ look the documentation for the Yelp [api](https://www.yelp.com/developers/docume
 specifically the end points [search](https://www.yelp.com/developers/documentation/v3/business_search)
 and [reviews](https://www.yelp.com/developers/documentation/v3/business_reviews).
 
+In addition, you will need to provide the API with an API key. To get the API key, register
+[here](https://www.yelp.com/login?return_url=%2Fdevelopers%2Fv3%2Fmanage_app). 
+In the create new app form, enter information about your app, then agree to the 
+"Yelp API Terms of Use and Display Requirements". You can then use this key as
+follows:
+
+    api_key = 'copy_your_api_key_here'
+    headers = {'Authorization': f'Bearer {api_key}'}
+    req = requests.get(url, params=params, headers=headers)
+    
 Write a program to actively monitor Yelp for new restaurants in Seattle which
 get reviews that contain words from your top most indicative words for health
 code violations and add these to a list for future inspections by the
