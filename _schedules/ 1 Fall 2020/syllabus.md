@@ -25,6 +25,25 @@ Kiki van Rongen (TA)
 You can reach us at <minorai@mprog.nl> for any practical matters or other
 questions.
 
+## Module 5: Schedule & Werkcolleges
+
+The deadline for module 5 is **Tuesday January 12th at 17:59**.
+
+| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
+| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
+| Monday          | Watch: DOM videos & Scrape: Title and Rating | Watch: Theory video & Notebook t/m Grayscale |    |
+| Tuesday         | Scrape: Year, Actor and Runtime | Notebook t/m Gaussian blur       |                             |
+| Wednesday       | Save CSV results and visualize | Notebook t/m Pooling              |                             |
+| Thursday        | Start crawling               | Notebook t/m DIY CNN                | 11:00 [Q&A] Convolution & Conv. Nets |
+| Friday          | Cont. crawling               | Notebook: Finish                    |                             |
+|                 |                              |                                     |                             |
+| Monday          | Finish crawling              | Start Writing Assignment            |                             |
+| Tuesday         |                              | Finish Writing Assignment           |                             |
+
+<br />
+
+* **[Q&A] Convolution & Conv. Nets** on *Thursday January 7th at 11:00*: <https://uva-live.zoom.us/j/81032031908>
+
 ## Module 4: Schedule & Werkcolleges
 
 The deadline for module 4 is **Thursday December 10th at 17:59**.
