@@ -25,6 +25,26 @@ Kiki van Rongen (TA)
 You can reach us at <minorai@mprog.nl> for any practical matters or other
 questions.
 
+## Module 6: Schedule & Werkcolleges
+
+The deadline for module 5 is **Monday January 25th at 17:59**.
+
+| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
+| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
+| Friday          | Bokeh: Basic plotting        | Watch Theory videos & Start CIFAR   |                             |
+|                 |                              |                                     |                             |
+| Monday          | Bokeh: Styling and Layout    | Finish CIFAR Notebook               |                             | 
+| Tuesday         | Bokeh: Data Sources and Transformation | Start GTSRB Notebook      |                             |
+| Wednesday       | Bokeh: Interactions          | Cont. GTSRB Notebook                | 11:00 [Q&A] Deep Conv. Nets |
+| Thursday        | Start Visualization          | Finish GTSRB Notebook               |                             |
+| Friday          | Cont. Visualization          | Start Writing Assignment            |                             |
+|                 |                              |                                     |                             |
+| Monday          | Finish Visualization         | Finish Writing Assignment           |                             |
+
+<br />
+
+* **[Q&A] Deep Conv. Nets** on *Wednesday January 20th at 11:00*: <https://uva-live.zoom.us/j/83308606569>
+
 ## Module 5: Schedule & Werkcolleges
 
 The deadline for module 5 is **Tuesday January 12th at 17:59**.
