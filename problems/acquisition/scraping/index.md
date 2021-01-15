@@ -16,7 +16,7 @@ In this assignment you will learn to use the Document Object Model (DOM) using P
 
 ## Before starting
 
-1. We assume Python 3, Requests, Pandas, Seaborn, and BeautifulSoup4 are installed (see [preparations] if this is not the case).
+1. For this assignment you'll need to have the following Python 3 libraries installed: Requests, Pandas, Seaborn, and BeautifulSoup4.
 
 2. We will be looking at IMDb movies and getting data off this website. To get started, you should look at [the BeautifulSoup documentation].
 
