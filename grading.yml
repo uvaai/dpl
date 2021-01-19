@@ -38,6 +38,7 @@ grades:
     transformation-1: *check_off
     transformation-2: *manual
     acquisition: *manual
+    visualization: *manual
 
 calculation:
     final:
