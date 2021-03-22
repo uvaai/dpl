@@ -13,16 +13,16 @@ Module 2:
 
 Module 3:
   ".":
-    - transformation
+    - acquisition
+  Submit your solutions: /submit/acquisition
 
 Module 4:
   ".":
-    - transformation2
+    - transformation
 
 Module 5:
   ".":
-    - acquisition
-  Submit your solutions: /submit/acquisition
+    - transformation2
 
 Module 6:
   ".":
