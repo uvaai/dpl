@@ -16,9 +16,9 @@ Head to [ide.cs50.io](https://ide.cs50.io/) and log into CS50 IDE using the GitH
 
 If all is well, you should then be informed that CS50 IDE (aka Cloud9, the software that underlies CS50 IDE) is "creating your workspace" and "creating your container," which might take a moment. You should eventually see your workspace. If not, do just email the course's heads to inquire!
 
-### Working with the command line
+### (Optional) Working with the command line
 
-In the movie below, CS50's Doug explains how to use the Linux "command line" that is included in the CS50 IDE. You will need to use many of the commands while developing in C, but also later when you're advancing as a programmer.
+In the movie below, CS50's Doug explains how to use the Linux "command line" that is included in the CS50 IDE. You've already familiarized yourself with the command line, so watching this video can serve as a small refresher, but it isn't required.
 
 Note that currently, your **default** folder in the IDE is not called `~/workspace` but `~/` instead. This simply means that in Doug's version, all his files are in a subfolder called `workspace`, whereas in the current version of the IDE your files are in your main folder called `~` (home).
 
