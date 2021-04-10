@@ -8,6 +8,7 @@ Module 1:
   Submit your solutions: /submit/hangman
 
 Module 2:
+  Schedule: /module_schedules/m2
   ".":
     - adventure
   Submit your solutions: /submit/adventure
