@@ -177,7 +177,7 @@ def scrape_movie_page(dom):
         dom: BeautifulSoup DOM instance representing the page of 1 single
             movie.
     Returns:
-        A list of strings representing the following (in order): title, year,
+        A list of strings representing the following (in order): title, 
         duration, genre(s) (semicolon separated if several), director(s)
         (semicolon separated if several), writer(s) (semicolon separated if
         several), actor(s) (semicolon separated if several), rating, number
