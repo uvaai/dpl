@@ -34,10 +34,10 @@ grades:
     cards: *fullyauto
     hangman: *auto-manual
     adventure: *auto-manual
+    acquisition: *manual
     climate: *check_off
     transformation-1: *check_off
     transformation-2: *manual
-    acquisition: *manual
     visualization: *manual
 
 calculation:
