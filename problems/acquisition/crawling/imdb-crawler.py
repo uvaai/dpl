@@ -120,7 +120,7 @@ def main():
     # Make backup of the IMDB top 250 movies page
     print('Access top 250 page, making backup ...')
     top_250_html = simple_get(TOP_250_URL)
-    top_250_dom = BeautifulSoup(top_250_html, "lxml")
+    top_250_dom = BeautifulSoup(top_250_html, "html.parser")
 
     make_backup(os.path.join(BACKUP_DIR, 'index.html'), top_250_html)
 
@@ -137,7 +137,7 @@ def main():
         movie_html = simple_get(url)
 
         # Extract relevant information for each movie
-        movie_dom = BeautifulSoup(movie_html, "lxml")
+        movie_dom = BeautifulSoup(movie_html, "html.parser")
         rows.append(scrape_movie_page(movie_dom))
 
         # Save one of the IMDB's movie pages (for testing)
@@ -177,7 +177,7 @@ def scrape_movie_page(dom):
         dom: BeautifulSoup DOM instance representing the page of 1 single
             movie.
     Returns:
-        A list of strings representing the following (in order): title, year,
+        A list of strings representing the following (in order): title, 
         duration, genre(s) (semicolon separated if several), director(s)
         (semicolon separated if several), writer(s) (semicolon separated if
         several), actor(s) (semicolon separated if several), rating, number

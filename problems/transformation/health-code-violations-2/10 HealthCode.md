@@ -174,9 +174,8 @@ representative:
 * Improve the definition of *clean* and *severe violations*, so the reviews are
 separated more accurately.
 
-* Use the reviews from restaurants without any inspections as general model for
-common food terms or specific dishes, so those can be filtered from the top 50
-distinguishing words.
+* Create a general model for common food terms or specific dishes, so those can 
+be filtered from the top 50 distinguishing words.
 
 * Use the exact time window of the inspection to filter reviews that are more
 likely to be related to results of the inspection.

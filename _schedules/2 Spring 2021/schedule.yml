@@ -2,21 +2,25 @@ Welcome:
   Read the syllabus to get started: /syllabus
 
 Module 1:
+  Schedule: /module_schedules/m1
   ".":
     - hangman
   Submit your solutions: /submit/hangman
 
 Module 2:
+  Schedule: /module_schedules/m2
   ".":
     - adventure
   Submit your solutions: /submit/adventure
 
 Module 3:
+  Schedule: /module_schedules/m3
   ".":
     - acquisition
   Submit your solutions: /submit/acquisition
 
 Module 4:
+  Schedule: /module_schedules/m4
   ".":
     - transformation
 
