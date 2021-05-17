@@ -49,7 +49,9 @@ assignments:
     submits:
         hangman: 1
         adventure: 1
+        acquisition: 1
         transformation-2: 2
+        visualization: 1
 
 
 manualcheck:
