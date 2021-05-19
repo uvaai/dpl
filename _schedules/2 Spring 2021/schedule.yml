@@ -25,6 +25,7 @@ Module 4:
     - transformation
 
 Module 5:
+  Schedule: /module_schedules/m5
   ".":
     - transformation2
 
