@@ -17,7 +17,7 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 
 ### Seminars
 
-There is one scheduled seminars for this module:
+There is one scheduled seminar for this module:
 
 * **Convolution & Conv. Nets** on *Wednesday May 26th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
 
