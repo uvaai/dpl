@@ -7,8 +7,8 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
 | Monday<br>31/05    | Bokeh: 1 & 2                 | Watch Theory videos &<br>Start CIFAR |                            |
 | Tuesday<br>01/06   | Bokeh: 3 & 4                 | Finish CIFAR Notebook               |                             |
-| Wednesday<br>02/06 | Start Visualization          | Start GTSRB Notebook                |                             |
-| Thursday<br>03/06  | Cont. Visualization          | Finish. GTSRB Notebook              | Deep Conv. Nets             |
+| Wednesday<br>02/06 | Start Visualization          | Start GTSRB Notebook                | Deep Conv. Nets             |
+| Thursday<br>03/06  | Cont. Visualization          | Finish. GTSRB Notebook              |                             |
 | Friday<br>04/06    | Finish Visualization         | Writing                             |                             |
 
 
@@ -16,7 +16,7 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 
 There is one scheduled seminar for this module:
 
-* **Deep Conv. Nets** on *Thursday June 3rd at 11:00*: <https://uva-live.zoom.us/j/85073960902>
+* **Deep Conv. Nets** on *Wednesday June 2nd at 11:00*: <https://uva-live.zoom.us/j/85073960902>
 
 ### Daily sessions
 
