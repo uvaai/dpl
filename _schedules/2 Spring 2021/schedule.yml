@@ -25,10 +25,12 @@ Module 4:
     - transformation
 
 Module 5:
+  Schedule: /module_schedules/m5
   ".":
     - transformation2
 
 Module 6:
+  Schedule: /module_schedules/m6
   ".":
     - visualization
   Submit your solutions: /submit/visualization

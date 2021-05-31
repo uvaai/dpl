@@ -16,7 +16,7 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 
 ### Seminars
 
-There is one scheduled seminars for this module:
+There is one scheduled seminar for this module:
 
 * **Decision Trees** on *Wednesday May 12th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
 
