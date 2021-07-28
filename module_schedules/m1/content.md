@@ -1,25 +1,27 @@
 
 # Module 1
 
-The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<br>**Friday November 5th at 17:59**
+The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<br>**Friday April 9th at 17:59**
 
 | Day                | Data Pipelines               | Introduction to<br>Machine Learning | Seminars                    |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Monday<br>01/11    | Introduction, Queue, Game of Cards | Theory videos +<br>Logistic Regression: Assignment 2 |      |
-| Tuesday<br>02/11   | Hangman: Part 1, 2           | Logistic Regression: Assignment 5   | Logistic Regression         |
-| Wednesday<br>03/11 | Hangman: Part 3              | Logistic Regression: Assignment 8   | Classes & Object Oriented Programming |
-| Thursday<br>04/11  | Hangman: Part 4              | Logistic Regression: Assignment 10  | MLE & Cost function origin  |
-| Friday<br>05/11    | Hangman: Part 5              | Written Assignment                  |                             |
+| Thursday<br>01/04  | Introduction, Queue, Game of Cards | Theory videos +<br>Logistic Regression: Assignment 2 |      |
+|                    |                              |                                     |                             |
+| Tuesday<br>06/04   | Hangman: Part 1, 2           | Logistic Regression: Assignment 5   | Logistic Regression         |
+| Wednesday<br>07/04 | Hangman: Part 3              | Logistic Regression: Assignment 8   | Classes & Object Oriented programming |
+| Thursday<br>08/04  | Hangman: Part 4              | Logistic Regression: Assignment 10  | MLE & Cost function origin  |
+| Friday<br>09/04    | Hangman: Part 5              | Written Assignment                  |                             |
 
 ### Seminars
 
-There are three scheduled seminars for this module:
+There are three scheduled seminars for this module
 
-* **Logistic Regression** on *Tuesday November 2nd at 11:00*: <https://uva-live.zoom.us/j/85073960902>
+* **Logistic Regression** on *Tuesday April 6th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
 
-* **Classes & Object Oriented Programming** on *Wednesday November 3rd at 11:00*: <https://uva-live.zoom.us/j/86348750456>
+* **Classes & Object Oriented Programming** on *Wednesday April 7th at 11:00*: <https://uva-live.zoom.us/j/86348750456>
 
-* **MLE & Cost function origin** on *Thursday November 4th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
+* **MLE & Cost function origin** on *Thursday April 8th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
+
 
 ### Daily sessions
 

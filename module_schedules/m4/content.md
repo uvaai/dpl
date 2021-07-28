@@ -1,23 +1,24 @@
 
 ## Module 4
 
-The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<br>**Thursday December 2nd at 17:59**
+The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<br>**Wednesday May 19th at 17:59**
 
 | Day                | Data Pipelines               | Introduction to<br>Machine Learning | Seminars                    |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Thursday<br>25/11  | Start Climate Data		    | Watch Theory videos + Entropy       |                             |
-| Friday<br>26/11    | Finish Climate Data          | Splitting data + Info Gain          |                             |
+| Monday<br>10/05    | Start Climate Data		    | Watch Theory videos + Entropy       |                             |
+| Tuesday<br>11/05   | Finish Climate Data          | Splitting data + Info Gain          |                             |
+| Wednesday<br>12/05 | Yelp: t/m Merging JSON reviews | ID3                               | Decision Trees              |
 |                    |                              |                                     |                             |
-| Monday<br>29/11    | Yelp: t/m Merging JSON reviews | ID3                               | Decision Trees              |
-| Tuesday<br>30/11   | Yelp: Matching inspections with reviews | Numerical Decision Trees |                             |
-| Wednesday<br>01/12 | Yelp: Matching inspections with reviews | Random Forests           |                             |
-| Thursday<br>02/12  | Yelp: Merging in the inspections | Written Assignment              |                             |
+|                    |                              |                                     |                             |
+| Monday<br>17/05    | Yelp: Matching inspections with reviews | Numerical Decision Trees |                             |
+| Tuesday<br>18/05   | Yelp: Matching inspections with reviews | Random Forests           |                             |
+| Wednesday<br>19/05 | Yelp: Merging in the inspections | Written Assignment              |                             |
 
 ### Seminars
 
 There is one scheduled seminar for this module:
 
-* **Decision Trees** on *Monday November 29th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
+* **Decision Trees** on *Wednesday May 12th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
 
 ### Daily sessions
 
