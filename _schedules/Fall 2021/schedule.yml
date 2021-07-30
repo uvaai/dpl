@@ -1,30 +1,54 @@
 Welcome:
-  Read the syllabus to get started: /syllabus
+    Read the syllabus to get started: /syllabus
 
 Module 1:
-  ".":
-    - hangman
-  Submit your solutions: /submit/hangman
+    Schedule: /module_schedules/m1
+    Hangman:
+        Introduction and the IDE: .
+        Lecture: /oop/objects/lecture
+
+        Familiarisation:
+            Implement Queue: /oop/objects/queue
+            Implement Game of Cards: /oop/objects/cards
+
+        Implement Hangman: /oop/hangman/classic
+
+    Submit your solutions: /oop/submit/hangman
 
 Module 2:
-  ".":
-    - adventure
-  Submit your solutions: /submit/adventure
+    Schedule: /module_schedules/m2
+    Adventure: /oop/adventure/less
+
+    Submit your solutions: /oop/submit/adventure
 
 Module 3:
-  ".":
-    - transformation
+    Schedule: /module_schedules/m3
+    Acquisition:
+        Introduction: /acquisition
+        Learn how to scrape a web page: /acquisition/scraping
+        And how to retrieve lots of web data: /acquisition/crawling
+        Submit: /acquisition/submit
 
 Module 4:
-  ".":
-    - transformation2
+    Schedule: /module_schedules/m4
+    Transformation:
+        Introduction: /transformation
+        Transform and visualize climate data: /transformation/climate-change
+        Work with structured data in health:
+            "Part one: merging the data": /problems/transformation/health-code-violations-1
+        Submit: /submit/transformation-1
 
 Module 5:
-  ".":
-    - acquisition
-  Submit your solutions: /submit/acquisition
+    Schedule: /module_schedules/m5
+    Tranformation:
+        Work with structured data in health:
+            "Part two: processing the data": /problems/transformation/health-code-violations-2
+        Submit: /submit/transformation-2
 
 Module 6:
-  ".":
-    - visualization
-  Submit your solutions: /submit/visualization
+    Schedule: /module_schedules/m6
+    Visualisation:
+        Introduction: /visualisation
+        Learn about Bokeh for visualizations: /visualisation/bokeh
+        Visualize developing countries: /visualisation/development
+        Submit: /visualisation/submit

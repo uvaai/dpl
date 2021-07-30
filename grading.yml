@@ -34,7 +34,6 @@ grades:
     hangman: *auto-manual
     adventure: *auto-manual
     acquisition: *manual
-    climate: *check_off
     transformation-1: *check_off
     transformation-2: *manual
     visualization: *manual
@@ -58,5 +57,4 @@ manualcheck:
     submits:
         queue: 1
         cards: 1
-        climate: 1
         transformation-1: 1

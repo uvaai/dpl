@@ -1,7 +1,0 @@
-name: transformation
-content:
-  Introduction: .
-  Transform and visualize climate data: /problems/transformation/climate-change
-
-  Work with structured data in health:
-    "Part one: merging the data": /problems/transformation/health-code-violations-1

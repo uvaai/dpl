@@ -1,0 +1,18 @@
+acquisition:
+    remote: https://github.com/spcourse/acquisition
+    branch: main
+transformation:
+    remote: https://github.com/spcourse/transformation
+    branch: main
+visualisation:
+    remote: https://github.com/spcourse/visualisation
+    branch: main
+project:
+    remote: https://github.com/spcourse/dataproject
+    branch: main
+python:
+    remote: https://github.com/spcourse/sp1-python.git
+    branch: main
+oop:
+    remote: https://github.com/spcourse/oop
+    branch: main

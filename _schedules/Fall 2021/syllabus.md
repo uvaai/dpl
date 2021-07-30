@@ -2,7 +2,7 @@
 
 University of Amsterdam / Programming Lab / 5082DAPI6Y
 
-## Syllabus<br><small>Fall 2020</small>
+## Syllabus<br><small>Fall 2021</small>
 
 This course is the continuation of Python for Data Processing. A data pipeline
 is a sequence of steps that transforms raw data into something more useable.
@@ -16,183 +16,134 @@ can apply to them.
 
 Tim Doolan (coordinator)
 
-Simon Pauw (teacher)  
-
 Wouter Vrielink (teacher)
-
-Kiki van Rongen (TA)
 
 You can reach us at <minorai@mprog.nl> for any practical matters or other
 questions.
 
-## Module 6: Schedule & Werkcolleges
+## Deadlines and schedules
 
-The deadline for module 5 is **Monday January 25th at 17:59**.
+The deadlines for each module can be found on the overview page of that module.
 
-| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
-| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
-| Friday          | Bokeh: Basic plotting        | Watch Theory videos & Start CIFAR   |                             |
-|                 |                              |                                     |                             |
-| Monday          | Bokeh: Styling and Layout    | Finish CIFAR Notebook               |                             | 
-| Tuesday         | Bokeh: Data Sources and Transformation | Start GTSRB Notebook      |                             |
-| Wednesday       | Bokeh: Interactions          | Cont. GTSRB Notebook                | 11:00 [Q&A] Deep Conv. Nets |
-| Thursday        | Start Visualization          | Finish GTSRB Notebook               |                             |
-| Friday          | Cont. Visualization          | Start Writing Assignment            |                             |
-|                 |                              |                                     |                             |
-| Monday          | Finish Visualization         | Finish Writing Assignment           |                             |
+We've found that it can be difficult for students to plan when to work on what
+part of the material, especially with two complete new courses, that together
+require a full-time time investment. Being unfamiliar with a subject makes it a
+lot harder to estimate how long something might take, and working from home
+might also make structuring your work more difficult. To help with all of this,
+we've made a day-to-day schedule for each module, which indicates what elements
+should be completed each day.
 
-<br />
+### Extension policy
 
-* **[Q&A] Deep Conv. Nets** on *Wednesday January 20th at 11:00*: <https://uva-live.zoom.us/j/83308606569>
+If there are circumstances that require you to have a deadline extension, you
+must request this at least 1 hour *before* the deadline expires. The staff will
+then determine if extension is permissible and make an alternative schedule
+with you. Submissions after the deadline without prior permission will not be
+accepted. To avoid late extension requests, it is strongly suggested that you
+consult the module's schedule regularly to see if you are on track for the
+module, and if not, to contact the staff early. For discussing your module
+progress or requesting an extension, you can reach us at <minorai@mprog.nl>.
 
-## Module 5: Schedule & Werkcolleges
+*Note:* While it is of course possible for circumstances to arise that require
+you to need an extension, consecutive extension requests are usually not
+granted. If you are given an extension, we will also discuss an alternative
+schedule, which is intended to get you back on track for the regular schedule.
+If the situation is such that this is not feasible, then an alternative
+schedule will be constructed in which you follow fewer courses over a longer
+period of time. Due to the content of each module being heavily dependent on
+the content of the previous modules, skipping or only partially completing
+modules is *not* possible in this curriculum.
 
-The deadline for module 5 is **Tuesday January 12th at 17:59**.
+## Morning meetings
 
-| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
-| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
-| Monday          | Watch: DOM videos & Scrape: Title and Rating | Watch: Theory video & Notebook t/m Grayscale |    |
-| Tuesday         | Scrape: Year, Actor and Runtime | Notebook t/m Gaussian blur       |                             |
-| Wednesday       | Save CSV results and visualize | Notebook t/m Pooling              |                             |
-| Thursday        | Start crawling               | Notebook t/m DIY CNN                | 11:00 [Q&A] Convolution & Conv. Nets |
-| Friday          | Cont. crawling               | Notebook: Finish                    |                             |
-|                 |                              |                                     |                             |
-| Monday          | Finish crawling              | Start Writing Assignment            |                             |
-| Tuesday         |                              | Finish Writing Assignment           |                             |
+An essential part of working completely online will be to get to know your
+fellow students. For this purpose we'll host morning meetings every day at
+**09:00** for all of you. Here you'll divide into smaller groups of 4 or 5
+students, and have a cup of coffee and start the day together. The meeting can
+be joined at [Wonder.me](https://www.wonder.me/r?id=c6cdcb4d-7901-44dc-9b9f-fe90898c22a5).
 
-<br />
+These meetings will also be useful to discuss your progress and what you're
+planning to do for the day. If, for example, you find you're stuck on the same
+part of an assignment as other students, you can then decide to take a look at
+your approach for a problem together. We encourage you to discuss approaches to
+problems together, as this is an effective way to learn, but this can only
+occur if you know each other and what you are working on. Facilitating this is
+primary purpose of these meetings.
 
-* **[Q&A] Convolution & Conv. Nets** on *Thursday January 7th at 11:00*: <https://uva-live.zoom.us/j/81032031908>
-
-## Module 4: Schedule & Werkcolleges
-
-The deadline for module 4 is **Thursday December 10th at 17:59**.
-
-| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
-| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
-| Wednesday       | Processing violations and reviews | Watch Theory videos            | 							 |
-| Thursday        | Counting words and better metrics | Entropy and splitting data     |                             |
-| Friday          | Further tweaks and final improvements | Info Gain and best split   | 							 |
-|                 |                              |                                     |                             |
-| Monday          | Finish final improvements    | Finish ID3			  			   | 11:00 [Q&A] Decision Trees  |
-| Tuesday         | Start Yelp API               | Numerical Decision Trees            |                             |
-| Wednesday       | Cont. Yelp API               | Start Random Forests				   | 							 |
-| Thursday        | Finish Yelp API              | Finish Random Forests               |                             |
-
-<br />
-
-* **[Q&A] Decision Trees** on *Monday December 7th at 11:00*: <https://uva-live.zoom.us/j/89176742632>
-
-## Module 3: Schedule & Werkcolleges
-
-The deadline for module 3 is **Tuesday December 1st at 17:59**.
-
-| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
-| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
-| Friday          | Start Climate Data			 | Watch Theory 1 & Backward: 1a       |                             |
-|                 |                              |                                     |                             |
-| Monday          | Finish Climate Data          | Backward: 1b, 1c & 2a               | 11:00 [Q&A] Backpropagation |
-| Tuesday         | Yelp: Reading the data       | Backward: 2b, 2c, 3 & 4             |                             |
-| Wednesday       | Yelp: Merging JSON reviews   | Backward: 5 & 6                     | 							 |
-| Thursday        | Yelp: Matching inspections with reviews | Watch Theory 2 & Start Activations |                   |
-| Friday          | Yelp: Matching inspection (cont.) | Finish Activations             | 11:00 [Q&A] Activation Functions |
-|                 |                              |                                     |                             |
-| Monday          | Yelp: Merging in the inspections | Watch Theory 3 & Start CIFAR10  |  		                     |
-| Tuesday         |                              | Finish CIFAR10                      |                             |
-
-<br />
-
-* **[Q&A] Backpropagation** on *Monday November 23rd at 11:00*: <https://uva-live.zoom.us/j/83173724554>
-
-* **[Q&A] Activation Functions** on *Friday November 27th at 11:00*: <https://uva-live.zoom.us/j/87256195962>
-
-## Module 2: Schedule & Werkcolleges
-
-The deadline for module 2 is **Thursday November 19th at 17:59**.
-
-| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
-| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
-| Wednesday       | Room class & Creating rooms  | Theory Videos                       |                             |
-| Thursday        | Making connections & Implement move | Assignment 1                 | 11:00 [Q&A] Neural Network Theory |
-| Friday          | Prompting, Descriptions & Additional commands | Assignment 2 & 3   |                             |
-|                 |                              |                                     |                             |
-| Monday          | Test your solution           | Assignment 4, 5, 6 & 7              | 11:00 [Q&A] Neural Network Implemenation |
-| Tuesday         | Forced movement & Synonyms   | Assignment 8 & 9                    |                             |
-| Wednesday       | Check your work & check50    | Assignment 10 & 11                  | 							 |
-| Thursday        | Bug fixing & documentation   |                                     |                             |
-
-<br />
-
-* **[Q&A] Neural Network Theory** on *Thursday November 12th at 11:00*: <https://uva-live.zoom.us/j/84268335159>
-
-* **[Q&A] Neural Network Implementation** on *Monday November 16th at 11:00*: <https://uva-live.zoom.us/j/87814275140>
-
-## Module 1: Schedule & Werkcolleges
-
-The deadline for module 1 is **Tuesday November 10th at 17:59**.
-
-| Day             | Data Pipelines               | Introduction to ML 2                | Werkcolleges                |
-| --------------- | ---------------------------- | ----------------------------------- | --------------------------- |
-| Monday          | Introduction,  Lecture & Assignment: Queue     | SOWISO: 7.a & 7.b |                             |
-| Tuesday         | Assignment: Game of Cards    | Watch: Theory videos & Notebook: t/m Cleaning Data | 11:00 [Q&A] Classes & Object Oriented |
-| Wednesday       | Hangman: Part 1, 2 & 3       | Notebook: t/m Cost Function         | 11:00 [Q&A] Logistic Regression |
-| Thursday        | Hangman: Part 3 &  4         | Logistic Deriv. & Notebook: Obtaining Gradient Terms  | 11:00 [Example] Classes & Object Oriented |
-| Friday          | Hangman: Part 4 & 5          | Notebook: t/m Predictions           | 11:00 [Optional] Cost function & MLE |
-|                 |                              |                                     |                             |
-| Monday          | Hangman: Finish 5            | Notebook: t/m Creating Hypotheses   |                             |
-| Tuesday         |                              | Writing Assignment                  |                             |
-
-<br />
-
-There are two types of werkcollege in this course. The *[Q&A]* sessions are
-intended for asking question and additional explanations about topics already
-covered in the reading or video material. The *[Optional]* session will be
-a technical lecture going beyond what is covered in the material. The
-material covered there will not be part of the exam material and attendance
-will not be recorded.
-
-* **[Q&A] Classes & Object Oriented Programming** on *Tuesday November 3rd at 11:00*: <https://uva-live.zoom.us/j/89113452090>
-
-* **[Q&A] Logistic Regression** on *Wednesday November 4th at 11:00*: <https://uva-live.zoom.us/j/83486211050>
-
-* **[Example] Classes & Object Oriented Programming** on *Thursday November 5th at 11:00*: <https://uva-live.zoom.us/j/84271541766>
-
-* **[Optional] Cost function & Maximum Likelihood Estimation** on *Friday November 6th at 11:00*: <https://uva-live.zoom.us/j/86416860823>
+*Note:* This means working together on analysis and approach of a problem, not
+directly sharing code with each other! For a complete description of what it
+means to do your own work and forms of collaboration are reasonable and
+unreasonable, see the end of this document.
 
 ## Asking questions
 
 If you have any question about the material, there are several ways to get
-assistance.
+assistance. An import part of following this course, is to understand all the
+different ways you can get help and when to use which one.
 
 ### Ed Q&A Forum
 
-The first place you should try and ask your question is on the Ed
-[Ed forum](https://us.edstem.org/courses/2334/). Details on using *Ed* can be
-found in the Welcome post there.
+The first place you should try and ask your question is on the
+[Ed forum](https://edstem.org/us/courses/4208/discussion/). There the course
+staff or your fellow students will answer any specific questions you might
+have.
 
-### Videocall on Discord
+If you have general question about the material or the assignment, please make
+it a public question, so other students can also read the answer. Private
+questions are intended for questions that share specific portions of a
+solution, which you obviously shouldn't do publicly. Further details on using
+*Ed* can be found in the pinned "Welcome" post on the forum.
 
-If you have a very specific question, something that would require sharing
-a large portion of your solution, or you are unsure how exactly to phrase your
-question for Ed, you can request a videocall with the staff. You can do so on
-Discord, using the *QuestionQueue* bot.
+### Seminars
 
-The question queue will be open **every weekday from 9:30 to 13:30**. If you
-send the *QuestionQueue* bot a direction message starting with `!ask` and then
-followed by your question, you will be added to the queue. The staff will take
-videocalls from the queue in the order they are asked, and you will be notified
-by the *QuestionQueue* bot when it is your turn.
+There will be several planned seminars for each module, which will be listed as
+part of the weekly schedules, usually starting at **11:00** those days. The
+seminars serve as a central place to discuss material with all students, though
+the exact form will differ from topic to topic. The topic for each seminar will
+be listed together with the Zoom link for that seminar.
+
+While these seminars might cover some additional material, they also serve as a
+Q&A about assignments or topics from the theory. Attendance is not mandatory,
+but is definitely recommended, even if you've already completed that part of an
+assignment, as completing does not always mean full understanding too.
+
+*Note:* Attendance for each seminar is still kept track of and will impact your
+place in the *QuestionQueue* (see next section). If you did not attend the
+seminars, then you might have to wait longer to have your individual question
+answered. Answering questions centrally in a seminar is much more efficient
+than answering individual videocalls, so this measure serves specifically to
+discourage students who choose to not attend seminars, but still ask individual
+questions, which might have already been answered during those same seminars.
+
+### Videocall on Discord: QuestionQueue
+
+Sometimes it is hard to phrase your specific question precisely in writing on
+the forum, especially when you are just starting out with programming. For some
+problems it is also easier if the staff can see your screen and ask you
+questions. For these cases we also offer the option of videocalls on Discord.
+Requests for videocalls are managed using the the *QuestionQueue* bot.
+
+The question queue will open every weekday starting at **9:30**. Most days
+the queue will be open until *12:30*, but if there is a seminar that day, the
+queue closes before the seminar starts at *11:00*.
+
+To use the *QuestionQueue*, send a direct message to the bot on Discord, a
+starting with `!ask`, followed by your question, e.g.
+
+    !ask My water.py gives an error I don't understand.
+
+The staff will take videocalls from the queue in the order they are asked, and
+you will be notified by the *QuestionQueue* bot when it is your turn.
 
 ### Email the staff
 
 If you have personal matters to discuss or other questions that do not fit any
-of the formats above, you can email the course staff at <minorai@mprog.nl> 
+of the formats above, you can email the course staff at <minorai@mprog.nl>
+
 
 ## Passing the course
 
-Your grade for this course will consist of the grades for each of the modules in
-this course. Each of the modules will each be graded on a 1 to 10 scale. Your
-grade will mainly depend on the style and design of your code.
+Your grade for this course will consist of several elements:
 
 Design
 
@@ -204,7 +155,10 @@ Style
 
 : This is about how readable your code is for other people. For example, using
 clear variable names, adding comments and adding whitespace to separate blocks
-of code, all can help with the readability.
+of code can all help to make your code more readable.
+
+Throughout the modules more design and style concepts will be explained. You
+are expected to apply these concepts in your code from that point onward.
 
 If you've completed the entire module and your code produces the correct
 output, your grade starts at 6. The remainder of your grade is then
@@ -212,7 +166,7 @@ determined as follows:
 
 * 0 - Style and design of the code are of insufficient quality. Code does produce correct output and open questions have been answered.
 
-* 1 - Style and design have had some attention, but there are still clear improvements to be made. Answers to any open questions are mostly correct.
+* 1 - Style and design have had some attention, but there are still clear improvements to be made. Answers to most open questions are correct.
 
 * 2 - Style and design are of sufficient quality, answers to open questions are correct.
 
@@ -228,8 +182,7 @@ be scheduled individually with the course staff and will also be *pass/fail*.
 Once you've passed the exam, your final grade will be computed as the average
 of all your grades for the modules.
 
-
-## Academic honesty
+## Doing your own work {#academic_honesty}
 
 This course's philosophy on academic honesty is best stated as "be reasonable." The course recognizes that interactions with classmates and others can facilitate mastery of the course's material. However, there remains a line between enlisting the help of another and submitting the work of another. This policy characterizes both sides of that line.
 
@@ -299,4 +252,3 @@ BSc programme. Find them here in [English] and [Dutch].
 
 [Dutch]: http://uva.nl/plagiaat
 [English]: https://student.uva.nl/en/content/az/plagiarism-and-fraud/plagiarism-and-fraud.html
-

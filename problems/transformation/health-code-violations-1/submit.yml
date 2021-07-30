@@ -1,4 +1,0 @@
-name: transformation-1
-files:
-    required:
-        - transformation_YELP.ipynb
