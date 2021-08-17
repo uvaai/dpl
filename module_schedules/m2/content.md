@@ -19,7 +19,7 @@ There are two scheduled seminars for this module:
 
 * **Neural Network Theory** on *Tuesday November 9th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
 
-* **Neural Network Implementation** on *Thursday November 11th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
+* **Neural Network Implementation** on *Thursday November 11th at 11:00* in room G3.02
 
 ### Daily sessions
 
