@@ -13,17 +13,20 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 | Thursday<br>09/12  | Start Yelp API               | Convolution: Assignment 10          |                             |
 | Friday<br>10/12    | Finish Yelp API              | Writing Assignment                  |                             |
 
-### Seminars
+### Lecture
 
-There is one scheduled seminar for this module:
+There is one scheduled lecture for this module:
 
 * **Convolution & Conv. Nets** on *Wednesday December 8th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
 
-### Daily sessions
+### Online morning meetings
 
-These will be organised every day.
+For the students working from home, there will be a morning meeting organised
+every day at **09:00** where you can start your day together. You can join the
+meeting at
+[Wonder.me](https://www.wonder.me/r?id=c6cdcb4d-7901-44dc-9b9f-fe90898c22a5).
 
-* Morning meetings at **09:00** on [Wonder.me](https://www.wonder.me/r?id=c6cdcb4d-7901-44dc-9b9f-fe90898c22a5)
-
-* Question Queue at **09:30** on [Discord](https://discord.gg/y9BVSck5z5)
+There you can discuss planning for the day and potenially find other students
+that be starting the same part of an assignment as you, so you can
+then decide to take a look at your approach for a problem together.
 
