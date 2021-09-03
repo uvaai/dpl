@@ -3,15 +3,14 @@ Welcome:
 
 Module 1:
     Schedule: /module_schedules/m1
-    Hangman:
-        Introduction and the IDE: .
-        Lecture: /oop/objects/lecture
+    Introduction and the IDE: /oop/hangman
+    Lecture: /oop/objects/lecture
 
-        Familiarisation:
-            Implement Queue: /oop/objects/queue
-            Implement Game of Cards: /oop/objects/cards
+    Familiarisation:
+        Implement Queue: /oop/objects/queue
+        Implement Game of Cards: /oop/objects/cards
 
-        Implement Hangman: /oop/hangman/classic
+    Implement Hangman: /oop/hangman/classic
 
     Submit your solutions: /oop/submit/hangman
 
@@ -34,15 +33,14 @@ Module 4:
     Transformation:
         Introduction: /transformation
         Transform and visualize climate data: /transformation/climate-change
-        Work with structured data in health:
-            "Part one: merging the data": /problems/transformation/health-code-violations-1
+        "Part one: merging the data": /problems/transformation/health-code-violations-1
         Submit: /submit/transformation-1
 
 Module 5:
     Schedule: /module_schedules/m5
     Tranformation:
         Work with structured data in health:
-            "Part two: processing the data": /problems/transformation/health-code-violations-2
+        "Part two: processing the data": /problems/transformation/health-code-violations-2
         Submit: /submit/transformation-2
 
 Module 6:
