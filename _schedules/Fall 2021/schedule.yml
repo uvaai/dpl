@@ -42,11 +42,7 @@ Module 4:
 Module 5:
     Schedule: /module_schedules/m5
     Tranformation:
-<<<<<<< HEAD
-      "Part two: processing the data": /problems/transformation/health-code-violations-2
-=======
         "Part two: processing the data": /transformation/health-code-violations-2
->>>>>>> 8ddf6b32ab54d57777e569d74352ebfb1eabfd8d
         Submit: /submit/transformation-2
 
 Module 6:
