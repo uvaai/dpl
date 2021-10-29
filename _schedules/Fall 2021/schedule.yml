@@ -24,8 +24,11 @@ Module 3:
     Schedule: /module_schedules/m3
     Acquisition:
         Introduction: /acquisition
-        Learn how to scrape a web page: /acquisition/scraping
-        And how to retrieve lots of web data: /acquisition/crawling
+        Improve your Pandas skills: /acquisition/pandas
+        Scrape a web page: /acquisition/scraping
+        Transforming data to be more usable: /acquisition/transforming
+        Visualizing the data: /acquisition/visualizing
+        Get even more data: /acquisition/crawling
         Submit: /acquisition/submit
 
 Module 4:
@@ -39,8 +42,7 @@ Module 4:
 Module 5:
     Schedule: /module_schedules/m5
     Tranformation:
-        Work with structured data in health:
-        "Part two: processing the data": /problems/transformation/health-code-violations-2
+      "Part two: processing the data": /problems/transformation/health-code-violations-2
         Submit: /submit/transformation-2
 
 Module 6:
