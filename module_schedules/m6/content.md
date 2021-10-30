@@ -15,7 +15,7 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 
 There is one scheduled lecture for this module:
 
-* **Deep Conv. Nets** on *Wednesday December 15th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
+* **Deep Conv. Nets** on *Wednesday December 15th at 11:00* in room A1.16A
 
 ### Online morning meetings
 

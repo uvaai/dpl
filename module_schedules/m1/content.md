@@ -15,9 +15,9 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 
 There are three scheduled lectures for this module:
 
-* **Logistic Regression** on *Tuesday November 2nd at 11:00*: <https://uva-live.zoom.us/j/85073960902>
+* **Logistic Regression** on *Tuesday November 2nd at 13:00* in room A1.16A
 
-* **Classes & Object Oriented Programming** on *Wednesday November 3rd at 11:00*: <https://uva-live.zoom.us/j/86348750456>
+* **Classes & Object Oriented Programming** on *Wednesday November 3rd at 13:00* in room A1.16A
 
 * **MLE & Cost function origin** on *Thursday November 4th at 11:00* in room G3.02
 

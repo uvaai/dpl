@@ -17,7 +17,7 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 
 There are two scheduled lectures for this module:
 
-* **Neural Network Theory** on *Tuesday November 9th at 11:00*: <https://uva-live.zoom.us/j/85073960902>
+* **Neural Network Theory** on *Tuesday November 9th at 13:00* in room A1.16A
 
 * **Neural Network Implementation** on *Thursday November 11th at 11:00* in room G3.02
 
