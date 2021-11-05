@@ -18,7 +18,7 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 
 There are two scheduled lectures for this module:
 
-* **Backpropagation** on *Wednesday November 17th at 11:00* in room A1.16A
+* **Backpropagation** on *Wednesday November 17th at 13:00* in room A1.16A
 
 * **Activation Functions** on *Tuesday November 23rd at 13:00* in room A1.16A
 

@@ -17,7 +17,7 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 
 There is one scheduled lecture for this module:
 
-* **Convolution & Conv. Nets** on *Wednesday December 8th at 11:00* in room A1.16A
+* **Convolution & Conv. Nets** on *Wednesday December 8th at 13:00* in room A1.16A
 
 ### Online morning meetings
 
