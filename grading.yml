@@ -6,12 +6,12 @@ templates:
             points: integer
         automatic:
             correctness: (correctness_score * 100).floor
-        calculation: (correctness/100).floor * (points + 6)
+        calculation: (correctness/100).floor * points
     3: &manual
         type: float
         subgrades:
             points: integer
-        calculation: points + 6
+        calculation: points
     4: &fullyauto
         type: pass
         subgrades:
