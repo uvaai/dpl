@@ -5,14 +5,18 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 
 | Day                | Data Pipelines               | Introduction to<br>Machine Learning | Seminars                    |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Tuesday<br>16/11   | Pandas +<br>Scraping step 1     | Watch Theory 1 +<br>Backward: 1a |             |
-| Wednesday<br>17/11 | Scraping step 2              | Backward: 1b & 2              | Backpropagation             |
-| Thursday<br>18/11  | Transforming                 | Backward: 3, 4 & 5 + Written<br>assignment: Send GDPR request | |
-| Friday<br>19/11    | Visualizing the data         | Backward: 6 +<br>Watch Theory 2     |                             |
+| Tuesday<br>16/11   | Pandas                       | Watch Theory 1 +<br>Backward: 1a    |                             |
+| Wednesday<br>17/11 | Scraping step 1              | Backward: 1b & 2                    | Backpropagation             |
+| Thursday<br>18/11  | Scraping step 1              | Backward: 3, 4 & 5 + Written<br>assignment: Send GDPR request |   |
+| Friday<br>19/11    | Scraping step 2              | Backward: 6 +<br>Watch Theory 2     |                             |
 |                    |                              |                                     |                             |
-| Monday<br>22/11    | Crawling part 1              | Start Activations                   |                             |
+| Monday<br>22/11    | Transforming +<br>Visualizing the data | Start Activations         |                             |
 | Tuesday<br>23/11   | Crawling part 2              | Finish Activations +<br>Watch Theory 3 | Activation Functions     |
 | Wednesday<br>24/11 |                              | Finish Written Assignment           |                             |
+
+<br>
+**NOTE:** Crawling part 1 has become a bonus assignment. The solution CSV for
+crawling part 1 will be made available on the annoucements page for DPL.
 
 ### Lectures
 
