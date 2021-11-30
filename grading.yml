@@ -10,7 +10,7 @@ templates:
     3: &manual
         type: float
         subgrades:
-            points: integer
+            points: float
         calculation: points
     4: &fullyauto
         type: pass
