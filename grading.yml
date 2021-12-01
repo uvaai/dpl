@@ -49,6 +49,7 @@ assignments:
         hangman: 1
         adventure: 1
         scraping-data: 1
+        transformation-1: 0
         transformation-2: 2
         visualization: 1
 
