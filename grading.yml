@@ -37,11 +37,13 @@ grades:
     transformation-1: *check_off
     transformation-2: *manual
     visualization: *manual
+    exam: *check_off
 
 calculation:
     final:
         assignments: 100
         manualcheck: 0
+        exam: 0
 
 assignments:
     show_progress: true
@@ -53,9 +55,13 @@ assignments:
         transformation-2: 2
         visualization: 1
 
-
 manualcheck:
     submits:
         queue: 1
         cards: 1
         transformation-1: 1
+
+exam:
+    show_progress: true
+    submits:
+        exam1: 1
