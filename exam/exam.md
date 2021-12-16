@@ -1,4 +1,6 @@
-# Data Pipelines Exam
+Nothing here yet
+
+<!-- # Data Pipelines Exam
 
 This is a digital exam. The exam consists of programming exercises that are purely based on input, output, and calculations. You will use these exercises to show that you can create a data pipeline from scratch using tools covered in this course.
 
@@ -146,4 +148,4 @@ Should produce the following figure:
 
 Start by calling the `plot_area()` method for each of the Flower instances in the original list of `flowers`, using the default dot markers. Next, for each of the average `Flower` instances, call the `plot_area()` method, but set the marker to a square: `marker='s'`, and show the result. The combined plot showing the average areas together with original flower area's for each species, should look like the plot below:
 
-![example](data/final_plot2.png)
+![example](data/final_plot2.png) -->
