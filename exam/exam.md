@@ -123,8 +123,8 @@ Which should print:
 
     There are 3 average flowers
     The species of the last average flower is: virginica
-    The area of the Sepal for the second average flower is: ???? TODO
-    The area of the Petal for the second average flower is: ???? TODO
+    The area of the Sepal for the second average flower is: 12.91
+    The area of the Petal for the second average flower is: 4.44
 
 ## Exercise 9 - Plotting different markers
 
