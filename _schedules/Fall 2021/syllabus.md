@@ -9,7 +9,7 @@ is a sequence of steps that transforms raw data into something more useable.
 The course will taught in slightly modified form this semester, and we'll focus
 on two aspects in particular. For the first half we'll learn about classes and
 using them to represent data in your program. The second half of the course
-will be about other types of represenations of data and the transformations you
+will be about other types of representations of data and the transformations you
 can apply to them.
 
 ## Staff
@@ -80,7 +80,7 @@ your absence, so we can handle it accordingly.
 ## Asking questions
 
 If you have any questions about the material, there are several ways to get
-to ask them and get assistance. 
+to ask them and get assistance.
 
 ### Practical assistance
 
@@ -99,7 +99,7 @@ On some days there will also be a lecture, either from 11 to 1, or from 1 to 3.
 During the scheduled lectures there will be *no* practical assistance, but
 there will still be assistance the 2 hours before or after lecture, depending
 on the time of the lecture. More information on the lectures can be found in
-the next section. 
+the next section.
 
 If you are working from home, you can also still use the *Request assistance*
 to ask for help with your code. The main difference is that you'll need to make
@@ -137,7 +137,7 @@ of the formats above, you can email the course staff at <minorai@mprog.nl>
 ## Passing the course
 
 Each module will each be graded on a 1 to 10 scale. Your grade will mainly
-depend on the style and design of your code. 
+depend on the style and design of your code.
 
 Design
 
@@ -246,4 +246,3 @@ BSc programme. Find them here in [English] and [Dutch].
 
 [Dutch]: http://uva.nl/plagiaat
 [English]: https://student.uva.nl/en/content/az/plagiarism-and-fraud/plagiarism-and-fraud.html
-

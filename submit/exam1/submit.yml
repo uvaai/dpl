@@ -1,0 +1,4 @@
+name: exam1
+files:
+    required:
+        - exam.py
