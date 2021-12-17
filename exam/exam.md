@@ -132,6 +132,14 @@ Adjust your `Flower.plot_area()` method such that it can accept an _optional_ ar
 
 **Hint:** set the default value for marker to a **dot** (`'.'`) in the method definition, so all your code from before (which plotted dots), still works without modification!
 
+    first_flower = Flower(1, 1, 1, 1, 'setosa')
+    second_flower = Flower(1, 5, 1, 2, 'versicolor')
+    third_flower = Flower(3, 1, 2, 2, 'virginica')
+
+    first_flower.compute_sepal_petal_areas()
+    second_flower.compute_sepal_petal_areas()
+    third_flower.compute_sepal_petal_areas()
+
     first_flower.plot_area(marker='x')
     second_flower.plot_area(marker='^')
     third_flower.plot_area()
