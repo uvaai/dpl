@@ -51,7 +51,7 @@ Which should print:
 Create a class named `Flower` that can store the attributes sepal length, sepal width, petal length, petal width, and species. For now, the class only needs to consist of an initialization function.
 
     first_flower = Flower(5.1, 2.5, 1.8, 0.2, 'setosa')
-    print(f`The species of this flower is {first_flower.species} and it has a petal length of {first_flower.petal_length}`)
+    print(f'The species of this flower is {first_flower.species} and it has a petal length of {first_flower.petal_length}')
 
 Which should print:
 
