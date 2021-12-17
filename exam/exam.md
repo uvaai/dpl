@@ -1,5 +1,3 @@
-Nothing here yet
-
 # Data Pipelines Exam
 
 This is a digital exam. The exam consists of programming exercises that are purely based on input, output, and calculations. You will use these exercises to show that you can create a data pipeline from scratch using tools covered in this course.
