@@ -56,7 +56,6 @@ assignments:
         visualization: 1
 
 manualcheck:
-    show_progress: true
     submits:
         queue: 1
         cards: 1
