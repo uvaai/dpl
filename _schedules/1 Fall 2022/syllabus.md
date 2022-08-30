@@ -214,7 +214,7 @@ account when considering your request. Requests from students who miss attendanc
 are generally much less likely to be granted.
 
 If you are done with all the material for the module before the day of the deadline,
-you should show your assignments to a TA *during practical assistance*. The TA
+you should show your assignments to a TA by asking a question *during practical assistance*. The TA
 will check if they agree every element has been properly completed, and if so
  you'll be granted exemption from the attendance checks for the rest of the module.
 
