@@ -1,4 +1,4 @@
-# Data Pipelines
+# Data Processing and Representations
 
 University of Amsterdam / Programming Lab / 5082DAPI6Y
 
@@ -21,7 +21,23 @@ Wouter Vrielink (teacher)
 You can reach us at <minorai@mprog.nl> for any practical matters or other
 questions.
 
-### Deadlines
+## Schedule 
+
+The core schedule for this course, combined with Introduction to Machine Learning 2, is
+built around working with the material each weekday from 9 to 5.  For this we
+have one room on the Science Park campus permanently reserved for minor AI
+students, namely **L0.11**, which provides enough space for all of you to work
+on campus full-time.
+
+Most on-campus activities, including practical assistance, will generally be
+held in this room. There are some exceptions with activities that do not fit
+in the room, like the group seminars and the exam. The schedule for these 
+group seminars can be found on Datanose [here](https://datanose.nl/#course[111919])
+
+The schedule for the practical assistance hours and lectures that will be held
+in L0.11 can be found in the "Asking Questions" section below.
+
+### Deadlines and daily schedules
 
 The deadlines for each module can also be found on the module schedule pages
 (the first item in the sidebar for each module).
@@ -30,104 +46,104 @@ We've found that it can be difficult for students to plan when to work on what
 part of the material, especially with two completely new courses, that together
 require a full-time time investment. Being unfamiliar with a subject makes it a
 lot harder to estimate how long something might take, and structuring your work
-can be more difficult, especially when working from home. To help with all of
-this, we've made a day-to-day schedule for each module, which indicates what
-elements should be completed each day.
+can be more difficult. To help with all of this, we've made a day-to-day schedule
+for each module, which indicates what elements should be completed each day.
 
-### Extension policy
-
-If there are circumstances that require you to have a deadline extension, you
-must request this at least 1 hour *before* the deadline expires. The staff will
-then determine if extension is permissible and make an alternative schedule
-with you. Submissions after the deadline without prior permission will not be
-accepted. To avoid late extension requests, it is strongly suggested that you
-consult the module's schedule regularly to see if you are on track for the
-module, and if not, to contact the staff early. For discussing your module
-progress or requesting an extension, you can reach us at <minorai@mprog.nl>.
-
-*Note:* While it is of course possible for circumstances to arise that require
-you to need an extension, consecutive extension requests are usually not
-granted. If you are given an extension, we will also discuss an alternative
-schedule, which is intended to get you back on track for the regular schedule.
-If the situation is such that this is not feasible, then an alternative
-schedule will be constructed in which you follow fewer courses over a longer
-period of time. Due to the content of each module being heavily dependent on
-the content of the previous modules, skipping or only partially completing
-modules is *not* possible in this curriculum.
+If you're finding it hard to keep on track with the daily schedule, you can
+contact the staff at <minorai@mprog.nl>. We can discuss possible approaches or
+even offer extra help or resources, if needed. In general, it is a good idea to
+already contact us if are more than 1 day behind on the schedule, so we can
+look at possible solutions early.
 
 ### Absences and calling in sick
 
-With COVID, the policy for when you're sick has become a little more
-complicated, but also *vital* in minimizing the number of students that has to
-work from home, so please do stick to these procedures. The general UvA policy
-for the return to campus can be found
-[here](https://www.uva.nl/en/current/coronavirus/return-to-campus/return-to-campus.html).
-The most important consequence of this policy is that, whenever you're
-experiencing coronavirus-related symptoms, you should work from home. You can
-return to campus if you get a negative test result or have been symptom-free
-for 24 hours.
+If you are sick or are otherwise unable to come to campus, you should inform 
+your group TA by sending them a message on Slack. When you are feeling better,
+inform your TA again, so a new planning for that module can be made. Any exceptions
+or extensions required for this will need to be discussed with course staff (so not 
+your TA). See the extension policy below for more details.
 
-If you cannot come to campus, due to coronavirus symptoms or otherwise, please
-inform us with an email to <minorai@mprog.nl>. If this is due to symptoms, we
-will offer online alternatives to every on-campus activity, including lectures
-and practical assistance, but can only offer some of these if we are aware you
-are working from home. If you are actually sick and not just experiencing
-symptoms, then we won't expect you to work from home of course, but you should
-still inform us, so we can plan for a possible deadline extension, if needed.
-So in either case, please do send us an email and let us know the reason for
-your absence, so we can handle it accordingly.
+If you are experiencing coronavirus-related symptoms, but are feeling fit enough
+otherwise, you should do a self-test. If the self-test is negative, you can and
+should still come to campus. If the self-test is positive, you should report in sick,
+like described above, but work from home instead. When contacting your group TA, do
+also mention that you are absent because of a positive self-test, so we know you are
+working from home.
+
+### Extension policy and late days
+
+There are two types of extension; staff extensions and late days.
+
+Staff extensions usually require meeting with staff and will generally also
+include making an alternative planning for the module. If any circumstances
+arise that would make it hard for you to make the deadline, send us an
+email at <minorai@mprog.nl> so we can discuss your situation. Please do this as
+soon as the problem arises, rather than on the day of deadline, so we can
+schedule a meeting and still have room in the module for an alternative planning.
+Note that a meeting does not always guarantee an extension, as this might still
+depend on the details of your circumstances.
+
+In addition, for this course and Introduction to Machine Learning 2, you have a combined 
+total of 2 late days, each of which you can use to get a single 24 hour extension 
+for the module deadline. To request a late-day extension, you should write to
+your TA on Slack *before* the deadline expires and indicate you intend to
+use a late day. Any submissions received after the deadline without a requested
+late day will not be graded, meaning your grade will default to a 1.
+
+You can use only 1 late day per module to get a 24 hour extension on the deadline. 
+This extension is for the whole module, so applies to both courses. If the deadline
+is on a Friday, using  a single late day will instead grant a 48 hour extension 
+over the weekend, meaning your deadline will move to Sunday. If you have used both
+late-days, or require more than 24 hours of extension, you may still try and 
+request a staff extension.
+
+Any staff extension request needs to be agreed upon before the deadline expires,
+which means your request must be sent at least 2 hours before the actual deadline.
+If you do not receive a reply in time, you should *always* still submit your
+current version of the assignment before the deadline, so this part can still be
+graded. Staff extension requests should be emailed to <minorai@mprog.nl>
 
 ## Asking questions
 
-If you have any questions about the material, there are several ways to get
-to ask them and get assistance.
+If you have any questions about the material, there are several ways to ask them 
+and get assistance. 
 
 ### Practical assistance
 
-Every weekday between 11 and 3, you can ask practical questions to the TA's of
-the minor. During these hours you can use the "Request assistance" feature on
-the *Introduction to Machine Learning 2* [website](https://ml2.mprog.nl/),
-using the question mark symbol at the top of the sidebar there. Please use this
-feature instead of raising your hand in class, as it ensures that all questions
-get handled in the order that they are asked. Questions can of be about either
-the DPL or ML2 courses, just make sure to mention what assignment you're
-working on. For your location, please list the room and table you are working
-at, so the TA handling your question knows where to find you when it is your
-turn.
+There are 3 hours scheduled every day where you can ask practical
+questions to the TA's of the minor. During these hours you can use the
+"Request assistance" feature on this website, using the question mark symbol
+at the top of the sidebar. Please use this feature instead of raising your hand
+in class, as it ensures that all questions get handled in the order that they 
+are asked. Questions can of be about either the PDP or ML1 courses, just make 
+sure to mention what assignment you're working on. For your location, please 
+list the  table you are working at, so the TA handling your question knows 
+where to find you when it is your turn.
 
-On some days there will also be a lecture, either from 11 to 1, or from 1 to 3.
-During the scheduled lectures there will be *no* practical assistance, but
-there will still be assistance the 2 hours before or after lecture, depending
-on the time of the lecture. More information on the lectures can be found in
-the next section.
+The hours are scheduled as follows:
 
-If you are working from home, you can also still use the *Request assistance*
-to ask for help with your code. The main difference is that you'll need to make
-a Zoom link for the TA to join, which you should provide as your "location"
-when asking your question. A TA will then join your meeting when it is your
-turn in the queue, so you can share your screen and explain your question
-there.
+* In general, assistance hours are from 10 to 13
+* On Monday there are group seminars in the morning, so the assistance hours are from 13 to 16
+* If there is a Q&A lecture listed in the daily schedule, the assistance will start after the Q&A, generally from 11 to 14
 
-### Morning meetings
+### Q & A Lectures
 
-For those students working from home, we'll offer online morning meetings every
-day at **09:00**. Here you can divide yourself into small groups of students,
-all working online that day. There you have a cup of coffee and start the day
-together. The meeting can be joined at
-[Wonder.me](https://www.wonder.me/r?id=c6cdcb4d-7901-44dc-9b9f-fe90898c22a5).
+Every module there will be at least one Q & A lecture, where you can ask
+questions about the theoretical parts of the course. The schedule for these
+lectures can be found as part of the daily schedule for the module. The lectures
+will always be in the main room L0.11 at 10:00 on the scheduled day.
 
-These meetings will also be useful to discuss your progress and what you're
-planning to do for the day. If, for example, you find you're stuck on the same
-part of an assignment as other students, you can then decide to take a look at
-your approach for a problem together. We encourage you to discuss approaches to
-problems together, as this is an effective way to learn, but this can only
-occur if you know each other and what you are working on. Facilitating this is
-the primary purpose of these meetings.
+These Q & A sessions will generally be scheduled the day after you should watch
+the theory videos of the module. While watching the videos, you can write
+down any questions you might have. There will be a question form linked
+in the schedule, where you can submit your questions beforehand. Based on
+the submitted questions, we'll discuss any part of the theory the might
+need more clarification or context.
 
-*Note:* This means working together on analysis and approach of a problem, not
-directly sharing code with each other! For a complete description of what it
-means to do your own work and forms of collaboration are reasonable and
-unreasonable, see the end of this document.
+### Email the staff
+
+If you have personal matters to discuss or other questions that do not fit any
+of the formats above, you can email the course staff at <minorai@mprog.nl>
 
 ### Email the staff
 
@@ -167,6 +183,40 @@ determined as follows:
 * 3 - Style and design are very good, answers are correct and show understanding.
 
 * 4 - Exceptional style and design, answers are beyond expectations.
+
+### Attendance
+
+We expect you to be present and working on campus every weekday from 9 to 5.
+The material of these course covers a lot of practical skills, which cannot
+just be learned from reading a book or watching a video. This means we expect
+you'll need to ask plenty questions while working on assignments, as you try and
+master these different skills. This is why we offer a lot practical assistance,
+so there is a chance for you to ask the questions you have about the
+scheduled material *every day*.
+
+In spite of this, we maintain a soft attendance requirement. This means that 
+there is no hard rule stating that if you miss a certain percentage of days,
+you will fail the course, i.e. attendance does not directly affect your final
+grade.
+
+However, indirectly attendance definitely will affect your grade. The material 
+requires you to work regularly on the assignments and ask questions along the
+way so you don't get stuck. This means if you are not on campus, you are much
+more likely to get stuck longer and thus end up with too little time before the
+deadline.
+
+In addition, we will still take attendence samples regularly in the room. This
+does not affect whether you pass or fail the course, but is used as metric to
+give us an indication of the effort you are putting into following the courses
+as intended. If you request an extension or exception, or ask for extra
+help or resources for the material, we'll always take your attendance into
+account when considering your request. Requests from students who miss attendance
+are generally much less likely to be granted.
+
+If you are done with all the material for the module before the day of the deadline,
+you should show your assignments to a TA *during practical assistance*. The TA
+will check if they agree every element has been properly completed, and if so
+ you'll be granted exemption from the attendance checks for the rest of the module.
 
 ### Exam
 
