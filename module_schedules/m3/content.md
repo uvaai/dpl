@@ -11,7 +11,12 @@ The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<b
 | Friday<br>18/11    | Start crawling               | Backward: 6 +<br>Watch Theory 2     |                             |
 |                    |                              |                                     |                             |
 | Monday<br>21/11    | Cont. crawling               | Start Activations                   | Group seminar               |
-| Tuesday<br>22/11   | Finish crawling              | Finish Activations +<br>Watch Theory 3 |                          |
-| Wednesday<br>23/11 |                              | Finish Written Assignment           | Q & A lecture               |
+| Tuesday<br>22/11   | Finish crawling              | Finish Activations +<br>Watch Theory 3 | Q & A lecture            |
+| Wednesday<br>23/11 |                              | Finish Written Assignment           |                             |
 
+
+
+#### Q & A Lecture
+
+The Q & A lectures will be held in room **L0.11 at 10:00** on the scheduled day. You can submit any questions you might have beforehand using [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=zcrxoIxhA0S5RXb7PWh05ZTDc7biyulCvpu4U-tarWtUMlZYQUlYMFVMREdWRVVPWTNITlIxQlFUTC4u).
 
