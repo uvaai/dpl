@@ -39,7 +39,7 @@ in L0.11 can be found in the "Asking Questions" section below.
 
 ### Deadlines and daily schedules
 
-The deadlines for each module can also be found on the module schedule pages
+The deadlines for each module can be found on the module schedule pages
 (the first item in the sidebar for each module).
 
 We've found that it can be difficult for students to plan when to work on what
