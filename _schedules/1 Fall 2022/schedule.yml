@@ -27,7 +27,7 @@ Module 2:
         Learn about Databases: /sql/lecture
         Store movie information using sqlite: /sql/movies
     Fiftyville:
-        Solve a mistery using sqlite: /sql/fiftyville
+        Solve a mystery using sqlite: /sql/fiftyville
     Submit:
         Submit Populations: /submit/populations-2
         Submit SQL: /sql/submit
