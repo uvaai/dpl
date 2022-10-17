@@ -29,8 +29,8 @@ Module 2:
     Fiftyville:
         Solve a mistery using sqlite: /sql/fiftyville
     Submit:
-        Submit: /submit/populations-2
-        Submit: /sql/submit
+        Submit Populations: /submit/populations-2
+        Submit SQL: /sql/submit
 
 Module 3:
     Schedule: /module_schedules/m3
