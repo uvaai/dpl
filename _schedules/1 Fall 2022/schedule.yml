@@ -2,33 +2,50 @@ Welcome:
     Read the syllabus to get started: /syllabus
 
 Module 1:
-    Schedule: /module_schedules/m1
-    Introduction and the IDE: /oop/hangman
-    Familiarisation:
-        Lecture: /oop/objects/lecture
-        Implement Queue: /oop/objects/queue
-        Implement Game of Cards: /oop/objects/cards
-    Hangman:
-        Implement Hangman: /oop/hangman/classic
+    Introduction: /populations-oo
+    Classes:
+        Learn about using classes in Python [theory]: /python/en/classes
+        Practice with classes [practice]: /python/en/classes/practice
+    Populations (part 1):
+        Introduction: /populations-oo/introduction
+        Phase 1: /populations-oo/phase1
+        Phase 2: /populations-oo/phase2
+        Phase 3: /populations-oo/phase3
+        Phase 4: /populations-oo/phase4
+        Phase 5: /populations-oo/phase5
     Submit:
-        Submit your solutions: /oop/submit/hangman
+        Submit: /submit/populations-1
 
 Module 2:
-    Schedule: /module_schedules/m2
-    Adventure: /oop/adventure/less
-    
+    Populations (part 2):
+        Phase 6: /populations-oo/phase6
+        Phase 7: /populations-oo/phase7
+        Phase 8: /populations-oo/phase8
+        Experiment: /populations-oo/final-experiment
+    Learn SQL:
+        Introduction: /sql/intro
+        Learn about Databases: /sql/lecture
+        Store movie information using sqlite: /sql/movies
+    Fiftyville:
+        Solve a mistery using sqlite: /sql/fiftyville
     Submit:
-        Submit your solutions: /oop/submit/adventure
+        Submit: /submit/populations-2
+        Submit: /sql/submit
 
 Module 3:
     Schedule: /module_schedules/m3
-    Acquisition:
-        Introduction: /acquisition
+    Introduction Acquisition: /acquisition
+    HTML:
+        What is a website?: /acquisition/html-short
+    More Pandas:
         Improve your Pandas skills: /acquisition/pandas
+    Scraping:
         Scrape a web page: /acquisition/scraping
         Transforming data to be more usable: /acquisition/transforming
         Visualizing the data: /acquisition/visualizing
+    Crawling:
         Get even more data: /acquisition/crawling
+    Submit:
         Submit: /acquisition/submit
 
 Module 4:
@@ -47,15 +64,6 @@ Module 5:
     Submit:
         Submit: /submit/transformation-2
 
-Module 6:
-    Schedule: /module_schedules/m6
-    Visualisation:
-        Introduction: /visualisation
-        Learn about Bokeh for visualizations: /visualisation/bokeh
-        Visualize developing countries: /visualisation/development
-    Submit:
-        Submit: /visualisation/submit
-
 Exam:
-    Exam:  /exam/
+    Exam: /exam/
     Submit: /submit/exam1

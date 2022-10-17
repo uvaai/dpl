@@ -29,14 +29,12 @@ templates:
         hide_calculated: true
 
 grades:
-    queue: *check_off
-    cards: *fullyauto
-    hangman: *auto-manual
-    adventure: *auto-manual
+    populations-1: *check_off
+    populations-2: *manual
+    databases: *manual
     scraping-data: *manual
     transformation-1: *check_off
     transformation-2: *manual
-    visualization: *manual
     exam1: *check_off
 
 calculation:
@@ -48,17 +46,16 @@ calculation:
 assignments:
     show_progress: true
     submits:
-        hangman: 1
-        adventure: 1
+        populations-1: 0
+        populations-2: 1
+        databases: 1
         scraping-data: 1
         transformation-1: 0
         transformation-2: 2
-        visualization: 1
 
 manualcheck:
     submits:
-        queue: 1
-        cards: 1
+        populations-1: 1
         transformation-1: 1
 
 exam:
