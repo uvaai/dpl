@@ -8,7 +8,7 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | Monday<br>12/12    | Processing violations and<br>reviews | Watch Theory videos &<br>Start CIFAR |                    |
 | Tuesday<br>13/12   | Counting words and<br>better metrics | Finish CIFAR Notebook       | Q & A lecture               |
 | Wednesday<br>14/12 | Further tweaks and<br>final improvements | Start GTSRB Notebook    |                             |
-| Thursday<br>15/12  | Finish final improvements and<br>start Yelp API | Finish. GTSRB Notebook | Group seminar         |
+| Thursday<br>15/12  | Finish final improvements<br>and start Yelp API | Finish. GTSRB Notebook | Group seminar         |
 | Friday<br>16/12    | Finish Yelp API              | Writing                             | Group seminar               |
 
 
