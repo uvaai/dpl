@@ -1,17 +1,17 @@
 
 ## Module 4
 
-The deadline for both Data Pipelines and Introduction to Machine Learning 2 is<br>**Thursday December 1st at 17:59**
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Thursday December 1st at 17:59**
 
-| Day                | Data Pipelines               | Introduction to<br>Machine Learning | Seminars                    |
+| Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Thursday<br>24/11  | Start Climate Data		    | Watch Theory videos + Entropy       |                             |
-| Friday<br>25/11    | Finish Climate Data          | Splitting data + Info Gain          |                             |
+| Thursday<br>24/11  | Scraping part 2              | Watch Theory videos + Entropy       | Group seminar               |
+| Friday<br>25/11    |                              | Splitting data + Info Gain          | Group seminar               |
 |                    |                              |                                     |                             |
-| Monday<br>28/11    | Yelp: t/m Merging JSON reviews | ID3                               | Group seminar               |
-| Tuesday<br>29/11   | Yelp: Matching inspections with reviews | Numerical Decision Trees | Q & A lecture               |
-| Wednesday<br>30/11 | Yelp: Matching inspections with reviews | Random Forests           |                             |
-| Thursday<br>01/12  | Yelp: Merging in the inspections | Written Assignment              |                             |
+| Monday<br>28/11    | Crawling part 1              | ID3                                 |                             |
+| Tuesday<br>29/11   |                              | Numerical Decision Trees            | Q & A lecture               |
+| Wednesday<br>30/11 | Crawling part 2              | Random Forests                      |                             |
+| Thursday<br>01/12  |                              | Written Assignment                  | Group seminar               |
 
 
 
