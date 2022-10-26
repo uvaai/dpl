@@ -2,7 +2,8 @@ Welcome:
     Read the syllabus to get started: /syllabus
 
 Module 1:
-    Introduction: /populations-oo
+    Schedule: /module_schedules/m1
+    Introduction: /extra/intro-oo
     Classes:
         Learn about using classes in Python [theory]: /python/en/classes
         Practice with classes [practice]: /python/en/classes/practice
@@ -17,20 +18,20 @@ Module 1:
         Submit: /submit/populations-1
 
 Module 2:
+    Schedule: /module_schedules/m2
+    Introduction: /extra/intro-oo-2
     Populations (part 2):
         Phase 6: /populations-oo/phase6
         Phase 7: /populations-oo/phase7
         Phase 8: /populations-oo/phase8
         Experiment: /populations-oo/final-experiment
     Learn SQL:
-        Introduction: /sql/intro
         Learn about Databases: /sql/lecture
         Store movie information using sqlite: /sql/movies
     Fiftyville:
         Solve a mystery using sqlite: /sql/fiftyville
     Submit:
-        Submit Populations: /submit/populations-2
-        Submit SQL: /sql/submit
+        Submit Populations and SQL: /submit/populations-sql
 
 Module 3:
     Schedule: /module_schedules/m3
@@ -39,8 +40,11 @@ Module 3:
         What is a website?: /acquisition/html-short
     More Pandas:
         Improve your Pandas skills: /acquisition/pandas
-    Scraping:
+    Scraping (part 1):
         Scrape a web page: /acquisition/scraping
+
+Module 4:
+    Scraping (part 2):
         Transforming data to be more usable: /acquisition/transforming
         Visualizing the data: /acquisition/visualizing
     Crawling:
@@ -48,7 +52,8 @@ Module 3:
     Submit:
         Submit: /acquisition/submit
 
-Module 4:
+
+Module 5:
     Schedule: /module_schedules/m4
     Transformation:
         Introduction: /transformation
@@ -57,7 +62,7 @@ Module 4:
     Submit:
         Submit: /submit/transformation-1
 
-Module 5:
+Module 6:
     Schedule: /module_schedules/m5
     Tranformation:
         "Part two: processing the data": /transformation/health-code-violations-2
