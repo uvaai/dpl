@@ -5,14 +5,14 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Tuesday<br>15/11   | Watch: DOM videos +<br>Homepage | Watch Theory 1 +<br>Backward: 1a |                             |
-| Wednesday<br>16/11 | Scrape: Title and Rating     | Backward: 1b & 2                    | Q & A lecture               |
-| Thursday<br>17/11  | Scrape: Year and Actor       | Backward: 3, 4 & 5 + Written<br>assignment: Send GDPR request | Group seminar|
-| Friday<br>18/11    | Scrape: Runtime              | Backward: 6 +<br>Watch Theory 2     | Group seminar               |
+| Tuesday<br>15/11   | HTML + Homepage              | Watch Theory 1 +<br>Backward: 1a    |                             |
+| Wednesday<br>16/11 | More Pandas                  | Backward: 1b & 2                    | Q & A lecture               |
+| Thursday<br>17/11  | Scraping: Title + Rating     | Backward: 3, 4 & 5 + Written<br>assignment: Send GDPR request | Group seminar|
+| Friday<br>18/11    | Scraping: Year + Actors      | Backward: 6 +<br>Watch Theory 2     | Group seminar               |
 |                    |                              |                                     |                             |
-| Monday<br>21/11    | Save CSV results             | Start Activations                   |                             |
-| Tuesday<br>22/11   | Visuzalize                   | Finish Activations +<br>Watch Theory 3 | Q & A lecture            |
-| Wednesday<br>23/11 |                              | Finish Written Assignment           |                             |
+| Monday<br>21/11    | Scraping: Runtime + URL +<br>Save CSV results | Start Activations  |                             |
+| Tuesday<br>22/11   | Scraping: Step 2             | Finish Activations +<br>Watch Theory 3 | Q & A lecture            |
+| Wednesday<br>23/11 | Scraping: Step 2             | Finish Written Assignment           |                             |
 
 
 
