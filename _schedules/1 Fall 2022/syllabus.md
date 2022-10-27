@@ -123,7 +123,6 @@ where to find you when it is your turn.
 The hours are scheduled as follows:
 
 * In general, assistance hours are from 10 to 13
-* On Monday there are group seminars in the morning, so the assistance hours are from 13 to 16
 * If there is a Q&A lecture listed in the daily schedule, the assistance will start after the Q&A, generally from 11 to 14
 
 ### Q & A Lectures
@@ -152,8 +151,11 @@ of the formats above, you can email the course staff at <minorai@mprog.nl>
 
 ## Passing the course
 
-Each **second** module (module 2, 4, and 6) will each be graded on a 1 to 10
-scale. Your grade will mainly depend on the style and design of your code.
+This course consists of 3 larger assignments, that have been divided over 6
+modules. For each first module of an assignment, you'll only receive feedback
+on your code, which you can use the to improve your work. Then, for the second
+module, you'll hand in the full assignment, which will be graded on a 1 to
+10 scale. Your grade will mainly depend on the style and design of your code.
 
 Design
 
@@ -167,10 +169,7 @@ Style
 clear variable names, adding comments and adding whitespace to separate blocks
 of code can all help to make your code more readable.
 
-Throughout the modules more design and style concepts will be explained. You
-are expected to apply these concepts in your code from that point onward.
-
-If you've completed the entire module and your code produces the correct
+If you've completed the entire assignment and your code produces the correct
 output, your grade starts at 6. The remainder of your grade is then
 determined as follows:
 
@@ -224,7 +223,7 @@ The exam will be another *pass/fail* exam. More details on the exam will follow
 later.
 
 Once you've passed the exam, your final grade will be computed as the average
-of all your grades for all the modules
+of the 3 graded assignments in the course.
 
 ## Academic honesty
 
