@@ -5,13 +5,13 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Thursday<br>24/11  | Scraping part 2              | Watch Theory videos + Entropy       | Group seminar               |
-| Friday<br>25/11    |                              | Splitting data + Info Gain          | Group seminar               |
+| Thursday<br>24/11  | Scraping: Transforming       | Watch Theory videos + Entropy       | Group seminar               |
+| Friday<br>25/11    | Scraping: Visualizing        | Splitting data + Info Gain          | Group seminar               |
 |                    |                              |                                     |                             |
-| Monday<br>28/11    | Crawling part 1              | ID3                                 |                             |
-| Tuesday<br>29/11   |                              | Numerical Decision Trees            | Q & A lecture               |
-| Wednesday<br>30/11 | Crawling part 2              | Random Forests                      |                             |
-| Thursday<br>01/12  |                              | Written Assignment                  | Group seminar               |
+| Monday<br>28/11    | Crawling: Part 1             | ID3                                 |                             |
+| Tuesday<br>29/11   | Crawling: Part 1             | Numerical Decision Trees            | Q & A lecture               |
+| Wednesday<br>30/11 | Crawling: Part 2             | Random Forests                      |                             |
+| Thursday<br>01/12  | Crawling: Part 2             | Written Assignment                  | Group seminar               |
 
 
 
