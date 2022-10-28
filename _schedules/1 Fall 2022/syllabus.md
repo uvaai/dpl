@@ -2,7 +2,7 @@
 
 University of Amsterdam / Programming Lab / 5082DAPI6Y
 
-## Syllabus<br><small>Fall 2021</small>
+## Syllabus<br><small>Fall 2022</small>
 
 This course is the continuation of Python for Data Processing. A data pipeline
 is a sequence of steps that transforms raw data into something more useable.
