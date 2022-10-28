@@ -35,26 +35,31 @@ Module 2:
 
 Module 3:
     Schedule: /module_schedules/m3
-    Introduction Acquisition: /acquisition
+    Introduction Acquisition: /extra/intro-scraping
     HTML:
         What is a website?: /acquisition/html-short
+        Make your own website: /acquisition/homepage
     More Pandas:
         Improve your Pandas skills: /acquisition/pandas
     Scraping (part 1):
         Scrape a web page: /acquisition/scraping
+    Submit:
+        Submit: /submit/scraping-1
 
 Module 4:
+    Schedule: /module_schedules/m4
+    Introduction Crawling: /extra/intro-crawling
     Scraping (part 2):
         Transforming data to be more usable: /acquisition/transforming
         Visualizing the data: /acquisition/visualizing
     Crawling:
         Get even more data: /acquisition/crawling
     Submit:
-        Submit: /acquisition/submit
+        Submit: /submit/scraping-2
 
 
 Module 5:
-    Schedule: /module_schedules/m4
+    Schedule: /module_schedules/m5
     Transformation:
         Introduction: /transformation
         Transform and visualize climate data: /transformation/climate-change
