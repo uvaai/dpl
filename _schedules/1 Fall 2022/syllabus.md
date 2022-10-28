@@ -144,11 +144,6 @@ need more clarification or context.
 If you have personal matters to discuss or other questions that do not fit any
 of the formats above, you can email the course staff at <minorai@mprog.nl>
 
-### Email the staff
-
-If you have personal matters to discuss or other questions that do not fit any
-of the formats above, you can email the course staff at <minorai@mprog.nl>
-
 ## Passing the course
 
 This course consists of 3 larger assignments, that have been divided over 6
