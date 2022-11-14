@@ -68,7 +68,7 @@ Module 5:
         Submit: /submit/transformation-1
 
 Module 6:
-    Schedule: /module_schedules/m5
+    Schedule: /module_schedules/m6
     Tranformation:
         "Part two: processing the data": /transformation/health-code-violations-2
     Submit:
