@@ -1,10 +1,12 @@
-# Data Pipelines Exam
+# Data Processing and Representations Practice Exam
 
-This is a digital exam. The exam consists of programming exercises that are purely based on input, output, and calculations. You will use these exercises to show that you can create a data pipeline from scratch using tools covered in this course.
+This is a digital exam. The exam consists of programming exercises that are purely based on input, output, and calculations. You will use these exercises to show that you can write a data processing program from scratch using tools covered in this course.
 
-During the exam, you are allowed use the internet and the code you have written for the DPL modules. You are obviously not allowed to message other students, so make sure any and all messaging applications are closed for the entire duration of the exam. The only allowed tools are an editor with your code, possibly with code from earlier assignments, your terminal and a browser for searching for other coding resources.
+During the exam, you are allowed use the internet and the code you have written for the PDP and DPR modules. You are obviously not allowed to message other students, so make sure any and all messaging applications are closed for the entire duration of the exam. The only allowed tools are an editor with your code, possibly with code from earlier assignments, your terminal and a browser for searching for other coding resources and documentation.
 
-You will not be graded on design, but only on the correctness of your code and whether you met the requirements. You do not have to comment your code, nor do you have to abide by any other styling rules (though this can greatly help you understand your code).
+_You will not be graded on design, but only on the correctness of your code_ and whether you met the requirements. You do not have to comment your code, nor do you have to abide by any other styling rules (though this can greatly help you understand your code).
+
+This exam consists of 3 parts. Each of the parts can be made separately and are fully independent of each other.
 
 ## Rules
 
@@ -16,6 +18,8 @@ You will not be graded on design, but only on the correctness of your code and w
 *Before you leave the exam room, check with us that your submission was correctly submitted!*
 
 # The exam
+
+> Please note that this practice exam is not entirely representative of the upcoming final exam. This practice exam consists of a series of sequential questions while the final exam will consist of three seperate individual parts. For more information refer to the exam announcement.
 
 The Iris data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. For each instance, the attributes sepal length, sepal width, petal length, petal width, and species are available. The dataset has no missing values.
 
