@@ -1,9 +1,4 @@
 name: populations-1
 files:
     required:
-        - phase1.py
-        - phase2.py
-        - phase3.py
-        - phase4.py
         - phase5.py
-        - uml.zip

@@ -30,9 +30,9 @@ templates:
 
 grades:
     populations-1: *check_off
-    populations-2: *manual
-    databases: *manual
-    scraping-data: *manual
+    populations-sql: *manual
+    scraping-1: *check_off
+    scraping-2: *manual
     transformation-1: *check_off
     transformation-2: *manual
     exam1: *check_off
@@ -47,15 +47,16 @@ assignments:
     show_progress: true
     submits:
         populations-1: 0
-        populations-2: 1
-        databases: 1
-        scraping-data: 1
+        populations-sql: 1
+        scraping-1: 0
+        scraping-2: 1
         transformation-1: 0
-        transformation-2: 2
+        transformation-2: 1
 
 manualcheck:
     submits:
         populations-1: 1
+        scraping-1: 1
         transformation-1: 1
 
 exam:

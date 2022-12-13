@@ -2,7 +2,7 @@
 
 University of Amsterdam / Programming Lab / 5082DAPI6Y
 
-## Syllabus<br><small>Fall 2021</small>
+## Syllabus<br><small>Fall 2022</small>
 
 This course is the continuation of Python for Data Processing. A data pipeline
 is a sequence of steps that transforms raw data into something more useable.
@@ -21,7 +21,7 @@ Wouter Vrielink (teacher)
 You can reach us at <minorai@mprog.nl> for any practical matters or other
 questions.
 
-## Schedule 
+## Schedule
 
 The core schedule for this course, combined with Introduction to Machine Learning 2, is
 built around working with the material each weekday from 9 to 5.  For this we
@@ -31,7 +31,7 @@ on campus full-time.
 
 Most on-campus activities, including practical assistance, will generally be
 held in this room. There are some exceptions with activities that do not fit
-in the room, like the group seminars and the exam. The schedule for these 
+in the room, like the group seminars and the exam. The schedule for these
 group seminars can be found on Datanose [here](https://datanose.nl/#course[111919])
 
 The schedule for the practical assistance hours and lectures that will be held
@@ -57,10 +57,10 @@ look at possible solutions early.
 
 ### Absences and calling in sick
 
-If you are sick or are otherwise unable to come to campus, you should inform 
+If you are sick or are otherwise unable to come to campus, you should inform
 your group TA by sending them a message on Slack. When you are feeling better,
 inform your TA again, so a new planning for that module can be made. Any exceptions
-or extensions required for this will need to be discussed with course staff (so not 
+or extensions required for this will need to be discussed with course staff (so not
 your TA). See the extension policy below for more details.
 
 If you are experiencing coronavirus-related symptoms, but are feeling fit enough
@@ -83,18 +83,18 @@ schedule a meeting and still have room in the module for an alternative planning
 Note that a meeting does not always guarantee an extension, as this might still
 depend on the details of your circumstances.
 
-In addition, for this course and Introduction to Machine Learning 2, you have a combined 
-total of 2 late days, each of which you can use to get a single 24 hour extension 
+In addition, for this course and Introduction to Machine Learning 2, you have a combined
+total of 2 late days, each of which you can use to get a single 24 hour extension
 for the module deadline. To request a late-day extension, you should write to
 your TA on Slack *before* the deadline expires and indicate you intend to
 use a late day. Any submissions received after the deadline without a requested
 late day will not be graded, meaning your grade will default to a 1.
 
-You can use only 1 late day per module to get a 24 hour extension on the deadline. 
+You can use only 1 late day per module to get a 24 hour extension on the deadline.
 This extension is for the whole module, so applies to both courses. If the deadline
-is on a Friday, using  a single late day will instead grant a 48 hour extension 
+is on a Friday, using  a single late day will instead grant a 48 hour extension
 over the weekend, meaning your deadline will move to Sunday. If you have used both
-late-days, or require more than 24 hours of extension, you may still try and 
+late-days, or require more than 24 hours of extension, you may still try and
 request a staff extension.
 
 Any staff extension request needs to be agreed upon before the deadline expires,
@@ -105,25 +105,24 @@ graded. Staff extension requests should be emailed to <minorai@mprog.nl>
 
 ## Asking questions
 
-If you have any questions about the material, there are several ways to ask them 
-and get assistance. 
+If you have any questions about the material, there are several ways to ask them
+and get assistance.
 
 ### Practical assistance
 
 There are 3 hours scheduled every day where you can ask practical
 questions to the TA's of the minor. During these hours you can use the
-"Request assistance" feature on the *Introduction to Machine Learning 2* [website](https://ml2.proglab.nl/), 
+"Request assistance" feature on the *Introduction to Machine Learning 2* [website](https://ml2.proglab.nl/),
 using the question mark symbol at the top of the sidebar. Please use this feature instead of raising your hand
-in class, as it ensures that all questions get handled in the order that they 
-are asked. Questions can of be about either the DPR or ML2 courses, just make 
-sure to mention what assignment you're working on. For your location, please 
-list the  table you are working at, so the TA handling your question knows 
+in class, as it ensures that all questions get handled in the order that they
+are asked. Questions can of be about either the DPR or ML2 courses, just make
+sure to mention what assignment you're working on. For your location, please
+list the  table you are working at, so the TA handling your question knows
 where to find you when it is your turn.
 
 The hours are scheduled as follows:
 
 * In general, assistance hours are from 10 to 13
-* On Monday there are group seminars in the morning, so the assistance hours are from 13 to 16
 * If there is a Q&A lecture listed in the daily schedule, the assistance will start after the Q&A, generally from 11 to 14
 
 ### Q & A Lectures
@@ -145,15 +144,13 @@ need more clarification or context.
 If you have personal matters to discuss or other questions that do not fit any
 of the formats above, you can email the course staff at <minorai@mprog.nl>
 
-### Email the staff
-
-If you have personal matters to discuss or other questions that do not fit any
-of the formats above, you can email the course staff at <minorai@mprog.nl>
-
 ## Passing the course
 
-Each module will each be graded on a 1 to 10 scale. Your grade will mainly
-depend on the style and design of your code.
+This course consists of 3 larger assignments, that have been divided over 6
+modules. For each first module of an assignment, you'll only receive feedback
+on your code, which you can use the to improve your work. Then, for the second
+module, you'll hand in the full assignment, which will be graded on a 1 to
+10 scale. Your grade will mainly depend on the style and design of your code.
 
 Design
 
@@ -167,10 +164,7 @@ Style
 clear variable names, adding comments and adding whitespace to separate blocks
 of code can all help to make your code more readable.
 
-Throughout the modules more design and style concepts will be explained. You
-are expected to apply these concepts in your code from that point onward.
-
-If you've completed the entire module and your code produces the correct
+If you've completed the entire assignment and your code produces the correct
 output, your grade starts at 6. The remainder of your grade is then
 determined as follows:
 
@@ -194,12 +188,12 @@ master these different skills. This is why we offer a lot practical assistance,
 so there is a chance for you to ask the questions you have about the
 scheduled material *every day*.
 
-In spite of this, we maintain a soft attendance requirement. This means that 
+In spite of this, we maintain a soft attendance requirement. This means that
 there is no hard rule stating that if you miss a certain percentage of days,
 you will fail the course, i.e. attendance does not directly affect your final
 grade.
 
-However, indirectly attendance definitely will affect your grade. The material 
+However, indirectly attendance definitely will affect your grade. The material
 requires you to work regularly on the assignments and ask questions along the
 way so you don't get stuck. This means if you are not on campus, you are much
 more likely to get stuck longer and thus end up with too little time before the
@@ -224,7 +218,7 @@ The exam will be another *pass/fail* exam. More details on the exam will follow
 later.
 
 Once you've passed the exam, your final grade will be computed as the average
-of all your grades for all the modules
+of the 3 graded assignments in the course.
 
 ## Academic honesty
 

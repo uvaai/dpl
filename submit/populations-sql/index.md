@@ -6,6 +6,10 @@ Here you can submit your solutions to the problems in your module. Take note:
 
 - You may submit and re-submit without limit up until the deadline. However, each time you submit, you need to submit all problems at once.
 
+- Please hand in all your uml files together in `uml.zip`.
+
 - In case of problems submitting, ask your teacher or send an e-mail to <minorai@mprog.nl>.
 
-**There will be no grade for this module, but you will get feedback on your code. This feedback can then be used to improve your code for the next module, in which you will continue with your simulation.**
+**Note:** Your files can not exceed 1mb in total size. Make sure your `uml.zip` is not too large, and if necessary decrease the size of your UML images.
+
+**This module will be graded. Use feedback from the previous module to improve your code.**
