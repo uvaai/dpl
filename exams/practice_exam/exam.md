@@ -19,7 +19,7 @@ This exam consists of 3 parts. Each of the parts can be made separately and are 
 
 # The exam
 
-> Please note that this practice exam is not entirely representative of the upcoming final exam. This practice exam consists of a series of sequential questions while the final exam will consist of three seperate individual parts. The difficulty of the questions and the topics at hand _are_ representative of the final exam. The three topics will be the 3 different ways you've seen to represent data and process it:
+> Please note that this practice exam is not entirely representative of the upcoming final exam. This practice exam consists of a series of sequential questions while the final exam will consist of three seperate individual parts. The difficulty of the questions and the topics at hand _are_ representative of the final exam. The three individual parts will be questions about the three different ways you've seen to represent data and process it:
 >
 > - Classes and object instances
 > - Panda's Dataframes and Series
