@@ -19,7 +19,7 @@ This exam consists of 3 parts. Each of the parts can be made separately and are 
 
 # The exam
 
-> Please note that this practice exam is not entirely representative of the upcoming final exam. This practice exam consists of a series of sequential questions while the final exam will consist of three seperate individual parts. For more information refer to the exam announcement.
+> Please note that this practice exam is not entirely representative of the upcoming final exam. This practice exam consists of a series of sequential questions while the final exam will consist of three seperate individual parts. The difficulty of the questions and the topics at hand _are_ representative of the final exam. For more information refer to the final exam announcement.
 
 The Iris data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. For each instance, the attributes sepal length, sepal width, petal length, petal width, and species are available. The dataset has no missing values.
 
