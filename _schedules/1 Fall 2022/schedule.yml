@@ -64,6 +64,5 @@ Module 5:
     Submit:
         Submit: /submit/transformation-2
 
-Exam:
-    Exam: /exam/
-    Submit: /submit/exam1
+Practice Exam:
+    Exam: /exams/practice_exam/
