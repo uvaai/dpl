@@ -1,16 +1,16 @@
 
 ## Module 6
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Thursday June 1st at 17:59**
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Monday June 5th at 17:59**
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Friday<br>26/05    | Processing violations and<br>reviews | Watch Theory videos &<br>Start CIFAR | Group seminar      |
-|                    |                                      |                                      |                    |
-| Monday<br>29/05    | Counting words and<br>better metrics | Finish CIFAR Notebook       | Q & A lecture               |
-| Tuesday<br>30/05   | Further tweaks and<br>final improvements | Start GTSRB Notebook    |                             |
-| Wednesday<br>31/05 | Finish final improvements<br>and start Yelp API | Finish. GTSRB Notebook |                       |
-| Thursday<br>01/06  | Finish Yelp API              | Writing                             | Group seminar               |
+| Tuesday<br>30/05   | Processing violations and<br>reviews | Watch Theory videos &<br>Start CIFAR |                    |
+| Wednesday<br>31/05 | Counting words and<br>better metrics | Finish CIFAR Notebook       | Q & A lecture               |
+| Thursday<br>01/06  | Further tweaks and<br>final improvements | Start GTSRB Notebook    | Group seminar               |
+| Friday<br>02/06    | Finish final improvements<br>and start Yelp API | Finish. GTSRB Notebook | Group seminar         |
+|                    |                                                 |                        |                       |
+| Monday<br>05/06    | Finish Yelp API              | Writing                             |                             |
 
 
 

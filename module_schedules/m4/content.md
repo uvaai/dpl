@@ -1,17 +1,17 @@
 
 ## Module 4
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Tuesday May 16th at 17:59**
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Wednesday May 17th at 17:59**
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Tuesday<br>09/05   | Scraping: Transforming       | Watch Theory videos + Entropy       |                             |
-| Wednesday<br>10/05 | Scraping: Visualizing        | Splitting data + Info Gain          |                             |
-| Thursday<br>11/05  | Crawling: Part 1             | ID3                                 | Group seminar               |
-| Friday<br>12/05    | Crawling: Part 1             | Numerical Decision Trees            | Q & A lecture               |
+| Wednesday<br>10/05 | Scraping: Transforming       | Watch Theory videos + Entropy       |                             |
+| Thursday<br>11/05  | Scraping: Visualizing        | Splitting data + Info Gain          | Group seminar               |
+| Friday<br>12/05    | Crawling: Part 1             | ID3                                 | Group seminar               |
 |                    |                              |                                     |                             |
-| Monday<br>15/05    | Crawling: Part 2             | Random Forests                      |                             |
-| Tuesday<br>16/05   | Crawling: Part 2             | Written Assignment                  |                             |
+| Monday<br>15/05    | Crawling: Part 1             | Numerical Decision Trees            | Q & A lecture               |
+| Tuesday<br>16/05   | Crawling: Part 2             | Random Forests                      |                             |
+| Wednesday<br>17/05 | Crawling: Part 2             | Written Assignment                  |                             |
 
 
 

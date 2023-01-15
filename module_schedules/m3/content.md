@@ -1,7 +1,7 @@
 
 # Module 3
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Monday May 8th at 17:59**
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Tuesday May 9th at 17:59**
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
@@ -12,9 +12,8 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | Tuesday<br>25/04   | Scraping: Year + Actors      | Backward: 6 +<br>Watch Theory 2     |                             |
 | Wednesday<br>26/04 | Scraping: Runtime + URL<br>+ Save CSV results | Start Activations  |                             |
 |                    |                                               |                    |                             |
-| Friday<br>28/04    | Scraping: Step 2             | Finish Activations +<br>Watch Theory 3 | Q & A lecture            |
-|                    |                              |                                        |                          |
-| Monday<br>08/05    | Scraping: Step 2             | Finish Written Assignment           |                             |
+| Monday<br>08/05    | Scraping: Step 2             | Finish Activations +<br>Watch Theory 3 | Q & A lecture            |
+| Tuesday<br>09/05   | Scraping: Step 2             | Finish Written Assignment           |                             |
 
 
 
