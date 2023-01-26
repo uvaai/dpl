@@ -1,7 +1,3 @@
-###  `pandas`
-
-For more practice in pandas, [download this notebook](notebook/autorit_student.ipynb).
-
 ### Watchlist 1
 
 We've got friends that recommend us movies to watch, but too little time to watch it. To keep track of the suggestions, you're going to build a system for this. You're going to implement two classes for keeping track of which movies you've seen and which movies you still need to watch. For this you need to implement two classes: `Watchlist` and `Movie`. `Watchlist` is a container with two lists: `movies_to_watch` and `movies_watched`. If you add movie recommendations to the list, it's going to be added to the `movies_to_watch` list, and once you've watched a move, it will move to the `movies_watched` list. `Movie` is class containing the relevant information of the movie. In our case: the name of the movie, the duration, and the director.
