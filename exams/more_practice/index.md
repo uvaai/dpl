@@ -1,6 +1,6 @@
 ###  `pandas`
 
-For more practice in pandas, [download this notebook](/autorit_student.ipynb).
+For more practice in pandas, [download this notebook](notebook/autorit_student.ipynb).
 
 ### Watchlist 1
 
