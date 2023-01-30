@@ -75,5 +75,9 @@ Module 6:
         Submit: /submit/transformation-2
 
 Practice Exam:
-    Exam: /exams/practice_exam/
-    More practice: /exams/more_practice/
+    Exam: /exams/practice_exam
+    More practice: /exams/more_practice
+
+Exam:
+    Exam: /exams/exam
+    Submit: /submit/exam2
