@@ -36,6 +36,7 @@ grades:
     transformation-1: *check_off
     transformation-2: *manual
     exam1: *check_off
+    exam2: *check_off
 
 calculation:
     final:
@@ -63,3 +64,8 @@ exam:
     show_progress: true
     submits:
         exam1: 1
+
+exam2:
+    show_progress: true
+    submits:
+        exam2: 1
