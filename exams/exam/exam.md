@@ -23,216 +23,296 @@ This exam consists of 3 parts. Each of the parts can be made separately and are 
 
 ## Part 1: OOP
 
-You and your friends start a company with a small loan of a million dollars. To keep track of employees, their salaries, and company funds you will implement two classes: `Employee`, and `Company`. `Employee` is a class that contains all relevant information about an employee. In our case, this is their name, their salary, and their function title. The `Employee` class also has a method which can be used to change the salary and function title of an employee. The class `Company` is a container for the list of employees that are currently employed and the company balance. This class implements three different methods that can be used to add employees, pay the salary of every employee, and to print all employees with a specific function title.
+A bank system asks you to implement their new transaction database. You will implement two classes: `Transaction` and `Bank`. `Transaction` is a class that contains all relevant information about a transaction: its identifier `transaction_id`, the account that the money is taken from `from_act`, the account that the money is sent to `to_act`, and the `amount` of money that is sent. The `Bank` class is a container for a list of `transactions` that implements methods to filter for large transactions, calculate the change in balance for an account, and print the change in balance for a list of accounts.
 
 The following UML describes these classes and their relation:
 
-![](umls/company.png)
+![](umls/bank.png)
 
-Implement `Employee` with the following methods:
+Implement `Transaction` with the following method:
 
-- `__init__(name, salary, function_title)`: create a new instance with the information provided by the parameters
-- `promote(title, salary)`: change the `function_title` and the `salary` of the `Employee` this method was called on.
+- `__init__(transaction_id, from_act, to_act, amount)`: create a new instance with the information provided by the parameters.
 
-Implement `Company` with the following methods:
+Implement `Bank` with the following methods:
 
-- `__init__(balance)`: create a new instance with the balance provided in the parameters and initializes any other required instance attributes.
-- `add_employee(name, salary, function_title)`: create a new employee instance using the parameters. Then add the instance to the list of employees.
-- `find_employee(name)`: search the list of employees for an employee with that exact `name`. Return the `Employee` instance if found, and `None` otherwise. You may assume that all employee names are unique.
-- `payout_salary()`: determine the total salary payout for one month. Print this total and subtract it from the company balance.
-- `print_employees_with_title(function_title)`: print the names of all employees with a specific title (see the example below for the format).
+- `__init__(transactions)`: create a new instance with the transactions provided as a parameter.
+- `filter_high_amounts()`: return a list of all transactions that transferred over 1000 dollars.
+- `total_change(act_nr)`: for the given account number (`act_nr`), return the change in money for that account as a float. This can be calculated by adding all the incomming transactions, and deducting all the outgoing transactions, for that specific account. Together this should indicate the total change in account balance from all the transactions for that account number.
+- `print_change_for_accounts(self, act_nrs)`: For a list of accounts (`act_nrs`), print the total change in account balance from all the transactions for each account in the `act_nrs` list.
 
 Have a look at this example:
 
-    trump_co = Company(1000000)
+    transactions = [Transaction(45, 'BE4567', 'NL9384', 115),
+                    Transaction(42, 'NL1234', 'BE4567', 621),
+                    Transaction(71, 'SP2398', 'NL1234', 567),
+                    Transaction(130, 'NL9384', 'NL1234', 1213),
+                    Transaction(62, 'NL1234', 'NL3394', 75),
+                    Transaction(49, 'BE4567', 'NL9384', 99),
+                    Transaction(33, 'NL3394', 'BE4567', 65),
+                    Transaction(33, 'NL1234', 'NL0010', 517),
+                    Transaction(55, 'NL1234', 'NL0010', 469),
+                    Transaction(20, 'NL1234', 'NL0010', 728),
+                    Transaction(53, 'NL1234', 'NL9384', 1393),
+                    Transaction(33, 'SP2398', 'BE4567', 849),
+                    Transaction(22, 'NL1234', 'NL9384', 992),
+                    Transaction(40, 'NL0010', 'NL3394', 1235),
+                    Transaction(52, 'NL9384', 'NL0010', 1477),
+                    Transaction(31, 'NL1234', 'NL9384', 1393),
+                    Transaction(127, 'BE4567', 'NL0010', 705),
+                    Transaction(115, 'SP2398', 'NL1234', 440),
+                    Transaction(39, 'SP2398', 'NL0010', 217),
+                    Transaction(106, 'SP2398', 'NL0010', 1335)]
 
-    trump_co.add_employee('Fleur Kleur', 12000, 'CEO')
-    trump_co.add_employee('Stacy de Wit', 1812, 'Secretary')
-    trump_co.add_employee('Bart Zwart', 2147, 'Secretary')
-    trump_co.add_employee('Danielle Groen', 3540, 'Manager')
-    trump_co.add_employee('Kees de Bruin', 4800, 'Sales executive')
-    trump_co.add_employee('Mart van Oranje', 1990, 'Secretary')
+    ing_bank = Bank(transactions)
+    first_transaction = ing_bank.transactions[0]
 
-    print(f'Started the company with: {trump_co.balance}')
-    trump_co.payout_salary()
-    print(f'Balance after first salary: {trump_co.balance}')
-
+    print('The first transaction is:')
+    print(f'TID {first_transaction.transaction_id}: ${first_transaction.amount} from {first_transaction.from_act} to {first_transaction.to_act}')
     print()
-    trump_co.print_employees_with_title('Secretary')
 
-    stacy = trump_co.find_employee('Stacy de Wit')
+    high_amounts = ing_bank.filter_high_amounts()
+    print(f'There are {len(high_amounts)} transactions that transfer over $1000!')
+    print(f'Their TIDs are: {[t.transaction_id for t in high_amounts]}.')
     print()
-    print(f'Found {type(stacy)} named {stacy.name} with a salary of {stacy.salary} and with title {stacy.function_title}.')
 
-    stacy.promote('Manager', 2900)
+    print(f'The total change for account NL3394 is ${ing_bank.total_change("NL3394")}')
     print()
-    print(f'{stacy.name} has been promoted to {stacy.function_title}! Her new salary is {stacy.salary}.')
 
-    print()
-    trump_co.print_employees_with_title('Secretary')
+    customers = ['NL1234', 'NL3394', 'NL9384', 'SP2398', 'NL0010', 'BE4567']
+    ing_bank.print_change_for_accounts(customers)
 
 Which should give the following result:
 
-    Started the company with: 1000000
-    Salary total: 26289
-    Balance after first salary: 973711
+    The first transaction is:
+    TID 45: $115 from BE4567 to NL9384
 
-    Listing all employees with title Secretary:
-    - Stacy de Wit
-    - Bart Zwart
-    - Mart van Oranje
+    There are 6 transactions that transfer over $1000!
+    Their TIDs are: [130, 53, 40, 52, 31, 106].
 
-    Found <class '__main__.Employee'> named Stacy de Wit with a salary of 1812 and with title Secretary.
+    The total change for account NL3394 is $1245
 
-    Stacy de Wit has been promoted to Manager! Her new salary is 2900.
+    NL1234 changed by $-3968
+    NL3394 changed by $1245
+    NL9384 changed by $1302
+    SP2398 changed by $-3408
+    NL0010 changed by $4213
+    BE4567 changed by $616
 
-    Listing all employees with title Secretary:
-    - Bart Zwart
-    - Mart van Oranje
 
 ## Part 2: Pandas
 
-For this assignment you need to use the file [barca.csv](barca.csv). This file contains the results for football matches of F.C. Barcelona (from seasons 11/12 to 13/14). The file contains the following data:
+For this assignment you need to use the file [film.csv](film.csv). This file contains data on a set of movies from the 1900s. The file contains the following data:
 
-    29/08/11,Villarreal,won,5,0,home
-    10/09/11,Sociedad,draw,2,2,away
-    17/09/11,Osasuna,won,8,0,home
+    Year;Length;Title;Subject;Actor;Actress;Director;Popularity;Awards
+    1990;111.0;Tie Me Up! Tie Me Down!;Comedy;Banderas, Antonio;Abril, Victoria;Almodvar, Pedro;68.0;No
+    1991;113.0;High Heels;Comedy;Bos, Miguel;Abril, Victoria;Almodvar, Pedro;68.0;No
+    1983;104.0;Dead Zone, The;Horror;Walken, Christopher;Adams, Brooke;Cronenberg, David;79.0;No
     ...
-    03/05/14,Getafe,draw,2,2,home
-    11/05/14,Elche,draw,0,0,away
-    17/05/14,Ath Madrid,draw,1,1,home
+    1988;78.0;Hot Money;Drama;Welles, Orson;;;19.0;No
+    1977;75.0;Comedy Tonight;Comedy;Williams, Robin;;;18.0;No
+    1991;65.0;Robin Williams;Comedy;Williams, Robin;;;4.0;No
 
-As you can see, the data fields are separated by a comma and contain the following information:
+As you can see, the data fields are separated by a **semicolon** and contain the following information:
 
-1. Date of the match
-2. The opponent
-3. The result: won/lost/draw
-4. The number of goals for Barcelona
-5. The number of goals for the opponent
-6. The location: away/home
+1. Year of release
+2. Duration in minutes
+3. Title of the movie
+4. Genre
+5. The name of the lead actor
+6. The name of the lead actress
+7. The name of the director
+8. The popularity (a float from 0 to 100)
+9. Whether the movie was awarded (Yes/No)
 
 #### Exercise 1
 
-Load the data into a `DataFrame` named `df` using `pandas`. Name the columns `'date'`, `'opponent'`, `'result'`, `'goals barca'`, `'goals opponent'`, and `'location'`. Print the dataframe and make sure your result has 114 rows and 6 columns:
+Load the data into a `DataFrame` named `df` using `pandas`. Print the dataframe and make sure your result has 1128 rows and 9 columns:
 
-             date    opponent result  goals barca  goals opponent location
-    0    29/08/11  Villarreal    won            5               0     home
-    1    10/09/11    Sociedad   draw            2               2     away
-    2    17/09/11     Osasuna    won            8               0     home
-    3    21/09/11    Valencia   draw            2               2     away
-    4    24/09/11  Ath Madrid    won            5               0     home
-    ..        ...         ...    ...          ...             ...      ...
-    109  20/04/14  Ath Bilbao    won            2               1     home
-    110  27/04/14  Villarreal    won            3               2     away
-    111  03/05/14      Getafe   draw            2               2     home
-    112  11/05/14       Elche   draw            0               0     away
-    113  17/05/14  Ath Madrid   draw            1               1     home
+          Year  Length  ... Popularity Awards
+    0     1990   111.0  ...       68.0     No
+    1     1991   113.0  ...       68.0     No
+    2     1983   104.0  ...       79.0     No
+    3     1979   122.0  ...        6.0     No
+    4     1978    94.0  ...       14.0     No
+    ...    ...     ...  ...        ...    ...
+    1123  1975    93.0  ...       85.0     No
+    1124  1949    90.0  ...       57.0     No
+    1125  1987   103.0  ...       69.0     No
+    1126  1947    87.0  ...       17.0     No
+    1127  1990    92.0  ...       18.0     No
 
-    [114 rows x 6 columns]
-
-> Hint: keep in mind that the default way pandas will load a csv is by interpreting the first row in the file as a header! The csv provided _does not_ have a header.
+    [1128 rows x 9 columns]
 
 #### Exercise 2
 
 Now that the `DataFrame` has been loaded, we will do some data transformations.
 
-Create a new `DataFrame` named `goals` that, for every `'opponent'` in the dataset, shows the total number of goals F.C. Barcelona scored as well as the number of goals the opponent scored. Your result should look something like this:
+Add a new column to `df` named `'Demidecade'` that, for every movie, determines which 5 year period that movie was released in. For example, for a movie that was released in `1964` this column should contain `1960`, and for a movie released in `1997` this column should contain `1995`.
 
-                 goals barca  goals opponent
-    opponent
-    Almeria                6               1
-    Ath Bilbao            13               7
-    Ath Madrid            14               4
-    Betis                 19               9
-    Celta                 11               3
-    Elche                  4               0
-    Espanol               13               1
-    Getafe                21               7
-    Granada               14               5
-    La Coruna              7               4
-    Levante               20               2
-    Malaga                19               4
-    Mallorca              16               2
-    Osasuna               24               5
-    Real Madrid           13              11
-    Santander              5               0
-    Sevilla               14               6
-    Sociedad              16              11
-    Sp Gijon               4               1
-    Valencia              14               9
-    Valladolid             9               4
-    Vallecano             29               1
-    Villarreal            10               3
-    Zaragoza              14               2
+Print the resulting dataframe. It should look something like this:
+
+          Year  Length  ... Awards Demidecade
+    0     1990   111.0  ...     No       1990
+    1     1991   113.0  ...     No       1990
+    2     1983   104.0  ...     No       1980
+    3     1979   122.0  ...     No       1975
+    4     1978    94.0  ...     No       1975
+    ...    ...     ...  ...    ...        ...
+    1123  1975    93.0  ...     No       1975
+    1124  1949    90.0  ...     No       1945
+    1125  1987   103.0  ...     No       1985
+    1126  1947    87.0  ...     No       1945
+    1127  1990    92.0  ...     No       1990
+
+    [1128 rows x 10 columns]
 
 #### Exercise 3
 
-Create a new column in `df` named `'year'`. This column should contain the year in which the match was played:
+Now create a `Series` named `duration_demidecade` that, for every demi-decade (5 year period) in the dataset, shows the average duration of movies released in that demi-decade rounded to the nearest minute. Your result should look something like this:
 
-             date    opponent result  goals barca  goals opponent location  year
-    0    29/08/11  Villarreal    won            5               0     home  2011
-    1    10/09/11    Sociedad   draw            2               2     away  2011
-    2    17/09/11     Osasuna    won            8               0     home  2011
-    3    21/09/11    Valencia   draw            2               2     away  2011
-    4    24/09/11  Ath Madrid    won            5               0     home  2011
-    ..        ...         ...    ...          ...             ...      ...   ...
-    109  20/04/14  Ath Bilbao    won            2               1     home  2014
-    110  27/04/14  Villarreal    won            3               2     away  2014
-    111  03/05/14      Getafe   draw            2               2     home  2014
-    112  11/05/14       Elche   draw            0               0     away  2014
-    113  17/05/14  Ath Madrid   draw            1               1     home  2014
-
-    [114 rows x 7 columns]
-
-> Hint: The dates on which these matches were played are all in the 2000's.
+    Demidecade
+    1920    102.0
+    1925     99.0
+    1930     88.0
+    1935    102.0
+    1940     94.0
+    1945     97.0
+    1950    100.0
+    1955    109.0
+    1960    121.0
+    1965    117.0
+    1970    112.0
+    1975    117.0
+    1980    111.0
+    1985    105.0
+    1990    109.0
+    1995    102.0
+    Name: Length, dtype: float64
 
 #### Exercise 4
 
-Compute the difference between the number of home matches won and the amount of away matches won. Print your answer in the following format:
+Write code that can find the demi-decade that had the longest movies on average. Print the result as follows:
 
-    Barca won 15 more games at home than away.
+    The 5 year period with the longest movies on average was: XXXX
+
+#### Exercise 5
+
+Find how many movies that are in our dataset were released in the demi-decade 1965. Print the result as follows:
+
+    The 5 year period from 1965 had YYYY movies
+
+#### Exercise 6
+
+The dataset contains a lot of names that are formatted as `'<lastname>, <firstname>'`. We want to reformat these names to make them more readable. Change every name in the columns `'Actor', 'Actress', 'Director'` to be in the new format `<firstname> <lastname>`.
+
+Print the first 5 entries from the columns `'Actor', 'Actress', 'Director'`:
+
+                    Actor         Actress          Director
+    0    Antonio Banderas  Victoria Abril    Pedro Almodvar
+    1          Miguel Bos  Victoria Abril    Pedro Almodvar
+    2  Christopher Walken    Brooke Adams  David Cronenberg
+    3        Sean Connery    Brooke Adams    Richard Lester
+    4        Richard Gere    Brooke Adams   Terrence Malick
 
 ## Part 3: Built-in data structures
 
-#### Exercise 1
+### Phone book
 
-Your friends tasked you with doing the groceries for a high tea at your new company. They have provided you with the ingredients that they require for their recipes. The ingredients for each of the recipes are stored in a dictionary with the format `{ingredient_name: (amount, units)}`; the key is the name of the ingredient, and the values are tuples containing both the amount required and the units the amount was measured in.
+For this assignment you'll write a few functions to work with some phone book data. This phone book is built using a *dictionary of dictionaries*, where the outer dictionary can be used to search on **last name** as a key, and its corresponding value is an inner dictionary of **first names** and their **phone numbers**. As it is possbile for several people to have the same first and last name, the values of the inner dictionary are all *lists* of phone numbers, which will contain several phone numbers if there are multiple people with that same name.
 
-    recipe_banana_bread = {'banana': (3, 'pcs'), 'butter': (80, 'g'), 'baking soda': (0.5, 'tsp'), 'sugar': (150, 'g'), 'egg': (1, 'pcs'), 'flour': (200, 'g')}
-    recipe_brownies = {'butter': (225, 'g'), 'sugar': (450, 'g'), 'egg': (5, 'pcs'), 'flour': (110, 'g'), 'chocolate': (140, 'g'), 'cocoa powder': (55, 'g')}
-    recipe_scones = {'flour': (350, 'g'), 'baking powder': (1, 'tsp'), 'sugar': (3, 'tbsp'), 'milk': (175, 'ml'), 'vanilla extract': (1, 'tsp'), 'egg': (1, 'pcs')}
-    recipe_cake = {'butter': (200, 'g'), 'flour': (200, 'g'), 'sugar': (200, 'g'), 'vanilla extract': (3, 'tsp'), 'egg': (4, 'pcs')}
-    recipe_muffins = {'flour': (300, 'g'), 'baking powder': (8, 'g'), 'sugar': (150, 'g'), 'butter': (75, 'g'), 'egg': (2, 'pcs'), 'milk': (250, 'ml'), 'vanilla extract': (1, 'tsp')}
+Below is the example phone book we'll be working with for the assignment
 
-    menu = [recipe_banana_bread, recipe_brownies, recipe_scones, recipe_cake, recipe_muffins]
+    phone_book = {"White":
+                     {"Harvey": [5306],
+                      "Larry": [2116],
+                      "John": [7470, 4279, 5122]},
+                 "Orange":
+                     {"Tim": [7988],
+                      "Jack": [2994, 9808],
+                      "James": [3358],
+                      "Freddy": [9024]},
+                 "Blonde":
+                     {"Vic": [6027],
+                      "Micheal": [3397],
+                      "Jack": [9299]},
+                 "Pink":
+                     {"Edward": [1380],
+                      "Quentin": [5461],
+                      "Jack": [3768],
+                      "Steve": [5060]},
+                 }
 
-In order to know how much to buy of each ingredient, you are going to write a program that can combine the ingredients of a list of recipes. Write the function `combine_recipes(menu)` that takes a list of dictionaries with ingredients and combines all these dictionaries to a single dictionary with all the required ingredients (i.e. the shopping list).. The output of the function should be a combined dictionary with the format `{(ingredient_name, units): amount}`; the key is a tuple with the name of the ingredient and the unit it was measured in, and the value is the amount of the ingredient required. If the recipes have an overlap of ingredients, the quantities should, of course, be added to each other.
+You should copy-paste this example in your own code file. Make sure you understand the structure of the phonebook before moving on to the first assignment.
 
-> Note that the keys and values of the input dictionaries are formatted differently from the output format!
 
-Test the code by running:
+#### Excercise 1
 
-    menu_total = combine_recipes(menu)
+Write a function `add_number(phone_book, first_name, last_name, phone_number)` that adds the `phone_number` of a person with the given `first_name` and `last_name` to the `phone_book`. This function should modify the original `phone_book` and return the modified copy. Note that is possible that a person with that same name might already be in the phone book, in which case the number should be added to the existing list. If the first and/or last name don't already occur in the phone book, they should be added as entries in the phone book.
 
-    print(menu_total)
+You can test your code using
 
-Which should print:
+    add_number(phone_book, 'James', 'Orange', 8796)
+    add_number(phone_book, 'Calvin', 'Blue', 1109)
 
-    {('banana', 'pcs'): 3, ('butter', 'g'): 580, ('baking soda', 'tsp'): 0.5, ('sugar', 'g'): 950, ('egg', 'pcs'): 13, ('flour', 'g'): 1160, ('chocolate', 'g'): 140, ('cocoa powder', 'g'): 55, ('baking powder', 'tsp'): 1, ('sugar', 'tbsp'): 3, ('milk', 'ml'): 425, ('vanilla extract', 'tsp'): 5, ('baking powder', 'g'): 8}
+    print(phone_book)
 
-#### Exercise 2
+which should print something like
 
-To prevent waste of company funds you check the pantry and find some leftover ingredients from previous high teas. Ingredients that are available in sufficient quantity do not have to be added to your shopping list.
+    {'White':
+        {'Harvey': [5306],
+         'Larry': [2116],
+         'John': [7470, 4279, 5122]},
+     'Orange':
+         {'Tim': [7988],
+          'Jack': [2994, 9808],
+          'James': [3358, 8796],
+          'Freddy': [9024]},
+     'Blonde':
+         {'Vic': [6027],
+          'Micheal': [3397],
+          'Jack': [9299]},
+     'Pink':
+         {'Edward': [1380],
+          'Quentin': [5461],
+          'Jack': [3768],
+          'Steve': [5060]},
+     'Blue':
+         {'Calvin': [1109]}}
 
-    pantry = {('chocolate', 'g'): 140, ('banana', 'pcs'): 6, ('butter', 'g'): 500, ('sugar', 'cube'): 10, ('cocoa powder', 'g'): 200, ('strawberries', 'g'): 432, ('egg', 'pcs'): 10, ('milk', 'ml'): 1500, ('flour', 'g'): 2000}
+> Note that order of the dictionary keys, and the formatting of your printing do not need to be the same. Only the key-value mappings of the dictionaries needs to match here.
 
-Implement the function `check_pantry(pantry, menu_total)` that takes a dictionary containing all ingredients available in the pantry and another dictionary that contains all ingredients that are required. The function should return a new dictionary with only the ingredients, units, and amounts that should still be bought.
 
-    shopping_list = check_pantry(pantry, menu_total)
-    print(shopping_list)
+#### Excercise 2
 
-Which should print:
+Next, write the function `build_number_list(phone_book)` that take as input a `phone_book` and returns a list of tuples each containing the *first name*, *last name* and *phone number* of all the individuals in the phone book. So this function will need convert the dictionary of dictionaries to a single list of tuples with all the individuals in the phone book. Note that order of the of the names does not matter, as long as all the individuals from the phone book are listed.
 
-    {('butter', 'g'): 80, ('baking soda', 'tsp'): 0.5, ('sugar', 'g'): 950, ('egg', 'pcs'): 3, ('baking powder', 'tsp'): 1, ('sugar', 'tbsp'): 3, ('vanilla extract', 'tsp'): 5, ('baking powder', 'g'): 8}
+If you call this function on your example phone book using `build_number_list(phone_book)`, you should get an output similar to this
 
-> Hint: First check whether an ingredient is present in your pantry at all. If it is in the pantry, compute how much of the ingredient you still have to purchase. If it is not in the pantry, you would need to purchase the full amount of this ingredient.
+    [('Harvey', 'White', 5306),
+     ('Larry', 'White', 2116),
+     ('John', 'White', 7470),
+     ('John', 'White', 4279),
+     ('John', 'White', 5122),
+     ('Tim', 'Orange', 7988),
+     ('Jack', 'Orange', 2994),
+     ('Jack', 'Orange', 9808),
+     ('James', 'Orange', 3358),
+     ('James', 'Orange', 8796),
+     ('Freddy', 'Orange', 9024),
+     ('Vic', 'Blonde', 6027),
+     ('Micheal', 'Blonde', 3397),
+     ('Jack', 'Blonde', 9299),
+     ('Edward', 'Pink', 1380),
+     ('Quentin', 'Pink', 5461),
+     ('Jack', 'Pink', 3768),
+     ('Steve', 'Pink', 5060),
+     ('Calvin', 'Blue', 1109)]
+
+
+### Excercise 3
+
+Finally, write a function `find_first_name(phone_book, first_name)` that takes a `phone_book` and finds all of the people with that `first_name` and their phone numbers. The function should return a new dictionary, where the keys are the different *last names* belonging to that first name, and the values are the lists of *phone numbers* belonging to people with that first name and last name.
+
+If you test your code using the first name `Jack` by calling `find_first_name(phone_book, 'Jack')`, you should get the following output
+
+    {'Orange': [2994, 9808], 'Blonde': [9299], 'Pink': [3768]}
