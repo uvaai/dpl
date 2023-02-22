@@ -35,7 +35,7 @@ in the room, like the group seminars and the exam. The schedule for these
 group seminars can be found on Datanose [here](https://datanose.nl/#course[111919])
 
 The schedule for the practical assistance hours and lectures that will be held
-in L0.11 can be found in the "Asking Questions" section below.
+in L0.10 can be found in the "Asking Questions" section below.
 
 ### Deadlines and daily schedules
 
@@ -55,20 +55,34 @@ even offer extra help or resources, if needed. In general, it is a good idea to
 already contact us if are more than 1 day behind on the schedule, so we can
 look at possible solutions early.
 
+#### Part-time students
+
+If you are a part-time student, you can just follow the part of the daily
+schedule intended for your half of the program. You should still attend the
+group seminars with the other students, but can otherwise choose which days
+you are present and which days of practical assistance combine best
+with your own schedule.
+
 ### Absences and calling in sick
 
-If you are sick or are otherwise unable to come to campus, you should inform
-your group TA by sending them a message on Slack. When you are feeling better,
-inform your TA again, so a new planning for that module can be made. Any exceptions
-or extensions required for this will need to be discussed with course staff (so not
-your TA). See the extension policy below for more details.
+If you are sick or are otherwise unable to come to campus, you should inform 
+your group TA you will be absent by sending them a message on Slack. When you
+are feeling better, inform your TA again, so your period of absence can be
+registered.
 
-If you are experiencing coronavirus-related symptoms, but are feeling fit enough
-otherwise, you should do a self-test. If the self-test is negative, you can and
-should still come to campus. If the self-test is positive, you should report in sick,
-like described above, but work from home instead. When contacting your group TA, do
-also mention that you are absent because of a positive self-test, so we know you are
-working from home.
+Depending on how long you were sick, and if you are behind with the module, you
+can then also contact the course staff to discuss an alternate planning for the
+module.  Note that this option requires you to have also already messaged your
+TA at the start of your absense. Any exceptions or extensions required for this
+will need to be discussed with course staff (so not your TA). See the extension
+policy below for more details.
+
+If you are experiencing coronavirus-related symptoms, but are feeling fit
+enough otherwise, you should do a self-test. If the self-test is negative, you
+can and should still come to campus. If the self-test is positive, you should
+report in sick, like described above, but work from home instead. When
+contacting your group TA, do also mention that you are absent because of a
+positive self-test, so we know you are working from home.
 
 ### Extension policy and late days
 
@@ -83,18 +97,20 @@ schedule a meeting and still have room in the module for an alternative planning
 Note that a meeting does not always guarantee an extension, as this might still
 depend on the details of your circumstances.
 
-In addition, for this course and Introduction to Machine Learning 2, you have a combined
-total of 2 late days, each of which you can use to get a single 24 hour extension
-for the module deadline. To request a late-day extension, you should write to
-your TA on Slack *before* the deadline expires and indicate you intend to
-use a late day. Any submissions received after the deadline without a requested
-late day will not be graded, meaning your grade will default to a 1.
+In addition, for this course and Python for Data Processing, you have a
+combined total of 2 late days, each of which you can use to get a single 24
+hour extension for the module deadline. You can request a late day using the
+submit forms linked in the sidebar of the *Introduction to Machine Learning 1* 
+[website](https://ml1.proglab.nl). You must always submit your
+request *before* the deadline expires. Any submissions received after the
+deadline without a requested late day will not be graded, meaning your grade
+will default to a 1.
 
-You can use only 1 late day per module to get a 24 hour extension on the deadline.
+You can use only 1 late day per module to get a 24 hour extension on the deadline. 
 This extension is for the whole module, so applies to both courses. If the deadline
-is on a Friday, using  a single late day will instead grant a 48 hour extension
+is on a Friday, using  a single late day will instead grant a 48 hour extension 
 over the weekend, meaning your deadline will move to Sunday. If you have used both
-late-days, or require more than 24 hours of extension, you may still try and
+late days, or require more than 24 hours of extension, you may still try and 
 request a staff extension.
 
 Any staff extension request needs to be agreed upon before the deadline expires,
@@ -105,24 +121,25 @@ graded. Staff extension requests should be emailed to <minorai@mprog.nl>
 
 ## Asking questions
 
-If you have any questions about the material, there are several ways to ask them
-and get assistance.
+If you have any questions about the material, there are several ways to ask them 
+and get assistance. 
 
 ### Practical assistance
 
 There are 3 hours scheduled every day where you can ask practical
 questions to the TA's of the minor. During these hours you can use the
-"Request assistance" feature on the *Introduction to Machine Learning 2* [website](https://ml2.proglab.nl/),
+"Request assistance" feature on the *Introduction to Machine Learning 1* [website](https://ml1.proglab.nl/), 
 using the question mark symbol at the top of the sidebar. Please use this feature instead of raising your hand
-in class, as it ensures that all questions get handled in the order that they
-are asked. Questions can of be about either the DPR or ML2 courses, just make
-sure to mention what assignment you're working on. For your location, please
-list the  table you are working at, so the TA handling your question knows
+in class, as it ensures that all questions get handled in the order that they 
+are asked. Questions can of be about either the PDP or ML1 courses, just make 
+sure to mention what assignment you're working on. For your location, please 
+list the  table you are working at, so the TA handling your question knows 
 where to find you when it is your turn.
 
 The hours are scheduled as follows:
 
 * In general, assistance hours are from 10 to 13
+* On Monday there are group seminars in the morning, so the assistance hours are from 13 to 16
 * If there is a Q&A lecture listed in the daily schedule, the assistance will start after the Q&A, generally from 11 to 14
 
 ### Q & A Lectures
@@ -130,7 +147,7 @@ The hours are scheduled as follows:
 Every module there will be at least one Q & A lecture, where you can ask
 questions about the theoretical parts of the course. The schedule for these
 lectures can be found as part of the daily schedule for the module. The lectures
-will always be in the main room L0.11 at 10:00 on the scheduled day.
+will always be in the main room L0.10 at 10:00 on the scheduled day.
 
 These Q & A sessions will generally be scheduled the day after you should watch
 the theory videos of the module. While watching the videos, you can write
