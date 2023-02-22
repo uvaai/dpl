@@ -2,7 +2,7 @@
 
 University of Amsterdam / Programming Lab / 5082DAPI6Y
 
-## Syllabus<br><small>Fall 2022</small>
+## Syllabus<br><small>Spring 2023</small>
 
 This course is the continuation of Python for Data Processing. A data pipeline
 is a sequence of steps that transforms raw data into something more useable.
@@ -26,7 +26,7 @@ questions.
 The core schedule for this course, combined with Introduction to Machine Learning 2, is
 built around working with the material each weekday from 9 to 5.  For this we
 have one room on the Science Park campus permanently reserved for minor AI
-students, namely **L0.11**, which provides enough space for all of you to work
+students, namely **L0.10**, which provides enough space for all of you to work
 on campus full-time.
 
 Most on-campus activities, including practical assistance, will generally be
@@ -97,11 +97,11 @@ schedule a meeting and still have room in the module for an alternative planning
 Note that a meeting does not always guarantee an extension, as this might still
 depend on the details of your circumstances.
 
-In addition, for this course and Python for Data Processing, you have a
+In addition, for this course and Introduction to Machine Learning 2, you have a
 combined total of 2 late days, each of which you can use to get a single 24
 hour extension for the module deadline. You can request a late day using the
-submit forms linked in the sidebar of the *Introduction to Machine Learning 1* 
-[website](https://ml1.proglab.nl). You must always submit your
+submit forms linked in the sidebar of the *Introduction to Machine Learning 2* 
+[website](https://ml2.proglab.nl). You must always submit your
 request *before* the deadline expires. Any submissions received after the
 deadline without a requested late day will not be graded, meaning your grade
 will default to a 1.
@@ -128,7 +128,7 @@ and get assistance.
 
 There are 3 hours scheduled every day where you can ask practical
 questions to the TA's of the minor. During these hours you can use the
-"Request assistance" feature on the *Introduction to Machine Learning 1* [website](https://ml1.proglab.nl/), 
+"Request assistance" feature on the *Introduction to Machine Learning 2* [website](https://ml2.proglab.nl/), 
 using the question mark symbol at the top of the sidebar. Please use this feature instead of raising your hand
 in class, as it ensures that all questions get handled in the order that they 
 are asked. Questions can of be about either the PDP or ML1 courses, just make 
