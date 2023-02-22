@@ -5,13 +5,13 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Monday<br>08/05    | Processing violations and<br>reviews | Watch Theory videos<br>+ Entropy |                        |
+| Monday<br>08/05    | Processing violations and<br>reviews | Watch Theory videos<br>+ Entropy | Group seminar          |
 | Tuesday<br>09/05   | Counting words and<br>better metrics | Splitting data + Info Gain  |                             |
 | Wednesday<br>10/05 | Further tweaks and<br>final improvements | ID3                     |                             |
-| Thursday<br>11/05  | Finish final improvements    | Numerical Decision Trees            | Q & A lecture<br>Group seminar|
-| Friday<br>12/05    | Start Yelp API               | Random Forests                      | Group seminar               |
+| Thursday<br>11/05  | Finish final improvements    | Numerical Decision Trees            | Q & A lecture               |
+| Friday<br>12/05    | Start Yelp API               | Random Forests                      |                             |
 |                    |                              |                                     |                             |
-| Monday<br>15/05    | Finish Yelp API              | Written Assignment                  |                             |
+| Monday<br>15/05    | Finish Yelp API              | Written Assignment                  | Group seminar               |
 
 
 
