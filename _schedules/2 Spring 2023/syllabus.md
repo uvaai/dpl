@@ -163,11 +163,12 @@ of the formats above, you can email the course staff at <minorai@mprog.nl>
 
 ## Passing the course
 
-This course consists of 3 larger assignments, that have been divided over 6
-modules. For each first module of an assignment, you'll only receive feedback
-on your code, which you can use the to improve your work. Then, for the second
-module, you'll hand in the full assignment, which will be graded on a 1 to
-10 scale. Your grade will mainly depend on the style and design of your code.
+This course consists of 2 larger assignments and 1 smaller assignment, that
+have been divided over 5 modules. For each first module of a larger assignment,
+you'll only receive feedback on your code, which you can use the to improve
+your work. Then, for the second module, you'll hand in the full assignment,
+which will be graded on a 1 to 10 scale. Your grade will mainly depend on the
+style and design of your code.
 
 Design
 
@@ -234,8 +235,9 @@ will check if they agree every element has been properly completed, and if so
 The exam will be another *pass/fail* exam. More details on the exam will follow
 later.
 
-Once you've passed the exam, your final grade will be computed as the average
-of the 3 graded assignments in the course.
+Once you've passed the exam, your final grade will be computed as the weighted
+average of the 3 graded assignments in the course. The 2 larger assignments will
+both have twice as much weight as the smaller assignment.
 
 ## Academic honesty
 
