@@ -7,10 +7,10 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
 | Wednesday<br>12/04 | Populations: Phase 6 & 7     | Theory Videos + NN<br>Forward: Assignment 1 |                     |
 | Thursday<br>13/04  | Populations: Phase 8         | NN Forward:<br>Assignment 2, 3 & 4     | Q & A lecture            |
-| Friday<br>14/04    | Populations: Refactor        | NN Forward:<br>Assignment 5, 6, 7 & 8 |                           |
+| Friday<br>14/04    | Populations: Phase 9         | NN Forward:<br>Assignment 5, 6, 7 & 8 |                           |
 |                    |                              |                                       |                           |
-| Monday<br>17/04    | Populations: Experiment      | NN Forward:<br>Assignment 9, 10, 11 & 12 | Group seminar          |
-| Tuesday<br>18/04   | Populations: Experiment      | Written Assignment                  |                             |
+| Monday<br>17/04    | Populations: Experiment 1    | NN Forward:<br>Assignment 9, 10, 11 & 12 | Group seminar          |
+| Tuesday<br>18/04   | Populations: Experiment 2    | Written Assignment                  |                             |
 
 
 
