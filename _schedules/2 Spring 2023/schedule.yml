@@ -8,7 +8,7 @@ Module 1:
         Learn about using classes in Python [theory]: /python/en/classes
         Practice with classes [practice]: /python/en/classes/practice
     Default parameters:
-        Default parameters: /population-oo-new/default_params
+        Default parameters: /populations-oo-new/default_params
     Populations (part 1):
         Introduction: /populations-oo-new/introduction
         Phase 1: /populations-oo-new/phase1
@@ -23,7 +23,7 @@ Module 2:
     Schedule: /module_schedules/m2
     Introduction: /extra/intro-oo-2
     Keyword arguments:
-        Keyword arguments: /population-oo-new/kwargs
+        Keyword arguments: /populations-oo-new/kwargs
     Populations (part 2):
         Phase 6: /populations-oo-new/phase6
         Phase 7: /populations-oo-new/phase7
