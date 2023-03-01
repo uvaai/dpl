@@ -1,5 +1,8 @@
 populations-oo:
     remote: https://github.com/spcourse/populations-oo.git
+    branch: main
+populations-oo-new:
+    remote: https://github.com/spcourse/populations-oo.git
     branch: new
 sql:
     remote: https://github.com/spcourse/sql.git
