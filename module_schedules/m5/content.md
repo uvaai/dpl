@@ -17,5 +17,5 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 
 #### Office hours
 
-The office hours will be held in room **L0.10 at 14:00** on the scheduled day. During the office hours you can use the question queue to ask the staff for any further explanations on the theory of that module, or discuss any personal matters or planning.
+The office hours will be held in room **L0.10 at 14:00** on the scheduled day. During office hours you can use the question queue to ask the staff any further explanations on the theory of that module, or discuss any personal matters.
 
