@@ -37,6 +37,19 @@ group seminars can be found on Datanose [here](https://datanose.nl/#course[11191
 The schedule for the practical assistance hours and lectures that will be held
 in L0.10 can be found in the "Asking Questions" section below.
 
+### Scheduling this period
+
+This academic year there are many holidays and lecture-free days, in addition
+to a separate lecture-free week, creating an especially short schedule for
+period 5. This has been somewhat of a challenge while creating the daily
+schedules and we’ve had to cut some material as a result.
+
+This means we will cover one or two topics less, and some parts of the schedule
+will not align as well as we would usually like. Specifically for this course,
+that means there will only be 5 modules. The last module will consist of a
+shorter programming assignment and a programming notebooks belonging to ML2
+(usually this would be part of a separate 6th module in a regular schedule).
+
 ### Deadlines and daily schedules
 
 The deadlines for each module can be found on the module schedule pages
@@ -140,21 +153,23 @@ The hours are scheduled as follows:
 
 * In general, assistance hours are from 10 to 13
 * On Monday there are group seminars in the morning, so the assistance hours are from 13 to 16
-* If there is a Q&A lecture listed in the daily schedule, the assistance will start after the Q&A, generally from 11 to 14
 
-### Q & A Lectures
+### Office hours
 
-Every module there will be at least one Q & A lecture, where you can ask
-questions about the theoretical parts of the course. The schedule for these
-lectures can be found as part of the daily schedule for the module. The lectures
-will always be in the main room L0.10 at 10:00 on the scheduled day.
+Every module there will be at least one planned set of office hours, where you
+can ask the staff any questions you might have about theoretical parts of the
+course. The schedule for these office hours can be found as part of the daily
+schedule for the module. The office hours will always be in the main room L0.10
+at 14:00 on the scheduled day.
 
-These Q & A sessions will generally be scheduled the day after you should watch
-the theory videos of the module. While watching the videos, you can write
-down any questions you might have. There will be a question form linked
-in the schedule, where you can submit your questions beforehand. Based on
-the submitted questions, we'll discuss any part of the theory the might
-need more clarification or context.
+During office hours you can use the question queue to ask any further
+explanations on the theory of that module. If these explanations are relevant
+relevant for a larger number of students, they might be covered on the board,
+but in general, questions will be answered individually or in smaller groups.
+The office hours can also be used for any other matters you might want to
+discuss with staff, such as personal matters or an alternate planning.
+Questions concerning the specifics of your own code should be asked during the
+daily practical assistance.
 
 ### Email the staff
 
