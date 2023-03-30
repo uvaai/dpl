@@ -9,8 +9,8 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | Thursday<br>20/04  | Yelp: Merging the JSON reviews | Backward: 2, 3                    | Office hours                |
 | Friday<br>21/04    | Yelp: Matching inspections<br>with reviews | Backward: 4, 5 & 6 + Written<br>assignment: Send GDPR request |  |
 |                    |                                            |                                                               |  |
-| Monday<br>24/04    | Yelp: Matching inspections<br>with reviews | Watch Theory 2<br>+ Start Activations | Group seminar|
-| Tuesday<br>25/04   | Yelp: Merging in the inspections | Finish Activations +<br>Watch Theory 3 | Office hours         |
+| Monday<br>24/04    | Yelp: Matching inspections<br>with reviews | Watch Theory 2<br>+ Start Activations | Office hours<br>Group seminar|
+| Tuesday<br>25/04   | Yelp: Merging in the inspections | Finish Activations +<br>Watch Theory 3 |                      |
 | Wednesday<br>26/04 | Yelp: Merging in the inspections | Finish Written Assignment       |                             |
 
 
