@@ -168,8 +168,6 @@ relevant for a larger number of students, they might be covered on the board,
 but in general, questions will be answered individually or in smaller groups.
 The office hours can also be used for any other matters you might want to
 discuss with staff, such as personal matters or an alternate planning.
-Questions concerning the specifics of your own code should be asked during the
-daily practical assistance.
 
 ### Email the staff
 
