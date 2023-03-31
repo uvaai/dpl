@@ -4,13 +4,13 @@ University of Amsterdam / Programming Lab / 5082DAPI6Y
 
 ## Syllabus<br><small>Spring 2023</small>
 
-This course is the continuation of Python for Data Processing. A data pipeline
-is a sequence of steps that transforms raw data into something more useable.
-The course will taught in slightly modified form this semester, and we'll focus
-on two aspects in particular. For the first half we'll learn about classes and
-using them to represent data in your program. The second half of the course
-will be about other types of representations of data and the transformations you
-can apply to them.
+This course is the continuation of Python for Data Processing. In data
+processing we take raw data, apply transformations to make this data more
+usable for some task, and combine this in a representation that is easier to
+program with. For the first half we'll learn about classes and using them to
+represent data in your program. The second half of the course will be about
+other types of representations of data and the transformations you can apply to
+them.
 
 ## Staff
 
@@ -32,7 +32,7 @@ on campus full-time.
 Most on-campus activities, including practical assistance, will generally be
 held in this room. There are some exceptions with activities that do not fit
 in the room, like the group seminars and the exam. The schedule for these
-group seminars can be found on Datanose [here](https://datanose.nl/#course[111919])
+group seminars can be found on Datanose [here](https://datanose.nl/#course[113607])
 
 The schedule for the practical assistance hours and lectures that will be held
 in L0.10 can be found in the "Asking Questions" section below.
