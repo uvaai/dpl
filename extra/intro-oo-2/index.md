@@ -1,5 +1,5 @@
 # Populations and SQL
 
-In this module you will finish implementing phases 6-8 and experiment with the simulation from the previous module. In phase 6 you will implement the fox's specific behavior (hunger) and interaction between species will be implemented in phases 7 and 8. In phase 9 you will do some preparations that enable us to run many experiments using a range of input parameters. You will then proceed with gathering data on the dynamics of our model with different input parameters. Finally, you will propose and answer your own research question on the created model.
+The goal of this module is to iteratively create a simulation and experiment and analyze its dynamics. Phase 6 of this module focuses on implementing the fox's behavior in the simulation, specifically its hunger dynamics. In phases 7 and 8, the interactions between species will be introduced. Phase 9 will involve preparations that enable you to conduct experiments with varying input parameters to gather data on the model's dynamics. You will then proceed with gathering data on the dynamics of our model with different input parameters. Finally, you will propose and answer your own research question on the created model.
 
 **This module will be graded.**
