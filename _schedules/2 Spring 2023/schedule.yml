@@ -28,8 +28,8 @@ Module 2:
         Phase 8: /populations-oo-new/phase8
         Phase 9: /populations-oo-new/phase9
     Theory:
-        Keyword arguments: /populations-oo-new/kwargs
-        Sampling methods: /populations-oo-new/sampling
+        Keyword arguments [theory]: /populations-oo-new/kwargs
+        Sampling methods [theory]: /populations-oo-new/sampling
     Populations (part 3):
         Experiment: /populations-oo-new/experimenting
         Visualize: /populations-oo-new/visualizing
