@@ -2,6 +2,5 @@ name: populations-2
 files:
     required:
         - phase9.py
-        - experiment1.py
-        - visualize_experiments.ipynb
-        - uml.zip
+        - experiment.py
+        - visualize.ipynb
