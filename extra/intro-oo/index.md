@@ -8,6 +8,6 @@ Most modern programming languages provide some form object oriented programming.
 
 In the coming two modules you'll learn about classes in Python, after which you will apply this knowledge to build an multi-agent system in which you simulate the interaction between foxes and rabbits. In this module you will implement phases 1-5 which are about creating the agents and having them move around.
 
-Next module, you will implement phases 6-8 and experiment with the simulation. In phase 6 you'll implement the fox's specific behavior (hunger) and interaction between species you'll implement in phases 7 and 8. 
+Next module, you will implement phases 6-9 and experiment with the simulation. In phase 6 you'll implement the fox's specific behavior (hunger) and interaction between species you'll implement in phases 7 - 9. You will then proceed with gathering data on the dynamics of our model with different input parameters. Finally, you will propose and answer your own research question on the created model.
 
 **There will be no grade for this module, but you will get feedback on `phase_5.py`. This feedback can then be used to improve your code for the next module, in which you will continue with your simulation.**
