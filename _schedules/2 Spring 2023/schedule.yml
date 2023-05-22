@@ -57,6 +57,27 @@ Module 5:
         Climate data: /transformation/climate-change
     Submit:
         Submit: /submit/transformation-3
+        
+
+The Lost Modules:
+    HTML:
+        What is a website?: /acquisition/html-short
+        Make your own website: /acquisition/homepage
+    More Pandas:
+        Improve your Pandas skills: /acquisition/pandas
+    Scraping (part 1):
+        Scrape a web page: /acquisition/scraping
+    Scraping (part 2):
+        Transforming data to be more usable: /acquisition/transforming
+        Visualizing the data: /acquisition/visualizing
+    Crawling:
+        Get even more data: /acquisition/crawling
+    Learn SQL:
+        Learn about Databases: /sql/lecture
+        Store movie information using sqlite: /sql/movies
+    Fiftyville:
+        Solve a mystery using sqlite: /sql/fiftyville
+
 
 Practice Exam:
     Exam: /exams/practice_exam
