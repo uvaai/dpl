@@ -303,7 +303,7 @@ For example, if we call the function as follows:
 
     sell_ticket(concert_database, concert, seat_number, name)
 
-    seat_number = C1
+    seat_number = 'C1'
     name = 'Bart Bakker'
     sell_ticket(concert_database, concert, seat_number, name)
 
