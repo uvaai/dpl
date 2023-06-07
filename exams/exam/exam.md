@@ -66,15 +66,15 @@ Have a look at this example:
     genres_list = ['Science fiction', 'Detective', 'Fantasy']
     has_match = book3.has_genre(genres_list)
     if has_match:
-      print(f'{book3.title} has at least one of the following genres: {genres_list}')
+      print(f'\n{book3.title} has at least one of the following genres: {genres_list}')
     else:
-      print(f'{book3.title} has at none of the following genres: {genres_list}')
+      print(f'\n{book3.title} has none of the following genres: {genres_list}')
 
     has_match = book4.has_genre(genres_list)
     if has_match:
       print(f'{book4.title} has at least one of the following genres: {genres_list}')
     else:
-      print(f'{book4.title} has at none of the following genres: {genres_list}')
+      print(f'{book4.title} has none of the following genres: {genres_list}')
 
     # Create library
     library = Library()
@@ -111,7 +111,7 @@ Which should give the following result:
 
     Elantris has at least one of the following genres: ['Science fiction', 'Detective', 'Fantasy']
 
-    Pattern Recognition and Machine Learning has at none of the following genres: ['Science fiction', 'Detective', 'Fantasy']
+    Pattern Recognition and Machine Learning has none of the following genres: ['Science fiction', 'Detective', 'Fantasy']
 
     Available Books:
         Book "Call of Cthulhu" is available
