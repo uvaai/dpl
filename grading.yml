@@ -66,10 +66,10 @@ exam:
     type: points
     show_progress: true
     submits:
-        exam2: 1
+        exam1: 1
 
 exam2:
     type: points
     show_progress: true
     submits:
-        exam3: 1
+        exam2: 1
