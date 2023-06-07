@@ -62,13 +62,13 @@ manualcheck:
         populations-1: 1
         transformation-1: 1
 
-exam:
+exam2:
     type: points
     show_progress: true
     submits:
         exam1: 1
 
-exam2:
+exam:
     type: points
     show_progress: true
     submits:
