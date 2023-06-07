@@ -47,7 +47,7 @@ calculation:
         exam: 0
 
 assignments:
-    type: points
+    type: average
     show_progress: true
     submits:
         populations-1: 0
@@ -63,13 +63,13 @@ manualcheck:
         transformation-1: 1
 
 exam:
-    type: pass
+    type: points
     show_progress: true
     submits:
         exam1: 1
 
 exam2:
-    type: pass
+    type: points
     show_progress: true
     submits:
         exam2: 1
