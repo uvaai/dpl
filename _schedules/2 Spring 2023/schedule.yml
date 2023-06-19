@@ -57,7 +57,7 @@ Module 5:
         Climate data: /transformation/climate-change
     Submit:
         Submit: /submit/transformation-3
-        
+
 
 Optional Extra Modules:
     HTML:
@@ -86,3 +86,7 @@ Practice Exam:
 Exam:
     Exam: /exams/exam
     Submit: /submit/exam2
+
+Retake:
+    Exam: /exams/exam2
+    submit: /submit/exam
