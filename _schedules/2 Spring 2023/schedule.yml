@@ -89,4 +89,4 @@ Exam:
 
 Retake:
     Exam: /exams/exam2
-    submit: /submit/exam
+    Submit: /submit/exam1
