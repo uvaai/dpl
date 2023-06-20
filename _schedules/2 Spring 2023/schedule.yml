@@ -85,8 +85,8 @@ Practice Exam:
 
 Exam:
     Exam: /exams/exam
-    Submit: /submit/exam2
+    Submit: /submit/exam1
 
 Retake:
     Exam: /exams/exam2
-    Submit: /submit/exam1
+    Submit: /submit/exam2
