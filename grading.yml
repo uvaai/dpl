@@ -63,14 +63,12 @@ manualcheck:
         transformation-1: 1
 
 exam2:
-    type: points
     required: true
     show_progress: true
     submits:
         exam1: 1
 
 exam:
-    type: points
     required: true
     show_progress: true
     submits:
