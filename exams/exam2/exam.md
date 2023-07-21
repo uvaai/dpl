@@ -36,7 +36,7 @@ Implement `Produce` with the following methods:
 - `set_price(new_price)`: updates the price of the produce.
 - `update_quantity(change)`: changes the quantity of the produce item available in the supermarket by `change`.
 
-Implement `Library` with the following methods:
+Implement `Supermarket` with the following methods:
 
 - `__init__(name, location)`: create a new instance with the information provided by the parameters. Make sure to declare the attribute `inventory` as an empty dictionary!
 - `add_produce(produce)`: adds a Produce instance to the `inventory` under its `name`.
