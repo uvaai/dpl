@@ -193,7 +193,7 @@ You have been assigned the responsibility of developing an inventory management 
                  'Rappel': {8617: True, 3540: False, 6371: False, 5293: False, 4168: True, 7395: True},
                  'Helmet': {9711: False, 9776: True, 3596: True, 6283: True, 9690: False},
                  'Crampons': {2458: True, 4748: False, 9765: True},
-                 'Ice axe': {7121: False, 2095: True, 4279: True}}
+                 'Ice axe': {7121: False, 2095: True, 4279: False}}
 
 ### Exercise 1
 
