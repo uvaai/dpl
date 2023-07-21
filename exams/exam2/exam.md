@@ -39,7 +39,7 @@ Implement `Produce` with the following methods:
 Implement `Supermarket` with the following methods:
 
 - `__init__(name, location)`: create a new instance with the information provided by the parameters. Make sure to declare the attribute `inventory` as an empty dictionary!
-- `add_produce(produce)`: adds a Produce instance to the `inventory` under its `name`.
+- `add_produce(produce)`: adds a Produce instance to the `inventory` under its `name`. Print an error if the produce is already present in the supermarket.
 - `remove_produce(produce_name)`: removes a Produce instance from the `inventory`. Print an error if the produce is not present in the supermarket.
 - `find_produce(produce_name)`: returns the `name`, `price`, and `quantity` of a produce as a tuple if it is present in the `inventory`. Print an error and return `None` if the produce is not present in the supermarket.
 - `calculate_total_revenue()`: calculates and returns the total possible revenue for the store. This is the sum of the `quantity` of each item present in the `inventory` multiplied by its `price`.
