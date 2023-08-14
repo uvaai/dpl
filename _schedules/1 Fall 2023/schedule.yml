@@ -2,7 +2,7 @@ Welcome:
     Read the syllabus to get started: /syllabus
 
 Module 1:
-    Schedule: /module_schedules/m1
+    Schedule: /modules/m1
     Introduction: /extra/intro-oo
     Classes:
         Learn about using classes in Python [theory]: /python/en/classes
@@ -20,7 +20,7 @@ Module 1:
         Submit: /submit/populations-1
 
 Module 2:
-    Schedule: /module_schedules/m2
+    Schedule: /modules/m2
     Introduction: /extra/intro-oo-2
     Populations (part 2):
         Phase 6: /populations-oo/phase6
@@ -37,14 +37,14 @@ Module 2:
         Submit Populations: /submit/populations-2
 
 Module 3:
-    Schedule: /module_schedules/m3
+    Schedule: /modules/m3
     Transformation:
         "Part one: merging the data": /transformation/health-code-violations-1
     Submit:
         Submit: /submit/transformation-1
 
 Module 4:
-    Schedule: /module_schedules/m4
+    Schedule: /modules/m4
     Transformation:
         "Part two: processing the data": /transformation/health-code-violations-2
     Submit:
@@ -52,7 +52,7 @@ Module 4:
 
 
 Module 5:
-    Schedule: /module_schedules/m5
+    Schedule: /modules/m5
     Transformation:
         Climate data: /transformation/climate-change
     Submit:
