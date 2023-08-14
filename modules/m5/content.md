@@ -1,17 +1,17 @@
 
 ## Module 5
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Thursday May 25th at 17:59**
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Friday December 8th at 17:59**
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Tuesday<br>16/05   | Start Climate Data           | Theory videos &<br>Convolution: Assignment 2 |                    |
-| Wednesday<br>17/05 | Finish Climate Data          | Convolution: Assignment 5           | Office hours                |
-|                    |                              |                                     |                             |
-| Monday<br>22/05    | Watch Theory videos &<br>Start CIFAR | Convolution: Assignment 7   | Group seminar               |
-| Tuesday<br>23/05   | Finish CIFAR Notebook        | Convolution: Assignment 8           |                             |
-| Wednesday<br>24/05 | Start GTSRB Notebook         | Convolution: Assignment 10          | Office hours                |
-| Thursday<br>25/05  | Finish GTSRB Notebook       | Writing Assignment:<br>Software 2.0 |                             |
+| Friday<br>01/12    | Start Climate Data           | Theory videos &<br>Convolution: Assignment 2 |                    |
+|                    |                              |                                              |                    |
+| Monday<br>04/12    | Finish Climate Data          | Convolution: Assignment 5           | Group seminar               |
+| Tuesday<br>05/12   | Yelp: t/m Merging JSON reviews | Convolution: Assignment 7         | Office hours                |
+| Wednesday<br>06/12 | Yelp: Matching inspections with reviews | Convolution: Assignment 8 |                            |
+| Thursday<br>07/12  | Yelp: Matching inspections with reviews | Convolution: Assignment 10 |                           |
+| Friday<br>08/12    | Yelp: Merging in the inspections | Writing Assignment              |                             |
 
 
 

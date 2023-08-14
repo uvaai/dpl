@@ -1,9 +1,15 @@
 
 ## Module 6
 
-Module 5 and 6 have been merged this period.
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Friday December 15th at 17:59**
 
-The schedule for the combined module can be found in module 5.
+| Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
+| ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
+| Monday<br>11/12    | Processing violations and<br>reviews | Watch Theory videos &<br>Start CIFAR | Group seminar      |
+| Tuesday<br>12/12   | Counting words and<br>better metrics | Finish CIFAR Notebook       |                             |
+| Wednesday<br>13/12 | Further tweaks and<br>final improvements | Start GTSRB Notebook    | Office hours                |
+| Thursday<br>14/12  | Finish final improvements<br>and start Yelp API | Finish GTSRB Notebook |                       |
+| Friday<br>15/12    | Finish Yelp API              | Writing                             |                             |
 
 
 
