@@ -2,7 +2,7 @@
 
 University of Amsterdam / Programming Lab / 5082DAPI6Y
 
-## Syllabus<br><small>Fall 2023</small>
+## Syllabus<br><small>Spring 2023</small>
 
 This course is the continuation of Python for Data Processing. In data
 processing we take raw data, apply transformations to make this data more
