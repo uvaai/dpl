@@ -13,3 +13,6 @@ transformation:
 python:
     remote: https://github.com/spcourse/python.git
     branch: main
+objects:
+    remote: https://github.com/spcourse/objects.git
+    branch: 2023
