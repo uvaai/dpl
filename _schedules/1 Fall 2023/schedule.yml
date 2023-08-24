@@ -8,7 +8,7 @@ Module 1:
         Learn about using classes in Python [theory]: /python/en/classes
         Practice with classes [practice]: /objects/cards
     Default parameters:
-        Default parameters: /populations-oo/default_params
+        Default parameters: /python/en/default-arguments
     Populations (part 1):
         Introduction: /populations-oo/introduction
         Phase 1: /populations-oo/phase1
@@ -28,7 +28,8 @@ Module 2:
         Phase 8: /populations-oo/phase8
         Phase 9: /populations-oo/phase9
     Theory:
-        Keyword arguments [theory]: /populations-oo/kwargs
+        Keyword arguments [theory]: /python/en/keyword-arguments/kwargs
+        Keyword argument dictionaries [theory]: /python/en/keyword-arguments/starstar
         Sampling methods [theory]: /populations-oo/sampling
     Populations (part 3):
         Experiment: /populations-oo/experimenting
