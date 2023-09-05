@@ -5,13 +5,13 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Friday<br>01/12    | Start Climate Data           | Theory videos &<br>Convolution: Assignment 2 |                    |
+| Friday<br>01/12    | HTML + Homepage              | Theory videos &<br>Convolution: Assignment 2 |                    |
 |                    |                              |                                              |                    |
-| Monday<br>04/12    | Finish Climate Data          | Convolution: Assignment 5           | Group seminar               |
-| Tuesday<br>05/12   | Yelp: t/m Merging JSON reviews | Convolution: Assignment 7         | Office hours                |
-| Wednesday<br>06/12 | Yelp: Matching inspections with reviews | Convolution: Assignment 8 |                            |
-| Thursday<br>07/12  | Yelp: Matching inspections with reviews | Convolution: Assignment 10 |                           |
-| Friday<br>08/12    | Yelp: Merging in the inspections | Writing Assignment              |                             |
+| Monday<br>04/12    | More Pandas                  | Convolution: Assignment 5           | Group seminar               |
+| Tuesday<br>05/12   | Scraping: Title + Rating     | Convolution: Assignment 7           | Office hours                |
+| Wednesday<br>06/12 | Scraping: Year + Actors      | Convolution: Assignment 8           |                             |
+| Thursday<br>07/12  | Scraping: Runtime + URL      | Convolution: Assignment 10          |                             |
+| Friday<br>08/12    | Scraping: Save CSV results   | Writing Assignment                  |                             |
 
 
 
