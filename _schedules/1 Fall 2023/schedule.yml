@@ -1,7 +1,7 @@
 Welcome:
     Read the syllabus to get started: /syllabus
 
-Module 1:
+Module 1 [30/10/23]:
     Schedule: /modules/m1
     Introduction: /extra/intro-oo
     Classes:
@@ -19,7 +19,7 @@ Module 1:
     Submit:
         Submit: /submit/populations-1
 
-Module 2:
+Module 2 [6/11/23]:
     Schedule: /modules/m2
     Introduction: /extra/intro-oo-2
     Populations (part 2):
@@ -37,14 +37,16 @@ Module 2:
     Submit:
         Submit Populations: /submit/populations-2
 
-Module 3:
+Module 3 [14/11/23]:
     Schedule: /modules/m3
+    Climate data:
+        Climate data: /transformation/climate-change
     Transformation:
         "Part one: merging the data": /transformation/health-code-violations-1
     Submit:
         Submit: /submit/transformation-1
 
-Module 4:
+Module 4 [23/11/23]:
     Schedule: /modules/m4
     Transformation:
         "Part two: processing the data": /transformation/health-code-violations-2
@@ -52,15 +54,8 @@ Module 4:
         Submit: /submit/transformation-2
 
 
-Module 5:
+Module 5 [1/12/23]:
     Schedule: /modules/m5
-    Transformation:
-        Climate data: /transformation/climate-change
-    Submit:
-        Submit: /submit/transformation-3
-
-
-Optional Extra Modules:
     HTML:
         What is a website?: /acquisition/html-short
         Make your own website: /acquisition/homepage
@@ -68,16 +63,14 @@ Optional Extra Modules:
         Improve your Pandas skills: /acquisition/pandas
     Scraping (part 1):
         Scrape a web page: /acquisition/scraping
+
+Module 6 [11/12/23]:
+    Schedule: /modules/m6
+    Scraping (part 1):
+        Scrape a web page: /acquisition/scraping
     Scraping (part 2):
         Transforming data to be more usable: /acquisition/transforming
         Visualizing the data: /acquisition/visualizing
-    Crawling:
-        Get even more data: /acquisition/crawling
-    Learn SQL:
-        Learn about Databases: /sql/lecture
-        Store movie information using sqlite: /sql/movies
-    Fiftyville:
-        Solve a mystery using sqlite: /sql/fiftyville
 
 
 Practice Exam:

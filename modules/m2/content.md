@@ -7,11 +7,11 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
 | Monday<br>06/11    | Populations: Phase 6 & 7     | Theory Videos + NN<br>Forward: Assignment 1 | Group seminar       |
 | Tuesday<br>07/11   | Populations: Phase 8         | NN Forward:<br>Assignment 2 & 3     |                             |
-| Wednesday<br>08/11 | Populations: Experiment      | NN Forward:<br>Assignment 4, 5, 6 & 7 | Office hours              |
-| Thursday<br>09/11  | SQL: Introduction            | NN Forward:<br>Assignment 8 & 9     |                             |
-| Friday<br>10/11    | SQL: Movies                  | NN Forward:<br>Assignment 10, 11 & 12 |                           |
+| Wednesday<br>08/11 | Populations: Phase 9         | NN Forward:<br>Assignment 4, 5, 6 & 7 | Office hours              |
+| Thursday<br>09/11  | Populations: Experiment      | NN Forward:<br>Assignment 8 & 9     |                             |
+| Friday<br>10/11    | Populations: Visualize       | NN Forward:<br>Assignment 10, 11 & 12 |                           |
 |                    |                              |                                       |                           |
-| Monday<br>13/11    | SQL: Fiftyville              | Written Assignment                  | Group seminar               |
+| Monday<br>13/11    | Populations: Visualize       | Written Assignment                  | Group seminar               |
 
 
 

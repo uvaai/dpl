@@ -5,11 +5,11 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Monday<br>11/12    | Processing violations and<br>reviews | Watch Theory videos &<br>Start CIFAR | Group seminar      |
-| Tuesday<br>12/12   | Counting words and<br>better metrics | Finish CIFAR Notebook       |                             |
-| Wednesday<br>13/12 | Further tweaks and<br>final improvements | Start GTSRB Notebook    | Office hours                |
-| Thursday<br>14/12  | Finish final improvements<br>and start Yelp API | Finish GTSRB Notebook |                       |
-| Friday<br>15/12    | Finish Yelp API              | Writing                             |                             |
+| Monday<br>11/12    | Scraping: Step 2             | Watch Theory videos &<br>Start CIFAR | Group seminar              |
+| Tuesday<br>12/12   | Scraping: Step 2             | Finish CIFAR Notebook               |                             |
+| Wednesday<br>13/12 | Scraping: Transforming       | Start GTSRB Notebook                | Office hours                |
+| Thursday<br>14/12  | Scraping: Visualizing        | Finish GTSRB Notebook               |                             |
+| Friday<br>15/12    | Scraping: Visualizing        | Writing                             |                             |
 
 
 
