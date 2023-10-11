@@ -1,13 +1,9 @@
 # Populations
 
-You have been using many objects in earlier assignments. Every string, number, set, dictionary, list, etc. is an object. But you haven't learned yet what an object really is.
+In many of the previous assignments you have unknowingly been working with objects. Every string, number, set, dictionary, list, etc. is an object, but we haven't delved into what exactly an "object" is in the context of programming. In this module, we will explore the powerful programming paradigm known as Object-Oriented Programming (OOP).
 
-In this module you will learn a very powerful programming paradigm: object oriented programming.
+Most modern programming languages support some form of Object-Oriented Programming, and while the core principles are similar across these languages, the implementation details can vary significantly.
 
-Most modern programming languages provide some form object oriented programming. The main principles are similar in most programming languages, but the details might differ a lot.
-
-In the coming two modules you'll learn about classes in Python, after which you will apply this knowledge to build an multi-agent system in which you simulate the interaction between foxes and rabbits. In this module you will implement phases 1-5 which are about creating the agents and having them move around.
-
-Next module, you will implement phases 6-9 and experiment with the simulation. In phase 6 you'll implement the fox's specific behavior (hunger) and interaction between species you'll implement in phases 7 - 9. You will then proceed with gathering data on the dynamics of our model with different input parameters. Finally, you will propose and answer your own research question on the created model.
+Over the next two modules, we will focus on object-oriented programming in Python by building a multi-agent system in which you simulate the interaction between foxes and rabbits. n this module, we'll cover phases 1 to 5, which involve creating agents and simulating their movement. In the following module, we'll progress to phases 6 to 9, where we'll implement specific behaviors for the foxes (like hunger) and interactions between different species. We'll also conduct experiments with the simulation, gather data on its dynamics under various input parameters, and, finally, formulate and answer our research questions based on the model we've created.
 
 **There will be no grade for this module, but you will get feedback on `phase_5.py`. This feedback can then be used to improve your code for the next module, in which you will continue with your simulation.**
