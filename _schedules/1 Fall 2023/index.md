@@ -87,20 +87,16 @@ The hours are scheduled as follows:
 
 ### Quiz/lectures
 
-TODO: Update this
+Each quiz/lecture will start with of a number of basic questions on the theory
+of that module. These questions will not be graded, but serve only to check
+your own understanding of the theory. After the quiz there will be a lecture,
+where certain topics might be elaborated on further, depending the answers in
+the quiz. At the end there will also be room to ask any other questions on the
+theory you might have.
 
-Every module there will be at least one planned set of office hours, where you
-can ask the staff any questions you might have about theoretical parts of the
-course. The schedule for these office hours can be found as part of the daily
-schedule for the module. The office hours will always be in the main room L0.11
-at 14:00 on the scheduled day.
-
-During office hours you can use the question queue to ask any further
-explanations on the theory of that module. If these explanations are relevant
-relevant for a larger number of students, they might be covered on the board,
-but in general, questions will be answered individually or in smaller groups.
-The office hours can also be used for any other matters you might want to
-discuss with staff, such as personal matters or an alternate planning.
+The schedule for these quiz/lectures can be found as part of the daily schedule
+for the module, or in Datanose. The quiz/lectures will always be in the main
+room L0.11 at 14:00 on the scheduled day.
 
 ### Email the staff
 
