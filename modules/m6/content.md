@@ -6,14 +6,14 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
 | Monday<br>11/12    | Scraping: Step 2             | Watch Theory videos &<br>Start CIFAR | Group seminar              |
-| Tuesday<br>12/12   | Scraping: Step 2             | Finish CIFAR Notebook               |                             |
-| Wednesday<br>13/12 | Scraping: Transforming       | Start GTSRB Notebook                | Office hours                |
+| Tuesday<br>12/12   | Scraping: Step 2             | Finish CIFAR Notebook               | Quiz/lecture                |
+| Wednesday<br>13/12 | Scraping: Transforming       | Start GTSRB Notebook                |                             |
 | Thursday<br>14/12  | Scraping: Visualizing        | Finish GTSRB Notebook               |                             |
 | Friday<br>15/12    | Scraping: Visualizing        | Writing                             |                             |
 
 
 
-#### Office hours
+#### Quiz/lecture
 
-The office hours will be held in room **L0.10 at 14:00** on the scheduled day. During office hours you can use the question queue to ask the staff any further explanations on the theory of that module, or discuss any personal matters.
+The quiz/lecture will be held in room **L0.11 at 14:00** on the scheduled day.
 

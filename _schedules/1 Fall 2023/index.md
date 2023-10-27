@@ -2,7 +2,7 @@
 
 University of Amsterdam / Programming Lab / 5082DAPI6Y
 
-## Syllabus<br><small>Spring 2023</small>
+## Syllabus<br><small>Fall 2023</small>
 
 This course is the continuation of Python for Data Processing. In data
 processing we take raw data, apply transformations to make this data more
@@ -26,7 +26,7 @@ questions.
 The core schedule for this course, combined with Introduction to Machine Learning 2, is
 built around working with the material each weekday from 9 to 5.  For this we
 have one room on the Science Park campus permanently reserved for minor AI
-students, namely **L0.10**, which provides enough space for all of you to work
+students, namely **L0.11**, which provides enough space for all of you to work
 on campus full-time.
 
 Most on-campus activities, including practical assistance, will generally be
@@ -34,21 +34,8 @@ held in this room. There are some exceptions with activities that do not fit
 in the room, like the group seminars and the exam. The schedule for these
 group seminars can be found on Datanose [here](https://datanose.nl/#course[113607])
 
-The schedule for the practical assistance hours and lectures that will be held
-in L0.10 can be found in the "Asking Questions" section below.
-
-### Scheduling this period
-
-This academic year there are many holidays and lecture-free days, in addition
-to a separate lecture-free week, creating an especially short schedule for
-period 5. This has been somewhat of a challenge while creating the daily
-schedules and we’ve had to cut some material as a result.
-
-This means we will cover one or two topics less, and some parts of the schedule
-will not align as well as we would usually like. Specifically for this course,
-that means there will only be 5 modules. The last module will consist of a
-shorter programming assignment and a programming notebooks belonging to ML2
-(usually this would be part of a separate 6th module in a regular schedule).
+The schedule for the practical assistance hours and quiz/lectures that will be held
+in L0.11 can be found in the "Asking Questions" section below.
 
 ### Deadlines and daily schedules
 
@@ -76,26 +63,64 @@ group seminars with the other students, but can otherwise choose which days
 you are present and which days of practical assistance combine best
 with your own schedule.
 
+## Asking questions
+
+If you have any questions about the material, there are several ways to ask them 
+and get assistance. 
+
+### Practical assistance
+
+There are 3 hours scheduled every day where you can ask practical
+questions to the TA's of the minor. During these hours you can use the
+"Request assistance" feature on the *Introduction to Machine Learning 2* [website](https://ml2.proglab.nl/), 
+using the question mark symbol at the top of the sidebar. Please use this feature instead of raising your hand
+in class, as it ensures that all questions get handled in the order that they 
+are asked. Questions can of be about either the DPR or ML2 courses, just make 
+sure to mention what assignment you're working on. For your location, please 
+list the  table you are working at, so the TA handling your question knows 
+where to find you when it is your turn.
+
+The hours are scheduled as follows:
+
+* In general, assistance hours are from 10 to 13
+* On Monday there are group seminars in the morning, so the assistance hours are from 13 to 16
+
+### Quiz/lectures
+
+Each quiz/lecture will start with of a number of basic questions on the theory
+of that module. These questions will not be graded, but serve only to check
+your own understanding of the theory. After the quiz there will be a lecture,
+where certain topics might be elaborated on further, depending the answers in
+the quiz. At the end there will also be room to ask any other questions on the
+theory you might have.
+
+The schedule for these quiz/lectures can be found as part of the daily schedule
+for the module, or in Datanose. The quiz/lectures will always be in the main
+room L0.11 at 14:00 on the scheduled day.
+
+### Email the staff
+
+If you have personal matters to discuss or other questions that do not fit any
+of the formats above, you can email the course staff at <minorai@mprog.nl>
+
+## Exceptions
+
+Below you can kind the policies for the different kinds of possible exceptions
+and circumstances.
+
 ### Absences and calling in sick
 
-If you are sick or are otherwise unable to come to campus, you should inform 
+If you are sick or are otherwise unable to come to campus, you should inform
 your group TA you will be absent by sending them a message on Slack. When you
 are feeling better, inform your TA again, so your period of absence can be
 registered.
 
 Depending on how long you were sick, and if you are behind with the module, you
 can then also contact the course staff to discuss an alternate planning for the
-module.  Note that this option requires you to have also already messaged your
+module. Note that this option requires you to have also already messaged your
 TA at the start of your absense. Any exceptions or extensions required for this
 will need to be discussed with course staff (so not your TA). See the extension
 policy below for more details.
-
-If you are experiencing coronavirus-related symptoms, but are feeling fit
-enough otherwise, you should do a self-test. If the self-test is negative, you
-can and should still come to campus. If the self-test is positive, you should
-report in sick, like described above, but work from home instead. When
-contacting your group TA, do also mention that you are absent because of a
-positive self-test, so we know you are working from home.
 
 ### Extension policy and late days
 
@@ -113,17 +138,17 @@ depend on the details of your circumstances.
 In addition, for this course and Introduction to Machine Learning 2, you have a
 combined total of 2 late days, each of which you can use to get a single 24
 hour extension for the module deadline. You can request a late day using the
-submit forms linked in the sidebar of the *Introduction to Machine Learning 2* 
+submit forms linked in the topbar of the *Introduction to Machine Learning 2*
 [website](https://ml2.proglab.nl). You must always submit your
 request *before* the deadline expires. Any submissions received after the
 deadline without a requested late day will not be graded, meaning your grade
 will default to a 1.
 
-You can use only 1 late day per module to get a 24 hour extension on the deadline. 
+You can use only 1 late day per module to get a 24 hour extension on the deadline.
 This extension is for the whole module, so applies to both courses. If the deadline
-is on a Friday, using  a single late day will instead grant a 48 hour extension 
+is on a Friday, using  a single late day will instead grant a 48 hour extension
 over the weekend, meaning your deadline will move to Sunday. If you have used both
-late days, or require more than 24 hours of extension, you may still try and 
+late days, or require more than 24 hours of extension, you may still try and
 request a staff extension.
 
 Any staff extension request needs to be agreed upon before the deadline expires,
@@ -132,56 +157,14 @@ If you do not receive a reply in time, you should *always* still submit your
 current version of the assignment before the deadline, so this part can still be
 graded. Staff extension requests should be emailed to <minorai@mprog.nl>
 
-## Asking questions
-
-If you have any questions about the material, there are several ways to ask them 
-and get assistance. 
-
-### Practical assistance
-
-There are 3 hours scheduled every day where you can ask practical
-questions to the TA's of the minor. During these hours you can use the
-"Request assistance" feature on the *Introduction to Machine Learning 2* [website](https://ml2.proglab.nl/), 
-using the question mark symbol at the top of the sidebar. Please use this feature instead of raising your hand
-in class, as it ensures that all questions get handled in the order that they 
-are asked. Questions can of be about either the PDP or ML1 courses, just make 
-sure to mention what assignment you're working on. For your location, please 
-list the  table you are working at, so the TA handling your question knows 
-where to find you when it is your turn.
-
-The hours are scheduled as follows:
-
-* In general, assistance hours are from 10 to 13
-* On Monday there are group seminars in the morning, so the assistance hours are from 13 to 16
-
-### Office hours
-
-Every module there will be at least one planned set of office hours, where you
-can ask the staff any questions you might have about theoretical parts of the
-course. The schedule for these office hours can be found as part of the daily
-schedule for the module. The office hours will always be in the main room L0.10
-at 14:00 on the scheduled day.
-
-During office hours you can use the question queue to ask any further
-explanations on the theory of that module. If these explanations are relevant
-relevant for a larger number of students, they might be covered on the board,
-but in general, questions will be answered individually or in smaller groups.
-The office hours can also be used for any other matters you might want to
-discuss with staff, such as personal matters or an alternate planning.
-
-### Email the staff
-
-If you have personal matters to discuss or other questions that do not fit any
-of the formats above, you can email the course staff at <minorai@mprog.nl>
-
 ## Passing the course
 
-This course consists of 2 larger assignments and 1 smaller assignment, that
-have been divided over 5 modules. For each first module of a larger assignment,
-you'll only receive feedback on your code, which you can use the to improve
-your work. Then, for the second module, you'll hand in the full assignment,
-which will be graded on a 1 to 10 scale. Your grade will mainly depend on the
-style and design of your code.
+This course consists of 3 larger assignments, that have been divided into 2
+modules each. For the first module of an assignment, you'll only receive
+feedback on your code, which you can use the to improve your work. Then, for
+the second module, you'll hand in the full assignment, which will be graded on
+a 1 to 10 scale. Your grade will mainly depend on the style and design of your
+code.
 
 Design
 
@@ -254,71 +237,126 @@ both have twice as much weight as the smaller assignment.
 
 ## Academic honesty
 
-This course's philosophy on academic honesty is best stated as "be reasonable." The course recognizes that interactions with classmates and others can facilitate mastery of the course's material. However, there remains a line between enlisting the help of another and submitting the work of another. This policy characterizes both sides of that line.
+This course's philosophy on academic honesty is best stated as "be reasonable".
+The course recognizes that interactions with classmates and others can
+facilitate mastery of the course's material. However, there remains a line
+between enlisting the help of another and submitting the work of another. This
+policy characterizes both sides of that line.
 
-The essence of all work that you submit to this course must be your own. Collaboration on problem sets is not permitted except to the extent that you may ask classmates and others for help so long as that help does not reduce to another doing your work for you. Generally speaking, when asking for help, you may show your code to others, but you may not view theirs, so long as you and they respect this policy's other constraints. Collaboration on the course's test and quiz is not permitted at all.
+### Collaboration
 
-Below are rules of thumb that (inexhaustively) characterize acts that the course considers reasonable and not reasonable. If in doubt as to whether some act is reasonable, do not commit it until you solicit and receive approval in writing from the course's heads. Acts considered not reasonable by the course are handled harshly.
+The essence of all work that you submit in this course must be your own.
+This means that for collaboration with other students you can discuss
+the material and consider possible approaches together, but you should then
+always still each write your own code. So, conferring together using language
+and whiteboards is permitted and even encouraged, but sharing lines of code is
+not.
 
-### Reasonable
+Note that looking at another students screen or solution file at this stage
+will usually result in that option becoming *the* solution to the problem, and
+so instead of learning and considering all the possibilities, you just end up
+trying to recreate the solution you already saw. As there usually quite a few
+different ways to solve programming problems, this can even end up with code
+that is similar enough in structure that it is caught by our automated
+plagiarism detector.
 
-- Communicating with classmates about problem sets' problems in English (or some other spoken language).
+### Helping other students
+
+Once you've completed a part of an assignment, viewing another student's solution
+is fine and can even be very helpful. At this point you can help other students
+to find bugs in their code, or even do a code review together when you're both
+done. Helping other students to find bugs in their code is something that is
+also definitely encouraged, but this should always be limited to suggestions on
+what to try next, not fixing the code for them. If you are trying to suggest a
+fix, but cannot do so without sharing your own code (which is common enough
+when you are still learning!), then you should refer the problem to a TA or
+teacher instead.
+
+The general principle here is that you can look at another's code to help fix a
+bug, but they cannot look at your code for ideas on how to solve it. Note that
+sharing a solution with someone who has not yet completed that part of the
+assignment is considered plagiarism just as much as handing in another students
+solution. Doing this deprives the other student from learning what they need
+to learn in that assignment, which will only make it more difficult for them to
+solve subsequent assignments on their own.
+
+### Using online tools
+
+Searching for solutions to (parts of) the assignments online is obviously not
+permitted. This explicitly also includes asking ChatGPT or other large language
+models to write the code for you, which is consider plagiarism just as much as
+copying a solution written by another human.
+
+What is permitted though, is searching for explanations on how to use certain
+functions or perform specific operations in Python. So, searching for *"how do
+I add an element to a list in Python"* would be perfectly fine, while searching
+for *"how do I print a Mario pyramid in Python"* would not. If your search
+leads to a Stack Overflow page or similar resource, which gives an example of
+how to perform an operation, you should always cite the source as a comment
+in your own code. This citation comment should contain the original link and
+clearly indicate which parts you did not write yourself, but came from the
+online example.
+
+As a student it can sometimes be hard to estimate what is and isn't ok to
+search for online, which is logical while you are still learning. We strongly
+recommend that you err on the side of caution with this, and ask staff
+permission beforehand for a specific search when in doubt. As this is an
+introductory course, you should actually be able to find all the relevant
+Python instructions on the pages of this course without needing to search
+online at all.
+
+### Rules and guidelines
+
+Below are rules of thumb that (inexhaustively) characterize acts that the
+course considers reasonable and not reasonable. If in doubt as to whether some
+act is reasonable, do not commit it until you solicit and receive approval in
+writing from the course's staff. Acts considered not reasonable by the course
+are handled harshly.
+
+In all cases we follow the directives regarding fraud and plagiarism of the
+University of Amsterdam and of the Kunstmatige Intelligentie BSc programme.
+Find them here in [English] and [Dutch].
+
+[Dutch]: http://uva.nl/plagiaat
+[English]: https://student.uva.nl/en/content/az/plagiarism-and-fraud/plagiarism-and-fraud.html
+
+#### Reasonable
+
+- Communicating with classmates about assignments in English, Dutch, or some other spoken language.
 
 - Discussing the course's material with others in order to understand it better.
 
-- Helping a classmate identify a bug in his or her code at office hours, elsewhere, or even online, as by viewing, compiling, or running his or her code, even on your own computer.
+- Helping a classmate identify a bug in his or her code, elsewhere, or even online, as by viewing, or running his or her code, even on your own computer.
 
 - Incorporating a few lines of code that you find online or elsewhere into your own code, provided that those lines are not themselves solutions to assigned problems and that you cite the lines' origins.
-
-- Reviewing past semesters' quizzes and solutions thereto.
 
 - Sending or showing code that you've written to someone, possibly a classmate, so that he or she might help you identify and fix a bug.
 
 - Sharing a few lines of your own code online so that others might help you identify and fix a bug.
 
-- Turning to the course's heads for help or receiving help from the course's heads during the quiz or test.
-
-- Turning to the web or elsewhere for instruction beyond the course's own, for references, and for solutions to technical difficulties, but not for outright solutions to assignment problems or your own final project.
+- Turning to the web or elsewhere for instruction beyond the course's own, for references, and for solutions to technical difficulties, but not for outright solutions to assignment problems.
 
 - Whiteboarding solutions to problem sets with others using diagrams or pseudocode but not actual code.
 
 - Working with (and even paying) a tutor to help you with the course, provided the tutor does not do your work for you.
 
-### Not Reasonable
+#### Not Reasonable
 
-- Accessing a solution to some problem prior to (re-)submitting your own.
+- Searching for or soliciting outright solutions to assignments online or elsewhere.
 
 - Asking a classmate to see his or her solution to a problem set's problem before (re-)submitting your own.
 
-- Decompiling, deobfuscating, or disassembling the staff's solutions to problem sets.
+- Asking ChatGPT or other large language models to write the code for (part of) an assignment for you.
 
 - Failing to cite (as with comments) the origins of code or techniques that you discover outside of the course's own lessons and integrate into your own work, even while respecting this policy's other constraints.
 
-- Giving or showing to a classmate a solution to a problem set's problem when it is he or she, and not you, who is struggling to solve it.
-
-- Looking at another individual's work during the test or quiz.
+- Giving or showing to a classmate a solution to part of an assignment when it is he or she, and not you, who is struggling to solve it.
 
 - Paying or offering to pay an individual for work that you may submit as (part of) your own.
 
-- Providing or making available solutions to problem sets to individuals who might take this course in the future.
+- Providing or making available solutions to assignments to individuals who might take this course in the future.
 
-- Searching for or soliciting outright solutions to problem sets online or elsewhere.
+- Splitting an assignment's workload with another individual and combining your work.
 
-- Splitting a problem set's workload with another individual and combining your work.
+- Submitting (after possibly modifying) the work of another individual.
 
-- Submitting (after possibly modifying) the work of another individual beyond the few lines allowed herein.
-
-- Submitting the same or similar work to this course that you have submitted or will submit to another.
-
-- Submitting work to this course that you intend to use outside of the course (e.g., for a job) without prior approval from the course's heads.
-
-- Turning to humans (besides the course's heads) for help or receiving help from humans (besides the course's heads) during the quiz or test.
-
-- Viewing another's solution to a problem set's problem and basing your own solution on it.
-
-In all cases we follow the directives regarding fraud and plagiarism of the
-University of Amsterdam and of the Computer Science
-BSc programme. Find them here in [English] and [Dutch].
-
-[Dutch]: http://uva.nl/plagiaat
-[English]: https://student.uva.nl/en/content/az/plagiarism-and-fraud/plagiarism-and-fraud.html
