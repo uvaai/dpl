@@ -69,7 +69,6 @@ Module 6 [11/12/23]:
     Schedule: /modules/m6
     Scraping (part 2):
         Scrape more pages: /acquisition/scraping2
-    Scraping (part 3):
         Transforming data to be more usable: /acquisition/transforming
         Visualizing the data: /acquisition/visualizing
 
