@@ -29,14 +29,26 @@ templates:
         hide_calculated: true
 
 grades:
-    populations-1: *check_off
+    populations-1:
+        <<: *check_off
+        deadline: 03/11/23 18:00
     # populations-sql: *manual
-    populations-2: *manual
-    transformation-1: *check_off
-    transformation-2: *manual
+    populations-2:
+        <<: *manual
+        deadline: 13/11/23 18:00
+    transformation-1:
+        <<: *check_off
+        deadline: 22/11/23 18:00
+    transformation-2:
+        <<: *manual
+        deadline: 30/11/23 18:00
     # transformation-3: *manual
-    scraping-1: *check_off
-    scraping-2: *manual
+    scraping-1:
+        <<: *check_off
+        deadline: 8/12/23 18:00
+    scraping-2:
+        <<: *manual
+        deadline: 15/12/23 18:00
     exam1: *check_off
     exam2: *check_off
 
