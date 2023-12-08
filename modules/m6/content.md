@@ -7,9 +7,9 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
 | Monday<br>11/12    | Scraping: Step 2             | Watch Theory videos &<br>Start CIFAR | Group seminar              |
 | Tuesday<br>12/12   | Scraping: Step 2             | Finish CIFAR Notebook               | Quiz/lecture                |
-| Wednesday<br>13/12 | Scraping: Transforming       | Start GTSRB Notebook                |                             |
-| Thursday<br>14/12  | Scraping: Visualizing        | Finish GTSRB Notebook               |                             |
-| Friday<br>15/12    | Scraping: Visualizing        | Writing                             |                             |
+| Wednesday<br>13/12 | Scraping: Transforming &<br> Visualizing | Start GTSRB Notebook    |                             |
+| Thursday<br>14/12  | Crawling: Part 1             | Finish GTSRB Notebook               |                             |
+| Friday<br>15/12    | Crawling: Part 2             | Writing                             |                             |
 
 
 
