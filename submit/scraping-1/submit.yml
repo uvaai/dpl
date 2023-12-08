@@ -2,5 +2,5 @@ name: scraping-1
 files:
     required:
         - homepage.zip
-        - pandas2.ipynb
+        - pandas_advanced.ipynb
         - scraper.py
