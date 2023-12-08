@@ -5,7 +5,9 @@ files:
         - extract.py
         - visualize_years.py
         - visualize_actors.py
-        - visualize_languages.py
         - years.png
         - actors.png
         - answers.txt
+    optional:
+        - visualize_languages.py
+        - languages.png
