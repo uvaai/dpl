@@ -73,7 +73,9 @@ Module 6 [11/12/23]:
         Scrape more pages: /acquisition/scraping2
         Transforming data to be more usable: /acquisition/transforming
         Visualizing the data: /acquisition/visualizing
-        Crawling: /acquisition/crawling
+        Crawling part 1: /acquisition/crawling
+        Crawling part 2: /acquisition/crawling2
+        Crawling part 3 [bonus]: /acquisition/crawling3
     Submit:
         Submit: /submit/scraping-2
 
