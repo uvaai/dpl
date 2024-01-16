@@ -3,6 +3,7 @@ files:
     required:
         - scraper.py
         - extract.py
+        - crawler.py
         - visualize_years.py
         - visualize_actors.py
         - years.png
