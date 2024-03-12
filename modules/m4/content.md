@@ -1,18 +1,11 @@
 
 ## Module 4
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Tuesday May 14th at 17:59**
+Next week there will be no class at all, as it the "education week". With this education week and the other holidays this period, we're required to merge some of the modules to leave enough room in the schedule of the courses. For this year, that means we won't be able to cover the decision trees topic as part of the course. We'll instead publish the content here as an optional module, which is not part of the exam material, and so does not need to be submitted on Friday April 26th at all. Feel free to try this optional module whenever you're interested in learning about another type of ML algorithm.
 
-| Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
-| ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Friday<br>26/04    | Processing violations and<br>reviews | Watch Theory videos + Entropy |                           |
-|                    |                                      |                               |                           |
-| Monday<br>06/05    | Counting words and<br>better metrics | Splitting data + Info Gain  | Office hours<br>Group seminar|
-| Tuesday<br>07/05   | Further tweaks and<br>final improvements | ID3                     |                             |
-| Wednesday<br>08/05 | Finish final improvements    | Numerical Decision Trees            |                             |
-|                    |                              |                                     |                             |
-| Monday<br>13/05    | Start Yelp API               | Random Forests                      | Group seminar               |
-| Tuesday<br>14/05   | Finish Yelp API              | Written Assignment                  |                             |
+| Day                | Introduction to Machine Learning | | |
+| ------------------ | -------------------------------- |-|-|
+| Friday<br>26/04    | Optional Decision Tree module    | | |                           
 
 
 

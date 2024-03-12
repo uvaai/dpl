@@ -1,16 +1,17 @@
 
 ## Module 6
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Thursday May 30th at 17:59**
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Friday May 24th at 17:59**
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Friday<br>24/05    | Scraping: Step 2             | Watch Theory videos &<br>Start CIFAR |                            |
-|                    |                              |                                      |                            |
-| Monday<br>27/05    | Scraping: Step 2             | Finish CIFAR Notebook               | Office hours<br>Group seminar|
-| Tuesday<br>28/05   | Scraping: Transforming &<br> Visualizing | Start GTSRB Notebook    |                             |
-| Wednesday<br>29/05 | Crawling: Part 1             | Finish GTSRB Notebook               |                             |
-| Thursday<br>30/05  | Crawling: Part 2             | Writing                             |                             |
+| Thursday<br>16/05  | HTML + Homepage              | Watch Theory videos                 |                             |
+| Friday<br>17/05    | More Pandas                  | Start CIFAR Notebook                | Office hours                |
+|                    |                              |                                     |                             |
+| Tuesday<br>21/05   | Scraping: Transforming       | Finish CIFAR Notebook               |                             |
+| Wednesday<br>22/05 | Crawling: Part 1             | Start GTSRB Notebook                |                             |
+| Thursday<br>23/05  | Crawling: Part 2             | Finish GTSRB Notebook               |                             |
+| Friday<br>24/05    | Crawling: Part 3             | Writing Assignment                  |                             |
 
 
 
