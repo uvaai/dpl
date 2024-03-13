@@ -1,11 +1,9 @@
 
 ## Module 4
 
-Next week there will be no class at all, as it the "education week". With this education week and the other holidays this period, we're required to merge some of the modules to leave enough room in the schedule of the courses. For this year, that means we won't be able to cover the decision trees topic as part of the course. We'll instead publish the content here as an optional module, which is not part of the exam material, and so does not need to be submitted on Friday April 26th at all. Feel free to try this optional module whenever you're interested in learning about another type of ML algorithm.
+Next week there will be no class at all, as it the "education week". With this education week and the other holidays this period, we're required to merge some of the modules to leave enough room in the schedule of the courses. For this year, that means we won't be able to cover decision trees topic and a part of webscraping. We'll instead publish the content here as optional modules, which is not part of the exam material, and so does *not* need to be submitted at all. Feel free to try these optional module whenever you're interested in learning more about these topics.
 
-| Day                | Introduction to Machine Learning | | |
-| ------------------ | -------------------------------- |-|-|
-| Friday<br>26/04    | Optional Decision Tree module    | | |                           
+We'll publish module 5 after the education week, so on Monday the 6th of May. Enjoy your holiday!
 
 
 
