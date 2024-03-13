@@ -72,7 +72,7 @@ Module 6 [11/12/23]:
     Scraping:
         Scraping introduction: /acquisition/minai/scraping_done # hier moet alles besproken worden uit scraping1 en 2, en de data daaruit worden geïntroduceert
         Transforming data to be more usable: /acquisition/transforming
-        Visualizing the data: /acquisition/visualizing
+        # Visualizing the data: /acquisition/visualizing
         Crawling part 1: /acquisition/crawling
         Crawling part 2: /acquisition/crawling2
         Crawling part 3 [bonus]: /acquisition/crawling3
