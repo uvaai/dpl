@@ -1,7 +1,7 @@
 Welcome:
     Read the syllabus to get started: /syllabus
 
-Module 1 [30/10/23]:
+Module 1 [2/4/24]:
     Schedule: /modules/m1
     Introduction: /extra/intro-oo
     Classes:
@@ -19,7 +19,7 @@ Module 1 [30/10/23]:
     Submit:
         Submit: /submit/populations-1
 
-Module 2 [6/11/23]:
+Module 2 [9/4/24]:
     Schedule: /modules/m2
     Introduction: /extra/intro-oo-2
     Populations (part 2):
@@ -37,7 +37,7 @@ Module 2 [6/11/23]:
     Submit:
         Submit Populations: /submit/populations-2
 
-Module 3 [14/11/23]:
+Module 3 [17/4/24]:
     Schedule: /modules/m3
     Climate data:
         Climate data: /transformation/climate-change
@@ -46,7 +46,7 @@ Module 3 [14/11/23]:
     Submit:
         Submit: /submit/transformation-1
 
-Module 4 [23/11/23]:
+Optional Module 4 [26/4/24]:
     Schedule: /modules/m4
     HTML:
         What is a website?: /acquisition/html-short
@@ -55,14 +55,14 @@ Module 4 [23/11/23]:
         Introduction: /acquisition/scraping
         Scrape a web page: /acquisition/scraping1
 
-Module 5 [1/12/23]:
+Module 5 [6/5/24]:
     Schedule: /modules/m5
     Transformation:
       "Part two: processing the data": /transformation/health-code-violations-2
       Submit:
         Submit: /submit/transformation-2
 
-Module 6 [11/12/23]:
+Module 6 [16/5/24]:
     Schedule: /modules/m6
     HTML:
         What is a website?: /acquisition/html-short
@@ -77,7 +77,7 @@ Module 6 [11/12/23]:
         Visualizing actors: /acquisition/actors
         Visualizing languages: /acquisition/languages
     Submit:
-        Submit: /submit/scraping-2
+        Submit: /submit/scraping-minai
 
 Practice Exam:
     Exam: /exams/practice_exam
