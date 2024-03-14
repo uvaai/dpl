@@ -70,12 +70,12 @@ Module 6 [11/12/23]:
     More Pandas:
         Improve your Pandas skills: /acquisition/pandas
     Scraping:
-        Scraping introduction: /acquisition/minai/scraping_done # hier moet alles besproken worden uit scraping1 en 2, en de data daaruit worden geïntroduceert
-        Transforming data to be more usable: /acquisition/transforming
+        Scraping introduction: /acquisition/minai/scraping
+        Transforming data: /acquisition/transforming
         # Visualizing the data: /acquisition/visualizing
-        Crawling part 1: /acquisition/crawling
-        Crawling part 2: /acquisition/crawling2
-        Crawling part 3 [bonus]: /acquisition/crawling3
+        Crawling: /acquisition/crawling
+        Visualizing actors: /acquisition/actors
+        Visualizing languages: /acquisition/languages
     Submit:
         Submit: /submit/scraping-2
 
