@@ -18,7 +18,7 @@ Tim Doolan (coordinator)
 
 Wouter Vrielink (teacher)
 
-You can reach us at <minorai@mprog.nl> for any practical matters or other
+You can reach us at <ai@proglab.nl> for any practical matters or other
 questions.
 
 ## Schedule
