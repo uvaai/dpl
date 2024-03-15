@@ -71,11 +71,11 @@ Module 6 [16/5/24]:
         Improve your Pandas skills: /acquisition/pandas
     Scraping:
         Scraping introduction: /acquisition/minai/scraping
-        Transforming data: /acquisition/transforming
+        Transforming data: /acquisition/minai/transforming
         # Visualizing the data: /acquisition/visualizing
-        Crawling: /acquisition/crawling
-        Visualizing actors: /acquisition/actors
-        Visualizing languages: /acquisition/languages
+        Crawling: /acquisition/minai/crawling
+        Visualizing actors: /acquisition/minai/actors
+        Visualizing languages: /acquisition/minai/languages
     Submit:
         Submit: /submit/scraping-minai
 

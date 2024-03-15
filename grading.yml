@@ -31,24 +31,26 @@ templates:
 grades:
     populations-1:
         <<: *check_off
-        deadline: 03/11/23 18:00
-    # populations-sql: *manual
+        deadline: 08/04/24 18:00
     populations-2:
         <<: *manual
-        deadline: 13/11/23 18:00
+        deadline: 16/04/24 18:00
     transformation-1:
         <<: *check_off
-        deadline: 22/11/23 18:00
+        deadline: 25/04/24 18:00
     transformation-2:
         <<: *manual
-        deadline: 30/11/23 18:00
+        deadline: 15/05/24 18:00
     # transformation-3: *manual
-    scraping-1:
-        <<: *check_off
-        deadline: 8/12/23 18:00
-    scraping-2:
+    # scraping-1:
+    #     <<: *check_off
+    #     deadline: 8/12/23 18:00
+    # scraping-2:
+    #     <<: *manual
+    #     deadline: 15/12/23 18:00
+    scraping-minai:
         <<: *manual
-        deadline: 15/12/23 18:00
+        deadline: 24/05/24 18:00
     exam1: *check_off
     exam2: *check_off
 
