@@ -50,10 +50,10 @@ Optional Module 4 [26/4/24]:
     Schedule: /modules/m4
     HTML:
         What is a website?: /acquisition/html-short
-        Make your own website: /acquisition/homepage
+        Make your own website [optional]: /acquisition/homepage
     Scraping (part 1):
         Introduction: /acquisition/scraping
-        Scrape a web page: /acquisition/scraping1
+        Scrape a web page [optional]: /acquisition/scraping1
 
 Module 5 [6/5/24]:
     Schedule: /modules/m5
