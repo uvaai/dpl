@@ -68,8 +68,7 @@ assignments:
         populations-2: 2
         transformation-1: 0
         transformation-2: 2
-        scraping-1: 0
-        scraping-2: 2
+        scraping-minai: 1
 
 manualcheck:
     type: points
