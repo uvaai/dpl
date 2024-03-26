@@ -24,293 +24,296 @@ This exam consists of 3 parts. Each of the parts can be made separately and are 
 
 ## Part 1: OOP
 
-You are tasked with creating a simple library management system. You will implement two classes: `Book` and `Library`. The `Book` class represents a book in the library and contains information such as the book's title, author, genres, and availability status. The `Library` class serves as a container for a collection of books and implements methods to add books to the library, check out a book, return a book, and search for books based on different criteria.
+A bank system asks you to implement their new transaction database. You will implement two classes: `Transaction` and `Bank`. `Transaction` is a class that contains all relevant information about a transaction: its identifier `transaction_id`, the account that the money is taken from `from_act`, the account that the money is sent to `to_act`, and the `amount` of money that is sent. The `Bank` class is a container for a list of `transactions` that implements methods to filter for large transactions, calculate the change in balance for an account, and print the change in balance for a list of accounts.
 
 The following UML describes these classes and their relation:
 
-![](umls/library.png)
+![](umls/bank.png)
 
-Implement `Book` with the following methods:
+Implement `Transaction` with the following method:
 
-- `__init__(title, author, genres)`: create a new instance with the information provided by the parameters. The book should be marked as available.
-- `checkout()`: if the book is available, this method marks the book as checked out (set the `available` attribute to `False`). If the book is not available, an error message is printed.
-- `return_book()`: if the book is not available, this method marks the book as available (set the `available` attribute to `True`). If the book is already available, an error message is printed.
-- `has_genre(genres_list)`: returns `True` if the book has at least one of the given `genres_list` in its `genres`, and returns `False` otherwise (i.e. there are no matches with `genres` at all).
+- `__init__(transaction_id, from_act, to_act, amount)`: create a new instance with the information provided by the parameters.
 
-For a reference of the error message, see the output of the example below.
+Implement `Bank` with the following methods:
 
-Implement `Library` with the following methods:
-
-- `__init__()`: create an empty collection of books.
-- `add_book(book)`: adds a `Book` instance to the library's collection of books
-- `search_available_books()`: searches for all available books in the library and returns a list of `Book` instances.
-- `search_by_title(title)`: searches for a book in the library that matches the given title exactly and returns a `Book` instance. If no book is found, `f'The book "{title}" was not found.'` is printed and `None` is returned.
-- `search_by_genres(genres)`: searches for books that have at least one of the genres in the list `genres` and returns a list of `Book` instances. Make sure that every book is only listed once!
-<!-- - `search_by_author(author)`: searches for books in the library based on the given author and returns a list of `Book` instances. -->
+- `__init__(transactions)`: create a new instance with the transactions provided as a parameter.
+- `filter_high_amounts()`: return a list of all transactions that transferred over 1000 dollars.
+- `total_change(act_nr)`: for the given account number (`act_nr`), return the change in money for that account as a float. This can be calculated by adding all the incomming transactions, and deducting all the outgoing transactions, for that specific account. Together this should indicate the total change in account balance from all the transactions for that account number.
+- `print_change_for_accounts(self, act_nrs)`: For a list of accounts (`act_nrs`), print the total change in account balance from all the transactions for each account in the `act_nrs` list.
 
 Have a look at this example:
 
-    # Create books
-    book1 = Book('Python for Beginners', 'Timothy C. Needham', ['Programming', 'Learning', 'Science'])
-    book2 = Book('Call of Cthulhu', 'Howard Phillips Lovecraft', ['Horror', 'Fantasy', 'Detective'])
-    book3 = Book('Elantris', 'Brandon Sanderson', ['Fantasy', 'Science fiction', 'Roman'])
-    book4 = Book('Pattern Recognition and Machine Learning', 'Christopher M. Bishop', ['Maths', 'Learning', 'Science', 'Horror'])
+    transactions = [Transaction(45, 'BE4567', 'NL9384', 115),
+                    Transaction(42, 'NL1234', 'BE4567', 621),
+                    Transaction(71, 'SP2398', 'NL1234', 567),
+                    Transaction(130, 'NL9384', 'NL1234', 1213),
+                    Transaction(62, 'NL1234', 'NL3394', 75),
+                    Transaction(49, 'BE4567', 'NL9384', 99),
+                    Transaction(33, 'NL3394', 'BE4567', 65),
+                    Transaction(33, 'NL1234', 'NL0010', 517),
+                    Transaction(55, 'NL1234', 'NL0010', 469),
+                    Transaction(20, 'NL1234', 'NL0010', 728),
+                    Transaction(53, 'NL1234', 'NL9384', 1393),
+                    Transaction(33, 'SP2398', 'BE4567', 849),
+                    Transaction(22, 'NL1234', 'NL9384', 992),
+                    Transaction(40, 'NL0010', 'NL3394', 1235),
+                    Transaction(52, 'NL9384', 'NL0010', 1477),
+                    Transaction(31, 'NL1234', 'NL9384', 1393),
+                    Transaction(127, 'BE4567', 'NL0010', 705),
+                    Transaction(115, 'SP2398', 'NL1234', 440),
+                    Transaction(39, 'SP2398', 'NL0010', 217),
+                    Transaction(106, 'SP2398', 'NL0010', 1335)]
 
-    book1.checkout()
-    print(f'{book1.title} has available set to {book1.available}')
-    book1.checkout() # this should give an errror
+    ing_bank = Bank(transactions)
+    first_transaction = ing_bank.transactions[0]
 
-    book1.return_book()
-    print(f'{book1.title} has available set to {book1.available}')
-    book1.return_book() # this should also give an error
+    print('The first transaction is:')
+    print(f'TID {first_transaction.transaction_id}: ${first_transaction.amount} from {first_transaction.from_act} to {first_transaction.to_act}')
+    print()
 
-    genres_list = ['Science fiction', 'Detective', 'Fantasy']
-    has_match = book3.has_genre(genres_list)
-    if has_match:
-      print(f'{book3.title} has at least one of the following genres: {genres_list}')
-    else:
-      print(f'{book3.title} has at none of the following genres: {genres_list}')
+    high_amounts = ing_bank.filter_high_amounts()
+    print(f'There are {len(high_amounts)} transactions that transfer over $1000!')
+    print(f'Their TIDs are: {[t.transaction_id for t in high_amounts]}.')
+    print()
 
-    has_match = book4.has_genre(genres_list)
-    if has_match:
-      print(f'{book4.title} has at least one of the following genres: {genres_list}')
-    else:
-      print(f'{book4.title} has at none of the following genres: {genres_list}')
+    print(f'The total change for account NL3394 is ${ing_bank.total_change("NL3394")}')
+    print()
 
-    # Create library
-    library = Library()
-
-    # Add books to the library
-    for book in [book1, book2, book3, book4]:
-        library.add_book(book)
-
-    # Search for available books
-    book1.checkout()
-    available_books = library.search_available_books()
-    print('\nAvailable Books:')
-    for book in available_books:
-        print(f'\tBook "{book.title}" is available')
-
-    # Search for books by title
-    found_book = library.search_by_title('Python for Beginners')
-    print(f'\nWe found the book "{found_book.title}" by {found_book.author}')
-    library.search_by_title('Non-existing-book-title')
-
-    # Search for books by genre
-    genres = ['Learning', 'Detective', 'Science']
-    found_books = library.search_by_genres(genres)
-    print(f'\nSearch Results for genres {genres}:')
-    for book in found_books:
-        print(f'\tBook "{book.title}" by {book.author}')
+    customers = ['NL1234', 'NL3394', 'NL9384', 'SP2398', 'NL0010', 'BE4567']
+    ing_bank.print_change_for_accounts(customers)
 
 Which should give the following result:
 
-    Python for Beginners has available set to False
-    ERROR: The book "Python for Beginners" by Timothy C. Needham was already checked out!
-    Python for Beginners has available set to True
-    ERROR: The book "Python for Beginners" by Timothy C. Needham was already returned!
+    The first transaction is:
+    TID 45: $115 from BE4567 to NL9384
 
-    Elantris has at least one of the following genres: ['Science fiction', 'Detective', 'Fantasy']
+    There are 6 transactions that transfer over $1000!
+    Their TIDs are: [130, 53, 40, 52, 31, 106].
 
-    Pattern Recognition and Machine Learning has at none of the following genres: ['Science fiction', 'Detective', 'Fantasy']
+    The total change for account NL3394 is $1245
 
-    Available Books:
-        Book "Call of Cthulhu" is available
-        Book "Elantris" is available
-        Book "Pattern Recognition and Machine Learning" is available
-
-    We found the book "Python for Beginners" by Timothy C. Needham
-    The book "Non-existing-book-title" was not found.
-
-    Search Results for genres ['Learning', 'Detective', 'Science']:
-        Book "Python for Beginners" by Timothy C. Needham
-        Book "Call of Cthulhu" by Howard Phillips Lovecraft
-        Book "Pattern Recognition and Machine Learning" by Christopher M. Bishop
+    NL1234 changed by $-3968
+    NL3394 changed by $1245
+    NL9384 changed by $1302
+    SP2398 changed by $-3408
+    NL0010 changed by $4213
+    BE4567 changed by $616
 
 
 ## Part 2: Pandas
 
-For this assignment you need to use the file [sales.csv](sales.csv). This file contains data about sales transactions and looks as follows:
+For this assignment you need to use the file [film.csv](film.csv). This file contains data on a set of movies from the 1900s. The file contains the following data:
 
-    transaction_id,product_name,quantity,price,customer_id
-    1001,Product A,5,10.99,C001
-    1002,Product B,2,24.99,C002
-    1003,Product C,1,49.99,C003
+    Year;Length;Title;Subject;Actor;Actress;Director;Popularity;Awards
+    1990;111.0;Tie Me Up! Tie Me Down!;Comedy;Banderas, Antonio;Abril, Victoria;Almodvar, Pedro;68.0;No
+    1991;113.0;High Heels;Comedy;Bos, Miguel;Abril, Victoria;Almodvar, Pedro;68.0;No
+    1983;104.0;Dead Zone, The;Horror;Walken, Christopher;Adams, Brooke;Cronenberg, David;79.0;No
     ...
-    1160,Product C,2,49.99,C003
-    1161,Product D,1,79.99,C005
-    1162,Product E,2,99.99,C107
+    1988;78.0;Hot Money;Drama;Welles, Orson;;;19.0;No
+    1977;75.0;Comedy Tonight;Comedy;Williams, Robin;;;18.0;No
+    1991;65.0;Robin Williams;Comedy;Williams, Robin;;;4.0;No
 
-As you can see, the file has a header, and the data fields are separated by comma's. The different datafields contain the following information:
+As you can see, the data fields are separated by a **semicolon** and contain the following information:
 
-1. `transaction_id`: the unique identifier of the transaction
-2. `product_name`: the name of the product sold
-3. `quantity`: the quantity of the product sold
-4. `price`: the price of each unit of the product
-5. `customer_id`: the unique identifier of the customer
+1. Year of release
+2. Duration in minutes
+3. Title of the movie
+4. Genre
+5. The name of the lead actor
+6. The name of the lead actress
+7. The name of the director
+8. The popularity (a float from 0 to 100)
+9. Whether the movie was awarded (Yes/No)
 
-### Exercise 1
+#### Exercise 1
 
-Load the data into a `DataFrame` named `df` using `pandas`. Print the dataframe and make sure your result has 162 rows and 5 columns.
+Load the data into a `DataFrame` named `df` using `pandas`. Print the dataframe and make sure your result has 1128 rows and 9 columns:
 
-         transaction_id product_name  quantity  price customer_id
-    0              1001    Product A         5  10.99        C001
-    1              1002    Product B         2  24.99        C002
-    2              1003    Product C         1  49.99        C003
-    3              1004    Product A         3  10.99        C001
-    4              1005    Product B         4  24.99        C004
-    ..              ...          ...       ...    ...         ...
-    157            1158    Product A         4  10.99        C105
-    158            1159    Product B         3  24.99        C106
-    159            1160    Product C         2  49.99        C003
-    160            1161    Product D         1  79.99        C005
-    161            1162    Product E         2  99.99        C107
+          Year  Length  ... Popularity Awards
+    0     1990   111.0  ...       68.0     No
+    1     1991   113.0  ...       68.0     No
+    2     1983   104.0  ...       79.0     No
+    3     1979   122.0  ...        6.0     No
+    4     1978    94.0  ...       14.0     No
+    ...    ...     ...  ...        ...    ...
+    1123  1975    93.0  ...       85.0     No
+    1124  1949    90.0  ...       57.0     No
+    1125  1987   103.0  ...       69.0     No
+    1126  1947    87.0  ...       17.0     No
+    1127  1990    92.0  ...       18.0     No
 
-    [162 rows x 5 columns]
+    [1128 rows x 9 columns]
 
-### Exercise 2
+#### Exercise 2
 
 Now that the `DataFrame` has been loaded, we will do some data transformations.
 
-Create a new `DataFrame` named `product_sales` that, for every `product` in the dataset, shows the total number of sales for that product.
+Add a new column to `df` named `'Demidecade'` that, for every movie, determines which 5 year period that movie was released in. For example, for a movie that was released in `1964` this column should contain `1960`, and for a movie released in `1997` this column should contain `1995`.
 
-Your result should look something like this:
+Print the resulting dataframe. It should look something like this:
 
-    product_name
-    Product A    85
-    Product B    91
-    Product C    56
-    Product D    33
-    Product E    91
-    Product F    57
-    Name: quantity, dtype: int64
+          Year  Length  ... Awards Demidecade
+    0     1990   111.0  ...     No       1990
+    1     1991   113.0  ...     No       1990
+    2     1983   104.0  ...     No       1980
+    3     1979   122.0  ...     No       1975
+    4     1978    94.0  ...     No       1975
+    ...    ...     ...  ...    ...        ...
+    1123  1975    93.0  ...     No       1975
+    1124  1949    90.0  ...     No       1945
+    1125  1987   103.0  ...     No       1985
+    1126  1947    87.0  ...     No       1945
+    1127  1990    92.0  ...     No       1990
 
-Calculate the total sales for each product and store the result in a pandas `Series` named `product_sales`, where the index represents the product name and the values represent the total sales for that product.
+    [1128 rows x 10 columns]
 
-### Exercise 3
+#### Exercise 3
 
-Calculate the total revenue generated from all sales and assign it to the variable `total_revenue`. Round the number to two decimals. Print your answer in the following format:
+Now create a `Series` named `duration_demidecade` that, for every demi-decade (5 year period) in the dataset, shows the average duration of movies released in that demi-decade rounded to the nearest minute. Your result should look something like this:
 
-    The total revenue was $26295.87
+    Demidecade
+    1920    102.0
+    1925     99.0
+    1930     88.0
+    1935    102.0
+    1940     94.0
+    1945     97.0
+    1950    100.0
+    1955    109.0
+    1960    121.0
+    1965    117.0
+    1970    112.0
+    1975    117.0
+    1980    111.0
+    1985    105.0
+    1990    109.0
+    1995    102.0
+    Name: Length, dtype: float64
 
-> Hint: It might be easier to create a new column in your dataframe that holds the revenue for each transaction, and then calculate the total revenue from there.
+#### Exercise 4
 
-### Exercise 4
+Write code that can find the demi-decade that had the longest movies on average. Print the result as follows:
 
-Create a new `Series` named `customer_item_counts` that, for every `'customer_id'` in the dataset, calculates the total number of items that was purchased by that customer.
+    The 5 year period with the longest movies on average was: XXXX
 
-    customer_id
-    C001    22
-    C002    27
-    C003    36
-    C004     4
-    C005    13
-            ..
-    C103     5
-    C104     2
-    C105     4
-    C106     3
-    C107     2
-    Name: quantity, Length: 107, dtype: int64
+#### Exercise 5
 
-### Exercise 5
+Find how many movies that are in our dataset were released in the demi-decade 1965. Print the result as follows:
 
-Using `customer_item_counts` from the previous exercise, find the top 5 customers who purchased the most items by ordering from highest to lowest total purchases and print the result.
+    The 5 year period from 1965 had YYYY movies
 
-Your result should look something like this:
+#### Exercise 6
 
-    customer_id
-    C003    36
-    C002    27
-    C001    22
-    C009    16
-    C005    13
-    Name: quantity, dtype: int64
+The dataset contains a lot of names that are formatted as `'<lastname>, <firstname>'`. We want to reformat these names to make them more readable. Change every name in the columns `'Actor', 'Actress', 'Director'` to be in the new format `<firstname> <lastname>`.
+
+Print the first 5 entries from the columns `'Actor', 'Actress', 'Director'`:
+
+                    Actor         Actress          Director
+    0    Antonio Banderas  Victoria Abril    Pedro Almodvar
+    1          Miguel Bos  Victoria Abril    Pedro Almodvar
+    2  Christopher Walken    Brooke Adams  David Cronenberg
+    3        Sean Connery    Brooke Adams    Richard Lester
+    4        Richard Gere    Brooke Adams   Terrence Malick
 
 ## Part 3: Built-in data structures
 
-You are tasked with creating a concert database that keeps track of concerts scheduled at different venues. You have a dictionaries of venues with their available seats and a list of upcoming concerts.
+### Phone book
 
-    venue_seats = {'Tivoli': [('VIP', 'A1'), ('VIP', 'A2'), ('General', 'B1'), ('General', 'B2'), ('General', 'B3'), ('General', 'B4')],
-                'Ahoy': [('VIP', 'A1'), ('VIP', 'A2'), ('VIP', 'A3'), ('General', 'B1'), ('General', 'B2'), ('General', 'C1'), ('General', 'C2'), ('General', 'D1'), ('General', 'D2')],
-                'Ziggo Dome': [('General', 'A1'), ('General', 'B1'), ('General', 'C1'), ('General', 'D1')]}
+For this assignment you'll write a few functions to work with some phone book data. This phone book is built using a *dictionary of dictionaries*, where the outer dictionary can be used to search on **last name** as a key, and its corresponding value is an inner dictionary of **first names** and their **phone numbers**. As it is possible for several people to have the same first and last name, the values of the inner dictionary are all *lists* of phone numbers, which will contain several phone numbers if there are multiple people with that same name.
 
-    concerts = [('Backstreet Boys', 'Ahoy', '11-02-2024'),
-                ('Backstreet Boys', 'Tivoli', '12-02-2024'),
-                ('Backstreet Boys', 'Ziggo Dome', '13-02-2024'),
-                ('Golden Earring', 'Ahoy', '18-02-2024'),
-                ('Greenday', 'Ziggo Dome', '18-02-2024')]
+Below is the example phone book we'll be working with for the assignment
 
-### Exercise 1
+    phone_book = {"White":
+                     {"Harvey": [5306],
+                      "Larry": [2116],
+                      "John": [7470, 4279, 5122]},
+                 "Orange":
+                     {"Tim": [7988],
+                      "Jack": [2994, 9808],
+                      "James": [3358],
+                      "Freddy": [9024]},
+                 "Blonde":
+                     {"Vic": [6027],
+                      "Micheal": [3397],
+                      "Jack": [9299]},
+                 "Pink":
+                     {"Edward": [1380],
+                      "Quentin": [5461],
+                      "Jack": [3768],
+                      "Steve": [5060]},
+                 }
 
-Your goal is to populate a concert database with concert details and the available tickets.
+You should copy-paste this example in your own code file. Make sure you understand the structure of the phonebook before moving on to the first assignment.
 
-Write a function `initialize_concert_database(concerts)` that creates a dictionary named `concert_database` using information from the list of `concerts`. The dictionary `concert_database` has keys which are tuples containing concert details in the following order: `venue`, `band_name`, and `date`. The value for each key should be an empty list for now.
 
-Call the function as follows:
+#### Excercise 1
 
-    concert_database = initialize_concert_database(concerts)
-    print(concert_database)
+Write a function `add_number(phone_book, first_name, last_name, phone_number)` that adds the `phone_number` of a person with the given `first_name` and `last_name` to the `phone_book`. This function should modify the original `phone_book` and return the modified copy. Note that is possible that a person with that same name might already be in the phone book, in which case the number should be added to the existing list. If the first and/or last name don't already occur in the phone book, they should be added as entries in the phone book.
 
-When done correctly you will end up with `concert_database` looking as follows:
+You can test your code using
 
-    {('Ahoy', 'Backstreet Boys', '11-02-2024'): [],
-      ('Tivoli', 'Backstreet Boys', '12-02-2024'): [],
-      ('Ziggo Dome', 'Backstreet Boys', '13-02-2024'): [],
-      ('Ahoy', 'Golden Earring', '18-02-2024'): [],
-      ('Ziggo Dome', 'Greenday', '18-02-2024'): []
-    }
+    add_number(phone_book, 'James', 'Orange', 8796)
+    add_number(phone_book, 'Calvin', 'Blue', 1109)
 
-### Exercise 2
+    print(phone_book)
 
-We will now fill each of the lists in `concert_database` with the tickets that are available for a venue.
+which should print something like
 
-Write a function `populate_concert_database(concert_database, venue_seats)` that takes a `concert_database` that is initialized and populates the lists for each concert with the available tickets for the venue using information from `venue_seats`.
+    {'White':
+        {'Harvey': [5306],
+         'Larry': [2116],
+         'John': [7470, 4279, 5122]},
+     'Orange':
+         {'Tim': [7988],
+          'Jack': [2994, 9808],
+          'James': [3358, 8796],
+          'Freddy': [9024]},
+     'Blonde':
+         {'Vic': [6027],
+          'Micheal': [3397],
+          'Jack': [9299]},
+     'Pink':
+         {'Edward': [1380],
+          'Quentin': [5461],
+          'Jack': [3768],
+          'Steve': [5060]},
+     'Blue':
+         {'Calvin': [1109]}}
 
-Every ticket should be structured as follows: `(name, ticket_type, seat_number)`. A ticket that is not sold should have `None` entered for its name. You can assume that each ticket starts out unsold, so each ticket will have `None` as it's `name` for now.
+> Note that order of the dictionary keys, and the formatting of your printing do not need to be the same. Only the key-value mappings of the dictionaries needs to match here.
 
-Update the `concert_database` dictionary to include the available tickets for each concert. The tickets should be added as a list to the corresponding concert key.
 
-After running the following:
+#### Excercise 2
 
-    concert_database = populate_concert_database(concert_database, venue_seats)
-    print(concert_database)
+Next, write the function `build_number_list(phone_book)` that take as input a `phone_book` and returns a list of tuples each containing the *first name*, *last name* and *phone number* of all the individuals in the phone book. So this function will need convert the dictionary of dictionaries to a single list of tuples with all the individuals in the phone book. Note that order of the of the names does not matter, as long as all the individuals from the phone book are listed.
 
-Your `concert_database` should now be:
+If you call this function on your example phone book using `build_number_list(phone_book)`, you should get an output similar to this
 
-    {('Ahoy', 'Backstreet Boys', '11-02-2024'):
-          [(None, 'VIP', 'A1'), (None, 'VIP', 'A2'), (None, 'VIP', 'A3'), (None, 'General', 'B1'), (None, 'General', 'B2'), (None, 'General', 'C1'), (None, 'General', 'C2'), (None, 'General', 'D1'), (None, 'General', 'D2')],
-      ('Tivoli', 'Backstreet Boys', '12-02-2024'):
-          [(None, 'VIP', 'A1'), (None, 'VIP', 'A2'), (None, 'General', 'B1'), (None, 'General', 'B2'), (None, 'General', 'B3'), (None, 'General', 'B4')],
-      ('Ziggo Dome', 'Backstreet Boys', '13-02-2024'):
-          [(None, 'General', 'A1'), (None, 'General', 'B1'), (None, 'General', 'C1'), (None, 'General', 'D1')],
-      ('Ahoy', 'Golden Earring', '18-02-2024'):
-          [(None, 'VIP', 'A1'), (None, 'VIP', 'A2'), (None, 'VIP', 'A3'), (None, 'General', 'B1'), (None, 'General', 'B2'), (None, 'General', 'C1'), (None, 'General', 'C2'), (None, 'General', 'D1'), (None, 'General', 'D2')],
-      ('Ziggo Dome', 'Greenday', '18-02-2024'):
-          [(None, 'General', 'A1'), (None, 'General', 'B1'), (None, 'General', 'C1'), (None, 'General', 'D1')
-    ]}
+    [('Harvey', 'White', 5306),
+     ('Larry', 'White', 2116),
+     ('John', 'White', 7470),
+     ('John', 'White', 4279),
+     ('John', 'White', 5122),
+     ('Tim', 'Orange', 7988),
+     ('Jack', 'Orange', 2994),
+     ('Jack', 'Orange', 9808),
+     ('James', 'Orange', 3358),
+     ('James', 'Orange', 8796),
+     ('Freddy', 'Orange', 9024),
+     ('Vic', 'Blonde', 6027),
+     ('Micheal', 'Blonde', 3397),
+     ('Jack', 'Blonde', 9299),
+     ('Edward', 'Pink', 1380),
+     ('Quentin', 'Pink', 5461),
+     ('Jack', 'Pink', 3768),
+     ('Steve', 'Pink', 5060),
+     ('Calvin', 'Blue', 1109)]
 
-### Exercise 3
 
-Now let's simulate the sale of tickets! Write a function called `sell_ticket(concert_database, concert, seat_number, name)` that takes the `concert_database` dictionary, a `concert` tuple representing the concert details, a `seat_number` indicating the seat to be sold, and a `name` string representing the name of the person buying the ticket.
+### Excercise 3
 
-The function should update the `concert_database` dictionary by replacing the `None` value in the ticket with the provided name.
+Finally, write a function `find_first_name(phone_book, first_name)` that takes a `phone_book` and finds all of the people with that `first_name` and their phone numbers. The function should return a new dictionary, where the keys are the different *last names* belonging to that first name, and the values are the lists of *phone numbers* belonging to people with that first name and last name.
 
-For example, if we call the function as follows:
+If you test your code using the first name `Jack` by calling `find_first_name(phone_book, 'Jack')`, you should get the following output
 
-    concert = ('Ahoy', 'Backstreet Boys', '11-02-2024')
-    seat_number = 'A3'
-    name = 'Jan Janssen'
-
-    sell_ticket(concert_database, concert, seat_number, name)
-
-    seat_number = C1
-    name = 'Bart Bakker'
-    sell_ticket(concert_database, concert, seat_number, name)
-
-    # Print the tickets for a specific concert
-    print(concert_database[concert])
-
-The following should be printed:
-
-    [(None, 'VIP', 'A1'), (None, 'VIP', 'A2'), ('Jan Janssen', 'VIP', 'A3'), (None, 'General', 'B1'), (None, 'General', 'B2'), ('Bart Bakker', 'General', 'C1'), (None, 'General', 'C2'), (None, 'General', 'D1'), (None, 'General', 'D2')]
+    {'Orange': [2994, 9808], 'Blonde': [9299], 'Pink': [3768]}
