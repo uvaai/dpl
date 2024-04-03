@@ -1,7 +1,7 @@
 Welcome:
     Read the syllabus to get started: /syllabus
 
-Module 1 [2/4/24]:
+Module 1:
     Schedule: /modules/m1
     Introduction: /extra/intro-oo
     Classes:
@@ -19,7 +19,7 @@ Module 1 [2/4/24]:
     Submit:
         Submit: /submit/populations-1
 
-Module 2 [9/4/24]:
+Module 2:
     Schedule: /modules/m2
     Introduction: /extra/intro-oo-2
     Populations (part 2):
@@ -37,7 +37,7 @@ Module 2 [9/4/24]:
     Submit:
         Submit Populations: /submit/populations-2
 
-Module 3 [17/4/24]:
+Module 3:
     Schedule: /modules/m3
     Climate data:
         Climate data: /transformation/climate-change
@@ -46,7 +46,7 @@ Module 3 [17/4/24]:
     Submit:
         Submit: /submit/transformation-1
 
-Optional Module 4 [26/4/24]:
+Optional Module 4:
     Schedule: /modules/m4
     HTML:
         What is a website?: /acquisition/html-short
@@ -55,14 +55,14 @@ Optional Module 4 [26/4/24]:
         Introduction: /acquisition/scraping
         Scrape a web page [optional]: /acquisition/scraping1
 
-Module 5 [6/5/24]:
+Module 5:
     Schedule: /modules/m5
     Transformation:
       "Part two: processing the data": /transformation/health-code-violations-2
       Submit:
         Submit: /submit/transformation-2
 
-Module 6 [16/5/24]:
+Module 6:
     Schedule: /modules/m6
     HTML:
         What is a website?: /acquisition/html-short
@@ -79,14 +79,14 @@ Module 6 [16/5/24]:
     Submit:
         Submit: /submit/scraping-minai
 
-Practice Exam:
-    Exam: /exams/practice_exam
-    More practice: /exams/more_practice
-
-Exam:
-    Exam: /exams/exam
-    Submit: /submit/exam1
-
-Retake:
-    Exam: /exams/exam2
-    Submit: /submit/exam2
+# Practice Exam:
+#     Exam: /exams/practice_exam
+#     More practice: /exams/more_practice
+#
+# Exam:
+#     Exam: /exams/exam
+#     Submit: /submit/exam1
+#
+# Retake:
+#     Exam: /exams/exam2
+#     Submit: /submit/exam2
