@@ -1,0 +1,92 @@
+Welcome:
+    Read the syllabus to get started: /syllabus
+
+Module 1 [2/4/24]:
+    Schedule: /modules/m1
+    Introduction: /extra/intro-oo
+    Classes:
+        Learn about using classes in Python [theory]: /python/en/classes
+        Practice with classes [practice]: /objects/cards
+    Default arguments:
+        Default arguments: /python/en/default-arguments
+    Populations (part 1):
+        Introduction: /populations-oo/introduction
+        Phase 1: /populations-oo/phase1
+        Phase 2: /populations-oo/phase2
+        Phase 3: /populations-oo/phase3
+        Phase 4: /populations-oo/phase4
+        Phase 5: /populations-oo/phase5
+    Submit:
+        Submit: /submit/populations-1
+
+Module 2 [9/4/24]:
+    Schedule: /modules/m2
+    Introduction: /extra/intro-oo-2
+    Populations (part 2):
+        Phase 6: /populations-oo/phase6
+        Phase 7: /populations-oo/phase7
+        Phase 8: /populations-oo/phase8
+        Phase 9: /populations-oo/phase9
+    Theory:
+        Keyword arguments [theory]: /python/en/keyword-arguments/kwargs
+        Args and kwargs [theory]: /python/en/keyword-arguments/starstar
+        Sampling methods [theory]: /populations-oo/sampling
+    Populations (part 3):
+        Experiment: /populations-oo/experimenting
+        Visualize: /populations-oo/visualizing
+    Submit:
+        Submit Populations: /submit/populations-2
+
+Module 3 [17/4/24]:
+    Schedule: /modules/m3
+    Climate data:
+        Climate data: /transformation/climate-change
+    Transformation:
+        "Part one: merging the data": /transformation/health-code-violations-1
+    Submit:
+        Submit: /submit/transformation-1
+
+Optional Module 4 [26/4/24]:
+    Schedule: /modules/m4
+    HTML:
+        What is a website?: /acquisition/html-short
+        Make your own website [optional]: /acquisition/homepage
+    Scraping (part 1):
+        Introduction: /acquisition/scraping
+        Scrape a web page [optional]: /acquisition/scraping1
+
+Module 5 [6/5/24]:
+    Schedule: /modules/m5
+    Transformation:
+      "Part two: processing the data": /transformation/health-code-violations-2
+      Submit:
+        Submit: /submit/transformation-2
+
+Module 6 [16/5/24]:
+    Schedule: /modules/m6
+    HTML:
+        What is a website?: /acquisition/html-short
+        Make your own website: /acquisition/homepage
+    More Pandas:
+        Improve your Pandas skills: /acquisition/pandas
+    Scraping:
+        Scraping introduction: /acquisition/minai/scraping
+        Transforming data: /acquisition/minai/transforming
+        # Visualizing the data: /acquisition/visualizing
+        Crawling: /acquisition/minai/crawling
+        Visualizing actors: /acquisition/minai/actors
+        Visualizing languages: /acquisition/minai/languages
+    Submit:
+        Submit: /submit/scraping-minai
+
+Practice Exam:
+    Exam: /exams/practice_exam
+    More practice: /exams/more_practice
+
+Exam:
+    Exam: /exams/exam
+    Submit: /submit/exam1
+
+Retake:
+    Exam: /exams/exam2
+    Submit: /submit/exam2
