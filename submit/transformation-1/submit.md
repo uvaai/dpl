@@ -9,3 +9,6 @@ Here you can submit your solutions to the problems in your module. Take note:
 - In case of problems submitting, ask your teacher or send an e-mail to <minorai@mprog.nl>.
 
 **There will be no grade for this module, but you will get feedback on your code. This feedback can then be used to improve your code for the next module, in which you will continue with your simulation.**
+
+
+## Note that your homepage.zip file cannot be bigger than 8mb!
