@@ -9,3 +9,5 @@ Here you can submit your solutions to the problems in your module. Take note:
 - In case of problems submitting, ask your teacher or send an e-mail to <ai@proglab.nl>.
 
 **This module will be graded. Use feedback from the previous module to improve your code.**
+
+## Note that your homepage.zip file cannot be bigger than 8mb!
