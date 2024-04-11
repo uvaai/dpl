@@ -10,4 +10,4 @@ Here you can submit your solutions to the problems in your module. Take note:
 
 **This module will be graded. Use feedback from the previous module to improve your code.**
 
-## Note that your homepage.zip file cannot be bigger than 8mb!
+## Note that your homepage.zip file cannot be bigger than 8mb! Submitting with bigger files wont work!
