@@ -8,10 +8,10 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | Thursday<br>16/05  | HTML + Homepage              | Watch Theory videos                 |                             |
 | Friday<br>17/05    | More Pandas                  | Start CIFAR Notebook                | Office hours                |
 |                    |                              |                                     |                             |
-| Tuesday<br>21/05   | Scraping: Transforming       | Finish CIFAR Notebook               |                             |
-| Wednesday<br>22/05 | Crawling: Part 1             | Start GTSRB Notebook                |                             |
-| Thursday<br>23/05  | Crawling: Part 2             | Finish GTSRB Notebook               |                             |
-| Friday<br>24/05    | Crawling: Part 3             | Writing Assignment                  |                             |
+| Tuesday<br>21/05   | Scraping +<br>Transforming Data | Finish CIFAR Notebook            |                             |
+| Wednesday<br>22/05 | Crawling                     | Start GTSRB Notebook                |                             |
+| Thursday<br>23/05  | Visualizing languages        | Finish GTSRB Notebook               |                             |
+| Friday<br>24/05    | Visualizing actors           | Writing Assignment                  |                             |
 
 
 
