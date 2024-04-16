@@ -7,8 +7,8 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
 | Wednesday<br>17/04 | Start Climate Data           | Watch Theory 1 +<br>Backward: 1a    |                             |
 | Thursday<br>18/04  | Finish Climate Data          | Backward: 1b & 2                    | Office hours                |
-| Friday<br>19/04    | Yelp: t/m Merging JSON reviews | Backward: 3, 4 & 5 + Written<br>assignment: Send GDPR request | |
-|                    |                                |                                                               | |
+| Friday<br>19/04    | Pass by Reference +<br>Yelp: t/m Merging JSON reviews | Backward: 3, 4 & 5 +<br>Written assignment:<br>Send GDPR request | |
+|                    |                                                       |                                                                  | |
 | Monday<br>22/04    | Yelp: Matching inspections<br>with reviews | Backward: 6 +<br>Watch Theory 2 | Group seminar     |
 | Tuesday<br>23/04   | Yelp: Matching inspections<br>with reviews | Start Activations        |                          |
 | Wednesday<br>24/04 | Yelp: Merging in the inspections | Finish Activations +<br>Watch Theory 3 | Office hours         |
