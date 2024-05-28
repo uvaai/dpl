@@ -1,0 +1,13 @@
+name: scraping-minai
+files:
+    required:
+        - homepage.zip
+        - pandas_advanced.ipynb
+        - scraper.py
+        - extract.py
+        - crawler.py
+        - visualize_actors.py
+        - actors.png
+        - visualize_languages.py
+        - languages.png
+        - answers.txt
