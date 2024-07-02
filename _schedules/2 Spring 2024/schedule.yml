@@ -90,5 +90,5 @@ Exam:
     Submit: /submit/exam1
 
 Retake:
-    Exam: /exams/exam2
+    Exam: https://uvaai.github.io/dpr-exam/exam2/exam.html
     Submit: /submit/exam2
