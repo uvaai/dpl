@@ -41,6 +41,8 @@ Module 3 [14/11/23]:
     Schedule: /modules/m3
     Climate data:
         Climate data: /transformation/climate-change
+    Pass by reference:
+        References: /transformation/references
     Transformation:
         "Part one: merging the data": /transformation/health-code-violations-1
     Submit:
@@ -84,9 +86,9 @@ Practice Exam:
     More practice: /exams/more_practice
 
 Exam:
-    Exam: /exams/exam
+    Exam: https://uvaai.github.io/dpr-exam/exam/exam.html
     Submit: /submit/exam1
 
 Retake:
-    Exam: /exams/exam2
+    Exam: https://uvaai.github.io/dpr-exam/exam2/exam.html
     Submit: /submit/exam2
