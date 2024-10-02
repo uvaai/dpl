@@ -1,7 +1,7 @@
 Welcome:
     Read the syllabus to get started: /syllabus
 
-Module 1 [30/10/23]:
+Module 1 [28/10/24]:
     Schedule: /modules/m1
     Introduction: /extra/intro-oo
     Classes:
@@ -19,7 +19,7 @@ Module 1 [30/10/23]:
     Submit:
         Submit: /submit/populations-1
 
-Module 2 [6/11/23]:
+Module 2 [4/11/24]:
     Schedule: /modules/m2
     Introduction: /extra/intro-oo-2
     Populations (part 2):
@@ -37,7 +37,7 @@ Module 2 [6/11/23]:
     Submit:
         Submit Populations: /submit/populations-2
 
-Module 3 [14/11/23]:
+Module 3 [12/11/24]:
     Schedule: /modules/m3
     Climate data:
         Climate data: /transformation/climate-change
@@ -48,7 +48,7 @@ Module 3 [14/11/23]:
     Submit:
         Submit: /submit/transformation-1
 
-Module 4 [23/11/23]:
+Module 4 [21/11/24]:
     Schedule: /modules/m4
     Transformation:
         "Part two: processing the data": /transformation/health-code-violations-2
@@ -56,7 +56,7 @@ Module 4 [23/11/23]:
         Submit: /submit/transformation-2
 
 
-Module 5 [1/12/23]:
+Module 5 [29/11/24]:
     Schedule: /modules/m5
     HTML:
         What is a website?: /acquisition/html-short
@@ -69,7 +69,7 @@ Module 5 [1/12/23]:
     Submit:
         Submit: /submit/scraping-1
 
-Module 6 [11/12/23]:
+Module 6 [9/12/24]:
     Schedule: /modules/m6
     Scraping (part 2):
         Scrape more pages: /acquisition/scraping2
