@@ -61,11 +61,11 @@ Module 5 [29/11/24]:
         What is a website?: /homepage/html-short
         Make your own website: /homepage/homepage
     Scraping:
-        The `argparse` module [theory]: /python/en/argparse
+        "The `argparse` module [theory]": /python/en/argparse
         Scraping a Wikipedia page: /wikipedia/scraping
         Visualizing the results: /wikipedia/visualize-gdp
     Crawling:
-        `try` and `except` [theory]: /python/en/try-except
+        "`try` and `except` [theory]": /python/en/try-except
         Crawling Wikipedia: /wikipedia/crawling
         Visualizing the results: /wikipedia/visualize-gini
     Submit:
