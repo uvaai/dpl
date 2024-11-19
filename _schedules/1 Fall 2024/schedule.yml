@@ -55,31 +55,46 @@ Module 4 [21/11/24]:
     Submit:
         Submit: /submit/transformation-2
 
-
 Module 5 [29/11/24]:
     Schedule: /modules/m5
     HTML:
-        What is a website?: /acquisition/html-short
-        Make your own website: /acquisition/homepage
-    More Pandas:
-        Improve your Pandas skills: /acquisition/pandas
-    Scraping (part 1):
-        Introduction: /acquisition/scraping
-        Scrape a web page: /acquisition/scraping1
+        What is a website?: /homepage/html-short
+        Make your own website: /homepage/homepage
+    Scraping:
+        The `argparse` module [theory]: /python/en/argparse
+        Scraping a Wikipedia page: /wikipedia/scraping
+        Visualizing the results: /wikipedia/visualize-gdp
+    Crawling:
+        `try` and `except` [theory]: /python/en/try-except
+        Crawling Wikipedia: /wikipedia/crawling
+        Visualizing the results: /wikipedia/visualize-gini
     Submit:
-        Submit: /submit/scraping-1
+      TODO: TODO
 
-Module 6 [9/12/24]:
-    Schedule: /modules/m6
-    Scraping (part 2):
-        Scrape more pages: /acquisition/scraping2
-        Transforming data to be more usable: /acquisition/transforming
-        Visualizing the data: /acquisition/visualizing
-        Crawling part 1: /acquisition/crawling
-        Crawling part 2: /acquisition/crawling2
-        Crawling part 3 [bonus]: /acquisition/crawling3
-    Submit:
-        Submit: /submit/scraping-2
+# Module 5 [29/11/24]:
+#     Schedule: /modules/m5
+#     HTML:
+#         What is a website?: /acquisition/html-short
+#         Make your own website: /acquisition/homepage
+#     More Pandas:
+#         Improve your Pandas skills: /acquisition/pandas
+#     Scraping (part 1):
+#         Introduction: /acquisition/scraping
+#         Scrape a web page: /acquisition/scraping1
+#     Submit:
+#         Submit: /submit/scraping-1
+#
+# Module 6 [9/12/24]:
+#     Schedule: /modules/m6
+#     Scraping (part 2):
+#         Scrape more pages: /acquisition/scraping2
+#         Transforming data to be more usable: /acquisition/transforming
+#         Visualizing the data: /acquisition/visualizing
+#         Crawling part 1: /acquisition/crawling
+#         Crawling part 2: /acquisition/crawling2
+#         Crawling part 3 [bonus]: /acquisition/crawling3
+#     Submit:
+#         Submit: /submit/scraping-2
 
 Practice Exam:
     Exam: /exams/practice_exam

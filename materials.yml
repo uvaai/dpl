@@ -1,12 +1,6 @@
 populations-oo:
     remote: https://github.com/spcourse/populations-oo.git
     branch: main
-sql:
-    remote: https://github.com/spcourse/sql.git
-    branch: main
-acquisition:
-    remote: https://github.com/spcourse/acquisition
-    branch: main
 transformation:
     remote: https://github.com/spcourse/transformation
     branch: main
@@ -16,3 +10,9 @@ python:
 objects:
     remote: https://github.com/spcourse/objects.git
     branch: 2023
+homepage:
+    remote: https://github.com/spcourse/homepage.git
+    branch: main
+wikipedia:
+    remote: https://github.com/spcourse/wikipedia.git
+    branch: minai
