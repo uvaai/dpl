@@ -11,7 +11,7 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | Monday<br>25/11    | Further tweaks and<br>first improvement | ID3                | Group seminar               |
 | Tuesday<br>26/11   | First improvement      | Numerical Decision Trees            |                             |
 | Wednesday<br>27/11 | Second improvement     | Random Forests                      |                             |
-| Thursday<br>28/11  | Second improvement<br>and compare improvements | Written Assignment |                      |
+| Thursday<br>28/11  | Second improvement<br>and compare improv. | Written Assignment |                      |
 
 
 
