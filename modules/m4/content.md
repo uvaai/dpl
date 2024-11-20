@@ -8,10 +8,10 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | Thursday<br>21/11  | Processing violations and<br>reviews | Watch Theory videos + Entropy |                           |
 | Friday<br>22/11    | Counting words and<br>better metrics | Splitting data + Info Gain  | Office hours                |
 |                    |                                      |                             |                             |
-| Monday<br>25/11    | Further tweaks and<br>final improvements | ID3                     | Group seminar               |
-| Tuesday<br>26/11   | Finish final improvements    | Numerical Decision Trees            |                             |
-| Wednesday<br>27/11 | Start Yelp API               | Random Forests                      |                             |
-| Thursday<br>28/11  | Finish Yelp API              | Written Assignment                  |                             |
+| Monday<br>25/11    | Further tweaks and<br>first final improvement | ID3                     | Group seminar               |
+| Tuesday<br>26/11   | First final improvement      | Numerical Decision Trees            |                             |
+| Wednesday<br>27/11 | Second final improvement     | Random Forests                      |                             |
+| Thursday<br>28/11  | Second final improvement     | Written Assignment                  |                             |
 
 
 
