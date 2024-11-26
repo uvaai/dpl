@@ -7,9 +7,9 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
 | Friday<br>29/11    | HTML + Homepage              | Theory videos &<br>Convolution: Assignment 2 |                    |
 |                    |                              |                                              |                    |
-| Monday<br>02/12    | Argparse<br>& Start Scraping    | Convolution: Assignment 5           | Group seminar               |
-| Tuesday<br>03/12   | Finish Scraping<br>& Visualize  | Convolution: Assignment 7           | Office hours                |
-| Wednesday<br>04/12 | Try-Except<br>& Start Crawling  | Convolution: Assignment 8           |                             |
+| Monday<br>02/12    | Argparse<br>& Start Scraping | Convolution: Assignment 5           | Group seminar               |
+| Tuesday<br>03/12   | Finish Scraping<br>& Visualize | Convolution: Assignment 7         | Office hours                |
+| Wednesday<br>04/12 | Try-Except<br>& Start Crawling | Convolution: Assignment 8         |                             |
 | Thursday<br>05/12  | Finish Crawling              | Convolution: Assignment 10          |                             |
 | Friday<br>06/12    | Visualize                    | Writing Assignment                  |                             |
 
