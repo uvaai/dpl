@@ -96,7 +96,7 @@ Acquisition old:
         Submit: /submit/scraping-2
 
 Practice Exam:
-    Exam: /exams/practice_exam
+    Exam: https://uvaai.github.io/dpr-exam/practice/exam.html
     More practice: /exams/more_practice
 
 Exam:
