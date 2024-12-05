@@ -1,15 +1,15 @@
-populations-oo:
-    remote: https://github.com/spcourse/populations-oo.git
-    branch: main
-transformation:
-    remote: https://github.com/spcourse/transformation
-    branch: main
 python:
     remote: https://github.com/spcourse/python.git
     branch: main
 objects:
     remote: https://github.com/spcourse/objects.git
     branch: 2023
+populations-oo:
+    remote: https://github.com/spcourse/populations-oo.git
+    branch: main
+transformation:
+    remote: https://github.com/spcourse/transformation
+    branch: main
 homepage:
     remote: https://github.com/spcourse/homepage.git
     branch: main
@@ -18,4 +18,7 @@ wikipedia:
     branch: minai
 pandas:
     remote: https://github.com/spcourse/pandas.git
+    branch: main
+malaria_explore:
+    remote: https://github.com/spcourse/malaria_explore.git
     branch: main
