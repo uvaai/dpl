@@ -8,4 +8,6 @@ Here you can submit your solutions to the problems in your module. Take note:
 
 - In case of problems submitting, ask your teacher or send an e-mail to <minorai@mprog.nl>.
 
-**There will be no grade for this module, but you will get feedback on your code. This feedback can then be used to improve your code in the next module, in which you will continue with your code from this module.**
+**Note:** Your files can not exceed 5mb in total size (all added together). If your `malaria_exploration.ipynb` notebook is too large, `display()` less images in your notebooks, and double-check your number of prints.
+
+**This module will be graded. Use feedback from the previous module to improve your code.**
