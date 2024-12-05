@@ -16,3 +16,6 @@ homepage:
 wikipedia:
     remote: https://github.com/spcourse/wikipedia.git
     branch: minai
+pandas:
+    remote: https://github.com/spcourse/pandas.git
+    branch: main
