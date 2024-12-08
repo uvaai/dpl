@@ -9,7 +9,7 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 | Tuesday<br>10/12   | OS and PIL + Malaria:<br>Unpacking the data further | Finish CIFAR Notebook | Office hours       |
 | Wednesday<br>11/12 | Malaria: Showing all<br>bounding boxes | Start GTSRB Notebook      |                             |
 | Thursday<br>12/12  | Malaria: Plotting<br>bounding box widths | Finish GTSRB Notebook   |                             |
-| Friday<br>13/12    | Fix style & design<br>BONUS: Further exploration | Writing         |                             |
+| Friday<br>13/12    | Fix style & design +<br>Malaria: BONUS | Writing                   |                             |
 
 
 
