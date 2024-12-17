@@ -8,7 +8,7 @@ Here you can submit your solutions to the problems in your module. Take note:
 
 - Please hand in all your uml files together in `uml.zip`.
 
-- In case of problems submitting, ask your teacher or send an e-mail to <minorai@mprog.nl>.
+- In case of problems submitting, ask your teacher or send an e-mail to <ai@proglab.nl>.
 
 **Note:** Your files can not exceed 1mb in total size. Make sure your `uml.zip` is not too large, and if necessary decrease the size of your UML images.
 
