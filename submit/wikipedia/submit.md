@@ -8,4 +8,6 @@ Here you can submit your solutions to the problems in your module. Take note:
 
 - In case of problems submitting, ask your teacher or send an e-mail to <ai@proglab.nl>.
 
-**There will be no grade for this module, but you will get feedback on your code. This feedback can then be used to improve your code for the next module. You will resubmit all these files.**
+**Note:** Your files can not exceed 5mb in total size (all added together). Make sure your `homepage.zip` is not too large, and if necessary decrease the size of your images.
+
+**There will be no grade for this module, but you will get feedback on your code. This feedback can then be used to improve your code in the next module. You will resubmit all these files.**

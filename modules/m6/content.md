@@ -5,11 +5,11 @@ The deadline for both Data Processing and Representations and Introduction to Ma
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Monday<br>09/12    | Scraping: Step 2             | Watch Theory videos &<br>Start CIFAR | Group seminar              |
-| Tuesday<br>10/12   | Scraping: Step 2             | Finish CIFAR Notebook               | Office hours                |
-| Wednesday<br>11/12 | Scraping: Transforming &<br> Visualizing | Start GTSRB Notebook    |                             |
-| Thursday<br>12/12  | Crawling: Part 1             | Finish GTSRB Notebook               |                             |
-| Friday<br>13/12    | Crawling: Part 2             | Writing                             |                             |
+| Monday<br>09/12    | Advanced Pandas              | Watch Theory videos<br>& Start CIFAR | Group seminar              |
+| Tuesday<br>10/12   | OS and PIL + Malaria:<br>Unpacking data further | Finish CIFAR Notebook | Office hours           |
+| Wednesday<br>11/12 | Malaria: Showing all<br>bounding boxes | Start GTSRB Notebook      | DPR Q&A @ 14:00             |
+| Thursday<br>12/12  | Malaria: Plotting<br>bounding box widths | Finish GTSRB Notebook   |                             |
+| Friday<br>13/12    | Fix style & design +<br>Malaria: BONUS | Writing                   |                             |
 
 
 
