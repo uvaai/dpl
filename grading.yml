@@ -64,7 +64,7 @@ calculation:
     final:
         assignments: 100
         manualcheck: 0
-        exam2: 0
+        exam1: 0
 
 assignments:
     type: average
