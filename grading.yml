@@ -89,7 +89,7 @@ manualcheck:
         wikipedia: 1
 
 exam1:
-    required: true
+    required: false
     show_progress: true
     submits:
         exam1: 1
