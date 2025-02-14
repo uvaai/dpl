@@ -65,6 +65,7 @@ calculation:
         assignments: 100
         manualcheck: 0
         exam1: 0
+        exam2: 0
 
 assignments:
     type: average
@@ -94,7 +95,7 @@ exam1:
         exam1: 1
 
 exam2:
-    required: true
+    required: false
     show_progress: true
     submits:
         exam2: 1
